@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe0a98bb-4be7-4788-9f4c-49dd814dcf49" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="692497952">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="758" />
+          <entry key="txt" value="197" />
+          <entry key="xml" value="158" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="758" />
+          <entry key="PLAIN_TEXT" value="197" />
+          <entry key="XML" value="158" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="7" />
+          <entry key="name" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GaiaWebPannel" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="66" column="58" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LoginGaia.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/scratch.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>//clear</find>
+      <find>enter</find>
+      <find>first</find>
+      <find>save</find>
+      <find>calend</find>
+      <find>zi</find>
+      <find>de</find>
+      <find>zip</find>
+      <find>delay</find>
+      <find>edit pass</find>
+      <find>back</find>
+      <find>edit password</find>
+      <find>FirefoxDriver</find>
+      <find>import org.openqa.selenium.firefox.ChromeDriver;</find>
+      <find>//Clear the field</find>
+      <find>//Clear</find>
+      <find>element.clear();</find>
+      <find>clear</find>
+      <find>close</find>
+      <find>((ChromeDriver) driver).findElementByXPath</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ChromeDriver</replace>
+      <replace>driver.findElement(By.xpath</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/TestNG.fxml" />
+        <option value="$PROJECT_DIR$/src/test/java/Create_a_new_Company.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Company.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HelperClass.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/DeleteJustCreatedLandscapeCompany.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DeleteJustCreatedCompanies.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerAdd_Edit_Delete_People.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerAdd_People.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerStep3.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerEditEmployee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ChromeTest/LoginGaia.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ChromeTest/CreateLandscapeCompany.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ChromeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Chrome/CreateManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Chrome/EditLandscapeCompany.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Chrome/CreateLandscapeCompany.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Chrome/LoginGaia.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CreateManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginAsDeletedManager2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedInstaller.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManager2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerOnboarding.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerStep2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedSupervisor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerAddInstaller.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerAddManager2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerAddSites.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerAddSupervisor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerDeleteSite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerEditEmployees.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerEditSite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ManagerDeleteEmployees.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginGaia.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/scratch.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/TestNGParallel.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GaiaWebPannel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="1337" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532847130918" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;XML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Results" />
+      <recent name="$PROJECT_DIR$/src/test/java/Chrome" />
+      <recent name="$PROJECT_DIR$/src/test/java/ChromeTest" />
+      <recent name="$PROJECT_DIR$/src/test/ChromeTest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClearDataAfterTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GaiaWebPannel" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClearDataAfterTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateLandscapeCompany" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GaiaWebPannel" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateLandscapeCompany" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerAddSites" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GaiaWebPannel" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerAddSites" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerAddSupervisor" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GaiaWebPannel" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ManagerAddSupervisor" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestChrome" type="TestNG" factoryName="TestNG">
+      <module name="GaiaWebPannel" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/src/main/resources/Results" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GaiaWebPannel" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/TestNGParallel.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TestChrome" />
+      <item itemvalue="TestNG.ManagerAddSites" />
+      <item itemvalue="TestNG.ManagerAddSupervisor" />
+      <item itemvalue="TestNG.ClearDataAfterTest" />
+      <item itemvalue="TestNG./Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" />
+      <item itemvalue="TestNG.CreateLandscapeCompany" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" />
+        <item itemvalue="TestNG.CreateLandscapeCompany" />
+        <item itemvalue="TestNG.ClearDataAfterTest" />
+        <item itemvalue="TestNG.ManagerAddSupervisor" />
+        <item itemvalue="TestNG.ManagerAddSites" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe0a98bb-4be7-4788-9f4c-49dd814dcf49" name="Default" comment="" />
+      <created>1532373666796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532373666796</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 02m 54s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 04m 46s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 06m 03s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 21m 30s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 26m 28s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 27m 23s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 30m 42s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 32m 12s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 35m 30s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 43m 24s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1280" y="23" width="1280" height="1337" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.21890146" />
+      <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.17755991" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50074077" side_tool="true" weight="0.17838125" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24497992" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39839357" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.37078652" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32636815" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.35502008" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32949877" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24945533" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32875606" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>qqq</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/ChromeTest/LoginGaia.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeTest/LoginGaia.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeTest/CreateLandscapeCompany.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ManagerDeleteSite.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginAsDeletedManager2.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ManagerEditSite.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ClearDataAfterTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ManagerAddManager2.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginJustCreatedManagerStep2.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginJustCreatedInstaller.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ManagerAddSites.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/CreateManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/EditLandscapeCompany.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginGaia.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/CreateLandscapeCompany.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/qq/QQ.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="117" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedInstaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerOnboarding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="332" column="22" selection-start-line="332" selection-start-column="22" selection-end-line="332" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerDeleteSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerEditEmployees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="403" column="22" selection-start-line="403" selection-start-column="22" selection-end-line="403" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerStep2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedSupervisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddInstaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddSites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="237" column="22" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddSupervisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="203" column="22" selection-start-line="203" selection-start-column="22" selection-end-line="203" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/ManagerEditSite.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerEditSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginAsDeletedManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerDeleteEmployees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5145">
+          <caret line="346" column="22" selection-start-line="346" selection-start-column="22" selection-end-line="346" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0-sources.jar!/org/openqa/selenium/chrome/ChromeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0-sources.jar!/org/openqa/selenium/By.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="138" column="35" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2539">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="228" column="12" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="12" />
+          <folding>
+            <element signature="n#class#0;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#1;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#2;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#3;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#4;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#5;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#6;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#7;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#8;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#9;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#10;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#11;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#12;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#13;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#14;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#15;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#16;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#17;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#18;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#19;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+            <element signature="n#class#20;n#classes#0;n#test#0;n#suite#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginGaia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="66" column="58" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>GaiaWebPannel</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.27</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
