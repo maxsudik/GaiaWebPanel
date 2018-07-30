@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class CreateLandscapeCompany {
 
-    private  WebDriver driver;
+    private WebDriver driver;
 
     @Parameters({ "browser" })
     @BeforeTest

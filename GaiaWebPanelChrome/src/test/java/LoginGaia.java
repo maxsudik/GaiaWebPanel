@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class LoginGaia {
 
-    @Test
+    @Test (dataProvider = "LoginAsAdmin")
 
     public void Login (WebDriver driver){
 

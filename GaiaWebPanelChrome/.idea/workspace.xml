@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe0a98bb-4be7-4788-9f4c-49dd814dcf49" name="Default" comment="" />
+    <list default="true" id="fe0a98bb-4be7-4788-9f4c-49dd814dcf49" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginGaia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginGaia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ClearDataAfterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CreateLandscapeCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CreateManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CreateSupplierCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EditLandscapeCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginAsDeletedManager2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginGaia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginJustCreatedInstaller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginJustCreatedManager2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginJustCreatedManagerOnboarding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginJustCreatedManagerStep2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginJustCreatedSupervisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerAddInstaller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerAddManager2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerAddSites.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerAddSupervisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerDeleteEmployees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerDeleteSite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerEditEmployees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerEditSite.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,6 +76,36 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="862271534">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="10" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="10" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="237" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="237" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="GaiaWebPannel" />
@@ -65,14 +121,59 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CreateManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="66" column="58" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
+            <state relative-caret-position="552">
+              <caret line="86" column="31" lean-forward="true" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddInstaller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2850">
+              <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LoginAsDeletedManager2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -80,8 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoginGaia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="34" />
+            <state relative-caret-position="690">
+              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,10 +191,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/scratch.txt">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="252">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +240,9 @@
       <replace>driver.findElement(By.xpath</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -176,14 +283,15 @@
         <option value="$PROJECT_DIR$/src/test/java/ManagerEditEmployees.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManagerEditSite.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManagerDeleteEmployees.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/TestNG.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginGaia.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/scratch.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/TestNGParallel.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DataProvider/LoginDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginGaia.java" />
       </list>
     </option>
   </component>
@@ -211,15 +319,17 @@
     <option name="width" value="1280" />
     <option name="height" value="1337" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,7 +340,33 @@
             <path>
               <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
               <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,7 +375,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532847130918" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532964555649" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;XML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -445,9 +581,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 02m 54s.xml">
-      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 04m 46s.xml">
       <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
     </history-entry>
@@ -475,6 +608,9 @@
     <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.28 at 21h 43m 24s.xml">
       <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_maxsudik_IdeaProjects_GaiaWebPanelChrome_src_main_resources_TestNGParallel_xml - 2018.07.29 at 01h 46m 41s.xml">
+      <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -487,8 +623,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="1337" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.21890146" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.22213247" />
       <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.17755991" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,12 +634,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.50074077" side_tool="true" weight="0.17838125" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24497992" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24497992" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39839357" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.37078652" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32636815" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.35502008" />
@@ -546,7 +683,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/ChromeTest/LoginGaia.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ChromeTest/LoginGaia.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ChromeTest/CreateLandscapeCompany.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ChromeTest.java" />
@@ -563,20 +699,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginGaia.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/CreateLandscapeCompany.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/qq/QQ.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreateManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="117" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedInstaller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
@@ -612,24 +734,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerStep2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedSupervisor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddInstaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -668,24 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginAsDeletedManager2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ManagerDeleteEmployees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1395">
           <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5145">
-          <caret line="346" column="22" selection-start-line="346" selection-start-column="22" selection-end-line="346" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -703,9 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
     <entry file="file://$PROJECT_DIR$/.idea/.name">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -725,30 +817,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2539">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageFactoryTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/TestNG.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -786,10 +855,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginGaia.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/scratch.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerStep2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginAsDeletedManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddInstaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -803,17 +907,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scratch.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreateManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="342">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataProvider/LoginDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginGaia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="66" column="58" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
+        <state relative-caret-position="552">
+          <caret line="86" column="31" lean-forward="true" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
