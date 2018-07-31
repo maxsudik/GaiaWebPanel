@@ -2,38 +2,29 @@
 
 <suite name="ParallelTest1" verbose="1" parallel="tests">
 
-        <!--
+
+
         <test name="Chrome Test" >
             <parameter name="browser" value="Chrome"/>
             <classes>
-                <class name="CreateLandscapeCompany">
-                    <methods>
-                        <include name="Create" />
-                    </methods>
-                </class>
+                <class name="CreateLandscapeCompany"> </class>
             </classes>
         </test>
 
-        <test name="Firefox Test" >
-            <parameter name="browser" value="Firefox"/>
+            <test name="Firefox Test" >
+                <parameter name="browser" value="Firefox"/>
+                <classes>
+                    <class name="CreateLandscapeCompany"> </class>
+                </classes>
+            </test>
+
+        <!--<test name="Safari Test" >
+            <parameter name="browser" value="Safari"/>
             <classes>
-                <class name="CreateLandscapeCompany">
-                    <methods>
-                        <include name="Create" />
-                    </methods>
-                </class>
+                <class name="CreateLandscapeCompany"> </class>
             </classes>
         </test>
--->
-    <test name="Safari Test" >
-        <parameter name="browser" value="Safari"/>
-        <classes>
-            <class name="CreateLandscapeCompany">
-                <methods>
-                    <include name="Create" />
-                </methods>
-            </class>
-        </classes>
-    </test>
+        -->
 
-</suite>
+
+    </suite>

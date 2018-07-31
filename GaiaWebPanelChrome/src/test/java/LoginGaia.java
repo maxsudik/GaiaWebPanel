@@ -1,15 +1,15 @@
+import dataProvider.CompanyDataProvider;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginGaia {
 
-    @Test (dataProvider = "LoginAsAdmin")
+    @Test (dataProvider = "CreateCompany", dataProviderClass = CompanyDataProvider.class)
 
-    public void Login (WebDriver driver){
+    public void Login (WebDriver driver, String LoginName, String PasswordName){
 
         //Navigate to the website
         driver.get("https://customerdev3.gaialandscape.com/login");
@@ -24,13 +24,13 @@ public class LoginGaia {
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Username']"));
 
         //Enter username
-        element.sendKeys("Admin");
+        element.sendKeys(LoginName);
 
         //Find the password field
         element = driver.findElement(By.xpath("//input[@placeholder='Password']"));
 
         //Enter password
-        element.sendKeys("# .Gaia$");
+        element.sendKeys(PasswordName);
 
         //Find Login button
         element = driver.findElement(By.xpath("//button[@class='button is-success']"));

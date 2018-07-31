@@ -8,7 +8,7 @@ public class CreateSupplierCompany {
 
     @Test
 
-    public void Create () {
+    public void Create (String LoginName, String PasswordName) {
 
         System.setProperty("webdriver.chrome.driver", "/Users/Maksym/IdeaProjects/GaiaWebPanelChrome/src/chromedriver");
 
@@ -19,7 +19,7 @@ public class CreateSupplierCompany {
         LoginGaia login = new LoginGaia();
 
         //Run the method
-        login.Login(driver);
+        login.Login(driver, LoginName, PasswordName);
 
         //Add delay 3 sec
         try {

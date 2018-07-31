@@ -8,7 +8,7 @@ public class EditLandscapeCompany {
 
     @Test
 
-    public void Edit () {
+    public void Edit (String LoginName, String PasswordName) {
 
         System.setProperty("webdriver.chrome.driver", "/Users/Maksym/IdeaProjects/GaiaWebPanelChrome/src/chromedriver");
 
@@ -19,7 +19,7 @@ public class EditLandscapeCompany {
         LoginGaia login = new LoginGaia();
 
         //Run the method
-        login.Login(driver);
+        login.Login(driver, LoginName, PasswordName);
 
         //Add delay 5 sec
         try {

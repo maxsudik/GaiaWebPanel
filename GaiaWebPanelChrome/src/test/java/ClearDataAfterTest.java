@@ -5,10 +5,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 
 public class ClearDataAfterTest {
+    private WebDriver driver;
 
     @Test
 
-    public void Delete () {
+    public void Delete (String LoginName, String PasswordName) {
 
         System.setProperty("webdriver.chrome.driver", "src/chromedriver");
 
@@ -19,7 +20,7 @@ public class ClearDataAfterTest {
         LoginGaia login = new LoginGaia();
 
         //Run the method
-        login.Login(driver);
+        login.Login(driver, LoginName, PasswordName);
 
         //Add delay 3 sec
         try {

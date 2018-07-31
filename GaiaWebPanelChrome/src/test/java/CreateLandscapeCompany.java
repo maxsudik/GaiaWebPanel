@@ -1,4 +1,4 @@
-import org.openqa.selenium.support.ui.Select;
+import dataProvider.CompanyDataProvider;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -40,15 +40,16 @@ public class CreateLandscapeCompany {
         System.out.println(e.getMessage());
     }
 }
-    @Test
 
-    public void Create () {
+    @Test(dataProvider = "CreateCompany", dataProviderClass = CompanyDataProvider.class)
+
+    public void Create (String LoginName, String PasswordName) {
 
         //Invoke Login method
         LoginGaia login = new LoginGaia();
 
         //Run the method
-        login.Login(driver);
+        login.Login(driver, LoginName, PasswordName);
 
         //Add delay 3 sec
         try {
