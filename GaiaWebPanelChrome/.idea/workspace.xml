@@ -2,20 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe0a98bb-4be7-4788-9f4c-49dd814dcf49" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ID2Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/TestNG.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/TestNGParallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestNGParallel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginGaia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginGaia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/ClearDataAfterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/CreateManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginAsDeletedManager2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginAsDeletedManager2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginGaia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ID1Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginJustCreatedInstaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedInstaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginJustCreatedManager2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManager2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerOnboarding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerOnboarding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerStep2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerStep2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginJustCreatedSupervisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedSupervisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerAddInstaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddInstaller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerAddManager2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddManager2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerAddSites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerAddSupervisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSupervisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerDeleteEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerDeleteEmployees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerDeleteSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerDeleteSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerEditEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditEmployees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagerEditSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider/AdminDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scratch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/scratch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestNG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestNGParallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNGParallel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ClearDataAfterTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/CreateLandscapeCompany.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/CreateManager.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/CreateSupplierCompany.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/EditLandscapeCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginAsDeletedManager2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/LoginGaia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginJustCreatedInstaller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginJustCreatedManager2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginJustCreatedManagerOnboarding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginJustCreatedManagerStep2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginJustCreatedSupervisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerAddInstaller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerAddManager2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerAddSites.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerAddSupervisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerDeleteEmployees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerDeleteSite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerEditEmployees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagerEditSite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dataProvider/CompanyDataProvider.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,28 +109,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="39" />
-          <entry key="txt" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="100" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="39" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="100" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="419" />
-          <entry key="xml" value="26" />
+          <entry key="java" value="3389" />
+          <entry key="xml" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="419" />
-          <entry key="XML" value="26" />
+          <entry key="JAVA" value="3389" />
+          <entry key="XML" value="41" />
         </counts>
       </usages-collector>
     </session>
@@ -106,91 +141,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedSupervisor.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ID2Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddInstaller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2850">
-              <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+            <state relative-caret-position="477">
+              <caret line="215" column="76" selection-start-line="215" selection-start-column="76" selection-end-line="215" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/scratch.txt">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="1725">
+              <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddManager2.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2850">
-              <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddSites.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3450">
-              <caret line="237" column="22" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddSupervisor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2955">
-              <caret line="203" column="22" selection-start-line="203" selection-start-column="22" selection-end-line="203" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ManagerDeleteEmployees.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-422">
-              <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="101" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ManagerDeleteSite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2505">
-              <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ManagerEditEmployees.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5955">
-              <caret line="403" column="22" selection-start-line="403" selection-start-column="22" selection-end-line="403" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ManagerEditSite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1292">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="420">
+              <caret line="28" column="146" selection-start-line="28" selection-start-column="146" selection-end-line="28" selection-end-column="146" />
             </state>
           </provider>
         </entry>
@@ -239,17 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/TestNG.fxml" />
-        <option value="$PROJECT_DIR$/src/test/java/Create_a_new_Company.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Login.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Company.java" />
-        <option value="$PROJECT_DIR$/src/test/java/HelperClass.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/DeleteJustCreatedLandscapeCompany.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DeleteJustCreatedCompanies.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ManagerAdd_Edit_Delete_People.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ManagerAdd_People.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerStep3.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManagerEditEmployee.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChromeTest/LoginGaia.java" />
@@ -276,17 +240,31 @@
         <option value="$PROJECT_DIR$/src/test/java/PageFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/TestNG.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/scratch.txt" />
         <option value="$PROJECT_DIR$/src/test/java/DataProvider/LoginDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataProvider/CmompanyDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreateManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" />
         <option value="$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginGaia.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java" />
+        <option value="$PROJECT_DIR$/src/test/java/scratch.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ID1LoginGaia.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ID2CreateLandscapeCompany.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/NewCompanyCreateDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/AdminLoginDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/CompanyCreateDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/AdminLogDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/AddANewCompanyPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ID2LandscapeCompany.java" />
         <option value="$PROJECT_DIR$/src/main/resources/TestNGParallel.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ID1Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ID2Company.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java" />
       </list>
     </option>
   </component>
@@ -363,6 +341,30 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProvider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -370,19 +372,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533011305643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533202959956" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;XML" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/test/java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/Results" />
@@ -390,11 +392,17 @@
       <recent name="$PROJECT_DIR$/src/test/java/ChromeTest" />
       <recent name="$PROJECT_DIR$/src/test/ChromeTest" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/Helper" />
+      <recent name="$PROJECT_DIR$/src/test/java/UnusedClasses" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -426,7 +434,7 @@
       <module name="GaiaWebPannel" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClearDataAfterTest" />
+      <option name="MAIN_CLASS_NAME" value="UnusedClasses.ClearDataAfterTest" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -460,7 +468,7 @@
       <module name="GaiaWebPannel" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagerAddSites" />
+      <option name="MAIN_CLASS_NAME" value="UnusedClasses.ManagerAddSites" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -477,7 +485,7 @@
       <module name="GaiaWebPannel" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagerAddSupervisor" />
+      <option name="MAIN_CLASS_NAME" value="UnusedClasses.ManagerAddSupervisor" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -629,7 +637,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50074077" side_tool="true" weight="0.17838125" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24497992" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24497992" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39839357" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -648,6 +656,35 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32875606" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.22213247" />
+      <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.17755991" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50074077" side_tool="true" weight="0.17838125" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24497992" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39839357" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.37078652" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32636815" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.35502008" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32949877" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24945533" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32875606" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -678,12 +715,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeTest/CreateLandscapeCompany.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ChromeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ManagerDeleteSite.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginAsDeletedManager2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ManagerEditSite.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ClearDataAfterTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ManagerAddManager2.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginJustCreatedManagerStep2.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginJustCreatedInstaller.java" />
@@ -735,9 +766,155 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageFactoryTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNG.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
+        <state relative-caret-position="555">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataProvider/LoginDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="237" column="22" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSupervisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2955">
+          <caret line="203" column="22" selection-start-line="203" selection-start-column="22" selection-end-line="203" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerDeleteEmployees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422">
+          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerDeleteSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2505">
+          <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditEmployees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5955">
+          <caret line="403" column="22" selection-start-line="403" selection-start-column="22" selection-end-line="403" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1292">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddInstaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2643">
+          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ClearDataAfterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/CreateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginAsDeletedManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedInstaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerOnboarding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerStep2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedSupervisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="97" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
           <caret line="228" column="12" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="12" />
           <folding>
             <element signature="n#class#0;n#classes#0;n#test#0;n#suite#0;n#!!top" />
@@ -765,187 +942,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataProvider/LoginDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2252">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-557">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreateManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1832">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        <state relative-caret-position="465">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-737">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        <state relative-caret-position="727">
+          <caret line="121" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="121" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4172">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state relative-caret-position="1153">
+          <caret line="348" column="1" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="348" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginAsDeletedManager2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ID1Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginGaia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="120">
+          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedInstaller.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/AdminDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedManager2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddANewCompanyPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        <state relative-caret-position="541">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerOnboarding.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4875">
-          <caret line="332" column="22" selection-start-line="332" selection-start-column="22" selection-end-line="332" selection-end-column="22" />
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerStep2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="883">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginJustCreatedSupervisor.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        <state relative-caret-position="420">
+          <caret line="28" column="146" selection-start-line="28" selection-start-column="146" selection-end-line="28" selection-end-column="146" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddInstaller.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ID2Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2850">
-          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        <state relative-caret-position="477">
+          <caret line="215" column="76" selection-start-line="215" selection-start-column="76" selection-end-line="215" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddManager2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2850">
-          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddSites.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3450">
-          <caret line="237" column="22" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerAddSupervisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2955">
-          <caret line="203" column="22" selection-start-line="203" selection-start-column="22" selection-end-line="203" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerDeleteEmployees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerDeleteSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2505">
-          <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerEditEmployees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5955">
-          <caret line="403" column="22" selection-start-line="403" selection-start-column="22" selection-end-line="403" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ManagerEditSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1292">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scratch.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="1725">
+          <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,6 +1088,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
