@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstIOSTest" verbose="1">
+
+
+
+        <test name="Onboarding" >
+            <classes>
+                <class name="LoginPage">
+                    <methods>
+                        <include name="loginPage" />
+                        <include name="CompleteYourCompanyAddress" />
+                        <include name="CompleteCompanysBankInformation" />
+                        <include name="OnboardingPage3" />
+                        <include name="ScanCreditCard" />
+                        <include name="GaiaHomePage" />
+                    </methods>
+
+                </class>
+
+            </classes>
+        </test>
+
+    </suite>
