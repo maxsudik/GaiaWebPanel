@@ -9,11 +9,12 @@
                 <class name="LoginPage">
                     <methods>
                         <include name="loginPage" />
-                        <include name="CompleteYourCompanyAddress" />
-                        <include name="CompleteCompanysBankInformation" />
-                        <include name="OnboardingPage3" />
-                        <include name="ScanCreditCard" />
-                        <include name="GaiaHomePage" />
+                        <include name="scanID" />
+                        <include name="completeYourCompanyAddress" />
+                        <include name="completeCompanysBankInformation" />
+                        <include name="legalEntityVerification" />
+                        <include name="scanCreditCard" />
+                        <include name="gaiaHomePage" />
                     </methods>
 
                 </class>

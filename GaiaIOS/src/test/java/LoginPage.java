@@ -28,13 +28,13 @@ public class LoginPage {
 
     public void beforeTest() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.APPIUM_VERSION, "1.8.1");
+        capabilities.setCapability(MobileCapabilityType.APPIUM_VERSION, "1.8");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11.4");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "iOS");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPad Pro (12.9-inch)");
-        capabilities.setCapability(MobileCapabilityType.APP, "/Users/Maksym/Library/Developer/Xcode/DerivedData/Gaia-haumtjouswyfdxcabwdnrrxvcmiy/Build/Products/Debug-iphonesimulator/Gaia.app/");
-        capabilities.setCapability(IOSMobileCapabilityType.AUTO_ACCEPT_ALERTS, Boolean.TRUE);
+        capabilities.setCapability(MobileCapabilityType.APP, "/Volumes/Data/Xcode/DerivedData/Gaia-haumtjouswyfdxcabwdnrrxvcmiy/Build/Products/Debug-iphonesimulator/Gaia.app/");
+        //capabilities.setCapability(IOSMobileCapabilityType.AUTO_ACCEPT_ALERTS, Boolean.TRUE);
         capabilities.setCapability("newCommandTimeout", 20);
         mobiledriver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
     }
@@ -94,11 +94,10 @@ public class LoginPage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 
     @Test
-    public void CompleteYourCompanyAddress() {
+    public void scanID() {
 
         WebDriverWait wait = new WebDriverWait(mobiledriver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("scanId")));
@@ -124,7 +123,18 @@ public class LoginPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Skip")));
         MobileElement el11 = (MobileElement) mobiledriver.findElementByAccessibilityId("Skip");
         el11.click();
+        //Add delay 3 sec
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 
+    @Test
+    public void completeYourCompanyAddress() {
+
+        WebDriverWait wait = new WebDriverWait(mobiledriver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Address Field")));
         MobileElement el12 = (MobileElement) mobiledriver.findElementByAccessibilityId("Address Field");
         el12.click();
@@ -154,8 +164,8 @@ public class LoginPage {
         el18.click();
 
         //!!!!!!!!!!!!!!! can't pick british columbia InSPECT 'id British Columbia' should be used have to foind out how to swipe
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Arizona")));
-        MobileElement el19 = (MobileElement) mobiledriver.findElementByName("Arizona");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Alberta")));
+        MobileElement el19 = (MobileElement) mobiledriver.findElementByAccessibilityId("Alberta");
         el19.click();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//XCUIElementTypeTextField[@name=\"Product Name Field\"])[3]")));
@@ -176,7 +186,7 @@ public class LoginPage {
     }
 
     @Test
-    public void CompleteCompanysBankInformation(){
+    public void completeCompanysBankInformation(){
 
         WebDriverWait wait = new WebDriverWait(mobiledriver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Address Field")));
@@ -221,7 +231,7 @@ public class LoginPage {
     }
 
     @Test
-    public void OnboardingPage3(){
+    public void legalEntityVerification(){
 
         WebDriverWait wait = new WebDriverWait(mobiledriver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//XCUIElementTypeTextField[@name=\"Product Name Field\"])[1]")));
@@ -238,83 +248,53 @@ public class LoginPage {
         MobileElement el3 = (MobileElement) mobiledriver.findElementByXPath("(//XCUIElementTypeTextField[@name=\"Product Name Field\"])[3]");
         el3.click();
 
+        //Add delay 1.5 sec
+        try {
+            Thread.sleep(1500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
-        //Doesn't work properly need to investigate!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         TouchAction action = new TouchAction(mobiledriver);
-                action.press(point(609,1254));
-                action.moveTo(point(607,1330));
+                action.press(point(609,1340));
+                action.moveTo(point(607,1160));
                 action.release();
                 action.perform();
 
-        //Add delay 3 sec
+        //Add delay 1.5 sec
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-                action.press(point(605,1184));
-                action.moveTo(point(602,1316));
+                action.press(point(530,1340));
+                action.moveTo(point(530,1160));
                 action.release();
                 action.perform();
 
-        //Add delay 3 sec
+        //Add delay 1.5 sec
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-                action.press(point(528,1180));
-                action.moveTo(point(533,1330));
+                action.press(point(410,1340));
+                action.moveTo(point(410,1160));
                 action.release();
                 action.perform();
 
-        //Add delay 3 sec
+        //Add delay 1.5 sec
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-                action.press(point(526,1174));
-                action.moveTo(point(537,1318));
-                action.release();
-                action.perform();
 
-        //Add delay 3 sec
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-                action.press(point(411,1174));
-                action.moveTo(point(409,1320));
-                action.release();
-                action.perform();
-
-        //Add delay 3 sec
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-                action.press(point(403,1174));
-                action.moveTo(point(411,1320));
-                action.release();
-                action.perform();
-
-        //Add delay 3 sec
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-                action.tap(point(973, 1065));
-                action.perform();
+        action.tap(point(973, 1065));
+        action.perform();
 
         //Add delay 3 sec
         try {
@@ -332,8 +312,8 @@ public class LoginPage {
         MobileElement el5 = (MobileElement) mobiledriver.findElementByXPath("(//XCUIElementTypeTextField[@name=\"Product Name Field\"])[4]");
         el5.click();
         el5.sendKeys("1st ST");
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//XCUIElementTypeTextField[@name=\"Product Name Field\"])[5]")));
+        ////!!!!!!!!!!!
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//XCUIElementTypeTextField[@name=\"Product Name Field\"])[5]")));
         MobileElement el6 = (MobileElement) mobiledriver.findElementByXPath("(//XCUIElementTypeTextField[@name=\"Product Name Field\"])[5]");
         el6.click();
         el6.sendKeys("Vancouver");
@@ -342,7 +322,6 @@ public class LoginPage {
         MobileElement el7 = (MobileElement) mobiledriver.findElementByXPath("(//XCUIElementTypeButton[@name=\"CurrencyDropDown\"])[1]");
         el7.click();
 
-        //Check why it shows 'Zimbabwe' id
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Canada")));
         MobileElement el10 = (MobileElement) mobiledriver.findElementByAccessibilityId("Canada");
         el10.click();
@@ -351,15 +330,28 @@ public class LoginPage {
         MobileElement el11 = (MobileElement) mobiledriver.findElementByXPath("(//XCUIElementTypeButton[@name=\"CurrencyDropDown\"])[2]");
         el11.click();
 
+        action.tap(point(973, 1065));
+        action.perform();
+
         //Invisible DDLMI - BC! check how to scroll to it!!!!!!!!!!!!!!!!!
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Alberta")));
-        MobileElement el12 = (MobileElement) mobiledriver.findElementByName("Alberta");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Alberta")));
+        MobileElement el12 = (MobileElement) mobiledriver.findElementByAccessibilityId("Alberta");
         el12.click();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//XCUIElementTypeTextField[@name=\"Product Name Field\"])[6]")));
         MobileElement el13 = (MobileElement) mobiledriver.findElementByXPath("(//XCUIElementTypeTextField[@name=\"Product Name Field\"])[6]");
         el13.click();
         el13.sendKeys("V0V0V0");
+
+        //Add delay 3 sec
+        try {
+            Thread.sleep(1500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        action.tap(point(980, 958));
+        action.perform();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Authenticate")));
         MobileElement el14 = (MobileElement) mobiledriver.findElementByAccessibilityId("Authenticate");
@@ -374,7 +366,7 @@ public class LoginPage {
     }
 
     @Test
-    public void ScanCreditCard(){
+    public void scanCreditCard(){
 
         WebDriverWait wait = new WebDriverWait(mobiledriver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Button")));
@@ -402,7 +394,7 @@ public class LoginPage {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
+            //CHECK DONE BUTTON!!!!!!!!!
             TouchAction action = new TouchAction(mobiledriver);
             action.tap(point(738, 393));
             action.perform();
@@ -419,14 +411,7 @@ public class LoginPage {
         el0.click();
         el0.sendKeys("NameOnCard");
 
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//XCUIElementTypeButton[@name=\"CurrencyDropDown\"])[3]")));
-        MobileElement el20 = (MobileElement) mobiledriver.findElementByXPath("(//XCUIElementTypeButton[@name=\"CurrencyDropDown\"])[3]");
-        el20.click();
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("5")));
-        MobileElement el21 = (MobileElement) mobiledriver.findElementByAccessibilityId("5");
-        el21.click();
+        //There is no line for LICENSES because it's not trackable!!!!!!!!!!!!!!!
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Address Field")));
         MobileElement el22 = (MobileElement) mobiledriver.findElementByAccessibilityId("Address Field");
@@ -455,15 +440,24 @@ public class LoginPage {
         MobileElement el8 = (MobileElement) mobiledriver.findElementByXPath("(//XCUIElementTypeButton[@name=\"CurrencyDropDown\"])[5]");
         el8.click();
 
+        action.tap(point(980, 958));
+        action.perform();
+
         //Invisible BC. Check scrolling. ID - British Columbia
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Alabama")));
-        MobileElement el9 = (MobileElement) mobiledriver.findElementByName("Alabama");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Alberta")));
+        MobileElement el9 = (MobileElement) mobiledriver.findElementByAccessibilityId("Alberta");
         el9.click();
+
+        action.tap(point(980, 958));
+        action.perform();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//XCUIElementTypeTextField[@name=\"Product Name Field\"])[6]")));
         MobileElement el10 = (MobileElement) mobiledriver.findElementByXPath("(//XCUIElementTypeTextField[@name=\"Product Name Field\"])[6]");
         el10.click();
         el10.sendKeys("V0V0V0");
+
+        action.tap(point(980, 958));
+        action.perform();
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Register")));
         MobileElement el11 = (MobileElement) mobiledriver.findElementByAccessibilityId("Register");
@@ -478,7 +472,7 @@ public class LoginPage {
     }
 
     @Test
-    public void GaiaHomePage() {
+    public void gaiaHomePage() {
 
         WebDriverWait wait = new WebDriverWait(mobiledriver, 20);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("gaia logo")));
