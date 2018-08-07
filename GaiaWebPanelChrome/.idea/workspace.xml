@@ -1,15 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe0a98bb-4be7-4788-9f4c-49dd814dcf49" name="Default" comment="" />
+    <list default="true" id="fe0a98bb-4be7-4788-9f4c-49dd814dcf49" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ID1Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ID1Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ID2Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ID2Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AddANewCompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/AddNewCompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/CreateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ID3Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginAsDeletedManager2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedInstaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManager2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerOnboarding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerStep2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedSupervisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddInstaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddManager2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSites.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSupervisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerDeleteEmployees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditEmployees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/AdminDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider/LoginDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ID2LandscapeCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/AddANewCompanyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnusedClasses/ManagerAddInstaller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnusedClasses/ManagerAddSupervisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnusedClasses/ManagerEditEmployees.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="26">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditSite.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="1162">
+                    <caret line="234" column="1" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="234" selection-end-column="1" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="692497952">
@@ -55,32 +101,33 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="100" />
-          <entry key="txt" value="3" />
-          <entry key="xml" value="6" />
+          <entry key="java" value="243" />
+          <entry key="txt" value="4" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="100" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="6" />
+          <entry key="JAVA" value="243" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3389" />
+          <entry key="java" value="9274" />
           <entry key="xml" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3389" />
+          <entry key="JAVA" value="9274" />
           <entry key="XML" value="41" />
         </counts>
       </usages-collector>
@@ -91,32 +138,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ID2Company.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ID2Company.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ID4Sites.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditCompanyPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+            <state relative-caret-position="663">
+              <caret line="153" column="21" lean-forward="true" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#518#544#0" />
+                <element signature="method#openBrowser#0;class#ID4Sites#0" />
+                <element signature="method#loginAsAdmin#0;class#ID4Sites#0" />
+                <element signature="method#loginAsManager#0;class#ID4Sites#0" />
+                <element signature="method#addSite#0;class#ID4Sites#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyDataProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditEmployeePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="146" selection-start-line="28" selection-start-column="146" selection-end-line="28" selection-end-column="146" />
+            <state relative-caret-position="765">
+              <caret line="185" column="63" selection-start-line="185" selection-start-column="63" selection-end-line="185" selection-end-column="63" />
+              <folding>
+                <element signature="method#clickCompanyName#0;class#EditEmployeePage#0" />
+                <element signature="method#clickRoleManager#0;class#EditEmployeePage#0" />
+                <element signature="method#clickRoleSupervisor#0;class#EditEmployeePage#0" />
+                <element signature="method#clickRoleInstaller#0;class#EditEmployeePage#0" />
+                <element signature="method#clickRoleSalesPerson#0;class#EditEmployeePage#0" />
+                <element signature="method#enterFirstName#0;class#EditEmployeePage#0" />
+                <element signature="method#enterLastName#0;class#EditEmployeePage#0" />
+                <element signature="method#enterNotes#0;class#EditEmployeePage#0" />
+                <element signature="method#enterEmail#0;class#EditEmployeePage#0" />
+                <element signature="method#clickEditPassword#0;class#EditEmployeePage#0" />
+                <element signature="method#clickClose#0;class#EditEmployeePage#0" />
+                <element signature="method#enterPassword#0;class#EditEmployeePage#0" />
+                <element signature="method#enterRepeatPassword#0;class#EditEmployeePage#0" />
+                <element signature="method#clickRestrictedAccess#0;class#EditEmployeePage#0" />
+                <element signature="method#clickLicensedUser#0;class#EditEmployeePage#0" />
+                <element signature="method#clickAbilityLogininMultipleDevices#0;class#EditEmployeePage#0" />
+                <element signature="method#clickUpdate#0;class#EditEmployeePage#0" />
+                <element signature="method#clickBack#0;class#EditEmployeePage#0" />
+                <element signature="method#clickStayPopUpWarning#0;class#EditEmployeePage#0" />
+                <element signature="method#clickLeavePopUpWarning#0;class#EditEmployeePage#0" />
+                <element signature="method#clickDeleteEmployee#0;class#EditEmployeePage#0" />
+                <element signature="method#clickCancelDeletePopUp#0;class#EditEmployeePage#0" />
+                <element signature="method#clickDeletePopUp#0;class#EditEmployeePage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditSitePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#enterSiteName#0;class#EditSitePage#0" />
+                <element signature="method#enterDetectRadius#0;class#EditSitePage#0" />
+                <element signature="method#clickCompany#0;class#EditSitePage#0" />
+                <element signature="method#enterNotes#0;class#EditSitePage#0" />
+                <element signature="method#enterAddress#0;class#EditSitePage#0" />
+                <element signature="method#enterCity#0;class#EditSitePage#0" />
+                <element signature="method#clickStateProvince#0;class#EditSitePage#0" />
+                <element signature="method#enterZipPostalCode#0;class#EditSitePage#0" />
+                <element signature="method#clickCountry#0;class#EditSitePage#0" />
+                <element signature="method#clickFetchGPSCoordinates#0;class#EditSitePage#0" />
+                <element signature="method#clickBack#0;class#EditSitePage#0" />
+                <element signature="method#clickLeavePopUp#0;class#EditSitePage#0" />
+                <element signature="method#clickStayPopUp#0;class#EditSitePage#0" />
+                <element signature="method#clickSave#0;class#EditSitePage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/SitesPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#enterSearchField#0;class#SitesPage#0" />
+                <element signature="method#clickAddNewSite#0;class#SitesPage#0" />
+                <element signature="method#clickEdit#0;class#SitesPage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddNewSitePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="110" selection-end-column="5" />
+              <folding>
+                <element signature="method#enterSiteName#0;class#AddNewSitePage#0" />
+                <element signature="method#enterDetectRadius#0;class#AddNewSitePage#0" />
+                <element signature="method#clickCompany#0;class#AddNewSitePage#0" />
+                <element signature="method#enterNotes#0;class#AddNewSitePage#0" />
+                <element signature="method#enterAddress#0;class#AddNewSitePage#0" />
+                <element signature="method#enterCity#0;class#AddNewSitePage#0" />
+                <element signature="method#clickStateProvince#0;class#AddNewSitePage#0" />
+                <element signature="method#enterZipPostalCode#0;class#AddNewSitePage#0" />
+                <element signature="method#clickCountry#0;class#AddNewSitePage#0" />
+                <element signature="method#clickFetchGPSCoordinates#0;class#AddNewSitePage#0" />
+                <element signature="method#clickBack#0;class#AddNewSitePage#0" />
+                <element signature="method#clickLeavePopUp#0;class#AddNewSitePage#0" />
+                <element signature="method#clickStayPopUp#0;class#AddNewSitePage#0" />
+                <element signature="method#clickAdd#0;class#AddNewSitePage#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,10 +285,14 @@
       <find>element.clear();</find>
       <find>clear</find>
       <find>close</find>
+      <find>:</find>
+      <find>edit</find>
       <find>((ChromeDriver) driver).findElementByXPath</find>
+      <find>//</find>
     </findStrings>
     <replaceStrings>
       <replace>ChromeDriver</replace>
+      <replace>;</replace>
       <replace>driver.findElement(By.xpath</replace>
     </replaceStrings>
   </component>
@@ -165,23 +302,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ManagerEditEmployee.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ChromeTest/LoginGaia.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ChromeTest/CreateLandscapeCompany.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ChromeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Chrome/CreateManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Chrome/EditLandscapeCompany.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Chrome/CreateLandscapeCompany.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Chrome/LoginGaia.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginAsDeletedManager2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedInstaller.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManager2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerOnboarding.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedManagerStep2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginJustCreatedSupervisor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ManagerAddInstaller.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ManagerAddManager2.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManagerAddSites.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManagerAddSupervisor.java" />
         <option value="$PROJECT_DIR$/src/test/java/ManagerDeleteSite.java" />
@@ -194,28 +314,45 @@
         <option value="$PROJECT_DIR$/src/test/java/DataProvider/LoginDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataProvider/CmompanyDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClearDataAfterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CreateManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginGaia.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreateLandscapeCompany.java" />
         <option value="$PROJECT_DIR$/src/test/java/scratch.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ID1LoginGaia.java" />
         <option value="$PROJECT_DIR$/src/test/java/ID2CreateLandscapeCompany.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataProvider/NewCompanyCreateDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataProvider/AdminLoginDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataProvider/CompanyCreateDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataProvider/AdminLogDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/AddANewCompanyPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" />
         <option value="$PROJECT_DIR$/src/test/java/ID2LandscapeCompany.java" />
         <option value="$PROJECT_DIR$/src/main/resources/TestNGParallel.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ID1Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ID2Company.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CreateManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/EmployeePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/AddANewCompanyPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSupervisor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/AdminDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/AddNewEmployeePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/EmployeesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/OnboardingProcessDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/OnboardingProcess.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/LoginDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/EditEmployeePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/EmployeeDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ID1Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ID3Employee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSites.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/AddNewSitePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ID2Company.java" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/SiteDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/EditSitePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/SitesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ID4Sites.java" />
       </list>
     </option>
   </component>
@@ -238,9 +375,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="960" />
-    <option name="height" value="987" />
+    <option name="width" value="1280" />
+    <option name="height" value="1337" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -250,9 +388,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +405,12 @@
               <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
               <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -278,14 +420,61 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProvider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UnusedClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533202959956" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533627601879" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;XML" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -293,11 +482,17 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="file.status.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/Helper" />
+      <recent name="$PROJECT_DIR$/src/test/java/UnusedClasses" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/Results" />
@@ -305,17 +500,12 @@
       <recent name="$PROJECT_DIR$/src/test/java/ChromeTest" />
       <recent name="$PROJECT_DIR$/src/test/ChromeTest" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PageObjects" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/Helper" />
-      <recent name="$PROJECT_DIR$/src/test/java/UnusedClasses" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/test/java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,125 +523,91 @@
   <component name="RunManager" selected="TestNG./Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ClearDataAfterTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GaiaWebPannel" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UnusedClasses.ClearDataAfterTest" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CreateLandscapeCompany" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GaiaWebPannel" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CreateLandscapeCompany" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ManagerAddSites" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GaiaWebPannel" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UnusedClasses.ManagerAddSites" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ManagerAddSupervisor" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GaiaWebPannel" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UnusedClasses.ManagerAddSupervisor" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestChrome" type="TestNG" factoryName="TestNG">
       <module name="GaiaWebPannel" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/TestNG.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -462,19 +618,15 @@
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/src/main/resources/Results" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="/Users/maxsudik/IdeaProjects/GaiaWebPanelChrome/src/main/resources/TestNGParallel.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GaiaWebPannel" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/TestNGParallel.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -485,18 +637,14 @@
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -507,15 +655,10 @@
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -593,65 +736,65 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="960" height="987" extended-state="0" />
+    <frame x="1280" y="23" width="1280" height="1337" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.37078652" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32636815" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32875606" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24497992" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.30827886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.29644588" />
       <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.17755991" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24945533" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39839357" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50074077" side_tool="true" weight="0.17838125" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.35502008" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32717043" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24497992" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39839357" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.37078652" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32636815" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.35474452" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32949877" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24945533" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32875606" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24497992" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.22213247" />
       <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.17755991" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24945533" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.37078652" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32949877" />
+      <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50074077" side_tool="true" weight="0.17838125" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24497992" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39839357" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.37078652" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32636815" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.35502008" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32949877" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24945533" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32875606" />
-      <window_info id="Favorites" order="6" sideWeight="0.50074077" side_tool="true" weight="0.17838125" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -683,31 +826,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ManagerAddManager2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginJustCreatedManagerStep2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginJustCreatedInstaller.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/ManagerAddSites.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/CreateManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/EditLandscapeCompany.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/LoginGaia.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Chrome/CreateLandscapeCompany.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/qq/QQ.java" />
-    <entry file="file://$PROJECT_DIR$/target/test-classes/ManagerEditSite.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0-sources.jar!/org/openqa/selenium/chrome/ChromeDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="107" column="13" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
     <entry file="file://$PROJECT_DIR$/.idea/.name">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -735,63 +853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataProvider/LoginDataProvider.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddManager2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2850">
-          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSites.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3450">
-          <caret line="237" column="22" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSupervisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2955">
-          <caret line="203" column="22" selection-start-line="203" selection-start-column="22" selection-end-line="203" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerDeleteEmployees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerDeleteSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2505">
-          <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditEmployees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5955">
-          <caret line="403" column="22" selection-start-line="403" selection-start-column="22" selection-end-line="403" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1292">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddInstaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2643">
-          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/LoginDataProvider.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ClearDataAfterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -799,42 +861,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/CreateManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/TestNG.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginAsDeletedManager2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="465">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedInstaller.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSupervisor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="362">
+          <caret line="158" column="36" selection-start-line="158" selection-start-column="26" selection-end-line="158" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManager2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddInstaller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="1046">
+          <caret line="146" column="25" lean-forward="true" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1027">
+          <caret line="134" column="41" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditEmployees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="320" column="62" lean-forward="true" selection-start-line="320" selection-start-column="62" selection-end-line="320" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddNewCompanyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerOnboarding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="1193">
+          <caret line="339" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="339" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerStep2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/OnboardingProcessDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/OnboardingProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="89" column="58" lean-forward="true" selection-start-line="89" selection-start-column="58" selection-end-line="89" selection-end-column="69" />
+          <folding>
+            <element signature="method#enterInstitutionNumber#0;class#OnboardingProcess#0" />
+            <element signature="method#enterTransitNumber#0;class#OnboardingProcess#0" />
+            <element signature="method#enterAccountNumber#0;class#OnboardingProcess#0" />
+            <element signature="method#enterAccountHolderName#0;class#OnboardingProcess#0" />
+            <element signature="method#clickAccountTypeCompany#0;class#OnboardingProcess#0" />
+            <element signature="method#clickSave1#0;class#OnboardingProcess#0" />
+            <element signature="method#enterFirstName#0;class#OnboardingProcess#0" />
+            <element signature="method#enterLastName#0;class#OnboardingProcess#0" />
+            <element signature="method#enterDateOfBirth#0;class#OnboardingProcess#0" />
+            <element signature="method#enterAddressLine1#0;class#OnboardingProcess#0" />
+            <element signature="method#enterAddressLine2#0;class#OnboardingProcess#0" />
+            <element signature="method#enterCity#0;class#OnboardingProcess#0" />
+            <element signature="method#clickCountry#0;class#OnboardingProcess#0" />
+            <element signature="method#clickStateProvinceDDL#0;class#OnboardingProcess#0" />
+            <element signature="method#enterZipPostalCode#0;class#OnboardingProcess#0" />
+            <element signature="method#uploadID#0;class#OnboardingProcess#0" />
+            <element signature="method#clickSave2#0;class#OnboardingProcess#0" />
+            <element signature="method#enterCreditCardNumber#0;class#OnboardingProcess#0" />
+            <element signature="method#enterNameOnCard#0;class#OnboardingProcess#0" />
+            <element signature="method#clickExpirationMM#0;class#OnboardingProcess#0" />
+            <element signature="method#clickExpirationYY#0;class#OnboardingProcess#0" />
+            <element signature="method#enterCVV#0;class#OnboardingProcess#0" />
+            <element signature="method#enterCreditCardAddressLine1#0;class#OnboardingProcess#0" />
+            <element signature="method#enterCreditCardAddressLine2#0;class#OnboardingProcess#0" />
+            <element signature="method#enterCreditCardCity#0;class#OnboardingProcess#0" />
+            <element signature="method#clickCreditCardCountry#0;class#OnboardingProcess#0" />
+            <element signature="method#clickCreditCardStateProvince#0;class#OnboardingProcess#0" />
+            <element signature="method#enterCreditCardZipPostalCode#0;class#OnboardingProcess#0" />
+            <element signature="method#enterLicenseNumber#0;class#OnboardingProcess#0" />
+            <element signature="method#clickUpdate#0;class#OnboardingProcess#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManager2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedInstaller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -848,86 +987,376 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="97" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
+        <state relative-caret-position="406">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/scratch.txt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerStep2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerDeleteEmployees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="890">
+          <caret line="149" column="28" lean-forward="true" selection-start-line="139" selection-start-column="12" selection-end-line="149" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddNewEmployeePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#clickCompanyName#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRoleManager#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRoleSupervisor#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRoleInstaller#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRoleSalesPerson#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterFirstName#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterLastName#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterNotes#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterEmail#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterPassword#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterRepeatPassword#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRestrictedAccess#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickLicensedUser#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickAbilityLogininMultipleDevices#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickAdd#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickCancel#0;class#AddNewEmployeePage#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/TestNG.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginAsDeletedManager2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state relative-caret-position="873">
+          <caret line="54" column="62" lean-forward="true" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ID1Login.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+        <state relative-caret-position="396">
+          <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
+          <folding>
+            <element signature="method#setName#0;class#LoginPage#0" />
+            <element signature="method#setPassword#0;class#LoginPage#0" />
+            <element signature="method#clickLoginButton#0;class#LoginPage#0" />
+            <element signature="method#clickMainSiteButton#0;class#LoginPage#0" />
+            <element signature="method#clickLanguageButton#0;class#LoginPage#0" />
+            <element signature="method#cliforgotPassword#0;class#LoginPage#0" />
+            <element signature="method#clickOkPopUpErrorInvalidLoginOrPassword#0;class#LoginPage#0" />
+            <element signature="method#clickContinueButton#0;class#LoginPage#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/AdminDataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerDeleteSite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="2505">
+          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddANewCompanyPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/EmployeeDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        <state relative-caret-position="390">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="38" />
+          <folding>
+            <element signature="method#CreateManager#0;class#EmployeeDataProvider#0" />
+            <element signature="method#CreateManager2#0;class#EmployeeDataProvider#0" />
+            <element signature="method#CreateSupervisor#0;class#EmployeeDataProvider#0" />
+            <element signature="method#CreateInstaller#0;class#EmployeeDataProvider#0" />
+            <element signature="method#EditEmployee#0;class#EmployeeDataProvider#0" />
+            <element signature="method#DeleteEmployee#0;class#EmployeeDataProvider#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EmployeesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="method#clickAddNewEmployee#0;class#EmployeesPage#0" />
+            <element signature="method#enterSearchField#0;class#EmployeesPage#0" />
+            <element signature="method#clickEditButton#0;class#EmployeesPage#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="58" />
+        <state relative-caret-position="204">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+          <folding>
+            <element signature="method#clickCompanyDDL#0;class#CompanyPage#0" />
+            <element signature="method#clickCompanyDDMI#0;class#CompanyPage#0" />
+            <element signature="method#clickEmployeeDDMI#0;class#CompanyPage#0" />
+            <element signature="method#clickEmployeeDDMI#1;class#CompanyPage#0" />
+            <element signature="method#clickAddANewCompanyButton#0;class#CompanyPage#0" />
+            <element signature="method#clickLogoutButton#0;class#CompanyPage#0" />
+            <element signature="method#enterSearchField#0;class#CompanyPage#0" />
+            <element signature="method#clickButtonEdit#0;class#CompanyPage#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ID3Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="146" selection-start-line="28" selection-start-column="146" selection-end-line="28" selection-end-column="146" />
+        <state relative-caret-position="30">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#516#542#0" />
+            <element signature="method#openBrowser#0;class#ID3Employee#0" />
+            <element signature="method#loginAsAdmin#0;class#ID3Employee#0" />
+            <element signature="method#loginAsManager#0;class#ID3Employee#0" />
+            <element signature="method#loginAsManagerOnboarding#0;class#ID3Employee#0" />
+            <element signature="method#createManager#0;class#ID3Employee#0" />
+            <element signature="method#createSupervisor#0;class#ID3Employee#0" />
+            <element signature="method#createInstaller#0;class#ID3Employee#0" />
+            <element signature="method#createManager2#0;class#ID3Employee#0" />
+            <element signature="method#editEmployee#0;class#ID3Employee#0" />
+            <element signature="method#onboardingProcess#0;class#ID3Employee#0" />
+            <element signature="method#loginAsManager2#0;class#ID3Employee#0" />
+            <element signature="method#loginAsSupervisor#0;class#ID3Employee#0" />
+            <element signature="method#loginAsInstaller#0;class#ID3Employee#0" />
+            <element signature="method#deleteEmployee#0;class#ID3Employee#0" />
+            <element signature="method#loginAsDeletedManager2#0;class#ID3Employee#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0-sources.jar!/org/openqa/selenium/WebDriverException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
+        <state relative-caret-position="450">
+          <caret line="111" column="89" selection-start-line="111" selection-start-column="89" selection-end-line="111" selection-end-column="89" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#clickEditButton#0;class#EditCompanyPage#0" />
+            <element signature="method#clickCancelButton#0;class#EditCompanyPage#0" />
+            <element signature="method#uploadNewLogo#0;class#EditCompanyPage#0" />
+            <element signature="method#editCompanyName#0;class#EditCompanyPage#0" />
+            <element signature="method#editCompanyEmail#0;class#EditCompanyPage#0" />
+            <element signature="method#editCompanyWebSite#0;class#EditCompanyPage#0" />
+            <element signature="method#editCompanyTaxNumber#0;class#EditCompanyPage#0" />
+            <element signature="method#clickCompanyTypeSupplier#0;class#EditCompanyPage#0" />
+            <element signature="method#clickCompanyTypeLandscape#0;class#EditCompanyPage#0" />
+            <element signature="method#clickCurrencyUSD#0;class#EditCompanyPage#0" />
+            <element signature="method#clickCurrencyMXN#0;class#EditCompanyPage#0" />
+            <element signature="method#clickCurrencyCAD#0;class#EditCompanyPage#0" />
+            <element signature="method#editLicenseLimit#0;class#EditCompanyPage#0" />
+            <element signature="method#editProductSpreadProductionPercentage#0;class#EditCompanyPage#0" />
+            <element signature="method#editAddressLine1#0;class#EditCompanyPage#0" />
+            <element signature="method#editAddressLine2#0;class#EditCompanyPage#0" />
+            <element signature="method#editCity#0;class#EditCompanyPage#0" />
+            <element signature="method#clickCountryUnitedStates#0;class#EditCompanyPage#0" />
+            <element signature="method#clickCountryMexico#0;class#EditCompanyPage#0" />
+            <element signature="method#clickCountryCanada#0;class#EditCompanyPage#0" />
+            <element signature="method#clickProvinceBritishColumbia#0;class#EditCompanyPage#0" />
+            <element signature="method#editZipPostalCode#0;class#EditCompanyPage#0" />
+            <element signature="method#editCompanyDescription#0;class#EditCompanyPage#0" />
+            <element signature="method#clickSave#0;class#EditCompanyPage#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ID1Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="89" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
+          <folding>
+            <element signature="method#login#0;class#ID1Login#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/LoginDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="method#CreateCompany#0;class#LoginDataProvider#0" />
+            <element signature="method#LoginManagerOnboarding#0;class#LoginDataProvider#0" />
+            <element signature="method#LoginManager#0;class#LoginDataProvider#0" />
+            <element signature="method#LoginManager2#0;class#LoginDataProvider#0" />
+            <element signature="method#LoginSupervisor#0;class#LoginDataProvider#0" />
+            <element signature="method#LoginInstaller#0;class#LoginDataProvider#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="47" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ID2Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="360">
+          <caret line="141" column="109" selection-start-line="141" selection-start-column="109" selection-end-line="141" selection-end-column="109" />
+          <folding>
+            <element signature="e#571#597#0" />
+            <element signature="method#openBrowser#0;class#ID2Company#0" />
+            <element signature="method#loginAsAdmin#0;class#ID2Company#0" />
+            <element signature="method#createLandscapeCompany#0;class#ID2Company#0" />
+            <element signature="method#createSupplierCompany#0;class#ID2Company#0" />
+            <element signature="method#editCompany#0;class#ID2Company#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="method#CreateLandscapeCompany#0;class#CompanyDataProvider#0" />
+            <element signature="method#CreateSupplierCompany#0;class#CompanyDataProvider#0" />
+            <element signature="method#EditCompany#0;class#CompanyDataProvider#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/SiteDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditEmployeePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="185" column="63" selection-start-line="185" selection-start-column="63" selection-end-line="185" selection-end-column="63" />
+          <folding>
+            <element signature="method#clickCompanyName#0;class#EditEmployeePage#0" />
+            <element signature="method#clickRoleManager#0;class#EditEmployeePage#0" />
+            <element signature="method#clickRoleSupervisor#0;class#EditEmployeePage#0" />
+            <element signature="method#clickRoleInstaller#0;class#EditEmployeePage#0" />
+            <element signature="method#clickRoleSalesPerson#0;class#EditEmployeePage#0" />
+            <element signature="method#enterFirstName#0;class#EditEmployeePage#0" />
+            <element signature="method#enterLastName#0;class#EditEmployeePage#0" />
+            <element signature="method#enterNotes#0;class#EditEmployeePage#0" />
+            <element signature="method#enterEmail#0;class#EditEmployeePage#0" />
+            <element signature="method#clickEditPassword#0;class#EditEmployeePage#0" />
+            <element signature="method#clickClose#0;class#EditEmployeePage#0" />
+            <element signature="method#enterPassword#0;class#EditEmployeePage#0" />
+            <element signature="method#enterRepeatPassword#0;class#EditEmployeePage#0" />
+            <element signature="method#clickRestrictedAccess#0;class#EditEmployeePage#0" />
+            <element signature="method#clickLicensedUser#0;class#EditEmployeePage#0" />
+            <element signature="method#clickAbilityLogininMultipleDevices#0;class#EditEmployeePage#0" />
+            <element signature="method#clickUpdate#0;class#EditEmployeePage#0" />
+            <element signature="method#clickBack#0;class#EditEmployeePage#0" />
+            <element signature="method#clickStayPopUpWarning#0;class#EditEmployeePage#0" />
+            <element signature="method#clickLeavePopUpWarning#0;class#EditEmployeePage#0" />
+            <element signature="method#clickDeleteEmployee#0;class#EditEmployeePage#0" />
+            <element signature="method#clickCancelDeletePopUp#0;class#EditEmployeePage#0" />
+            <element signature="method#clickDeletePopUp#0;class#EditEmployeePage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddNewSitePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="110" selection-end-column="5" />
+          <folding>
+            <element signature="method#enterSiteName#0;class#AddNewSitePage#0" />
+            <element signature="method#enterDetectRadius#0;class#AddNewSitePage#0" />
+            <element signature="method#clickCompany#0;class#AddNewSitePage#0" />
+            <element signature="method#enterNotes#0;class#AddNewSitePage#0" />
+            <element signature="method#enterAddress#0;class#AddNewSitePage#0" />
+            <element signature="method#enterCity#0;class#AddNewSitePage#0" />
+            <element signature="method#clickStateProvince#0;class#AddNewSitePage#0" />
+            <element signature="method#enterZipPostalCode#0;class#AddNewSitePage#0" />
+            <element signature="method#clickCountry#0;class#AddNewSitePage#0" />
+            <element signature="method#clickFetchGPSCoordinates#0;class#AddNewSitePage#0" />
+            <element signature="method#clickBack#0;class#AddNewSitePage#0" />
+            <element signature="method#clickLeavePopUp#0;class#AddNewSitePage#0" />
+            <element signature="method#clickStayPopUp#0;class#AddNewSitePage#0" />
+            <element signature="method#clickAdd#0;class#AddNewSitePage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditSitePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#enterSiteName#0;class#EditSitePage#0" />
+            <element signature="method#enterDetectRadius#0;class#EditSitePage#0" />
+            <element signature="method#clickCompany#0;class#EditSitePage#0" />
+            <element signature="method#enterNotes#0;class#EditSitePage#0" />
+            <element signature="method#enterAddress#0;class#EditSitePage#0" />
+            <element signature="method#enterCity#0;class#EditSitePage#0" />
+            <element signature="method#clickStateProvince#0;class#EditSitePage#0" />
+            <element signature="method#enterZipPostalCode#0;class#EditSitePage#0" />
+            <element signature="method#clickCountry#0;class#EditSitePage#0" />
+            <element signature="method#clickFetchGPSCoordinates#0;class#EditSitePage#0" />
+            <element signature="method#clickBack#0;class#EditSitePage#0" />
+            <element signature="method#clickLeavePopUp#0;class#EditSitePage#0" />
+            <element signature="method#clickStayPopUp#0;class#EditSitePage#0" />
+            <element signature="method#clickSave#0;class#EditSitePage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditSite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1162">
+          <caret line="234" column="1" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="234" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/SitesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#enterSearchField#0;class#SitesPage#0" />
+            <element signature="method#clickAddNewSite#0;class#SitesPage#0" />
+            <element signature="method#clickEdit#0;class#SitesPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ID4Sites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="153" column="21" lean-forward="true" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+          <folding>
+            <element signature="e#518#544#0" />
+            <element signature="method#openBrowser#0;class#ID4Sites#0" />
+            <element signature="method#loginAsAdmin#0;class#ID4Sites#0" />
+            <element signature="method#loginAsManager#0;class#ID4Sites#0" />
+            <element signature="method#addSite#0;class#ID4Sites#0" />
+          </folding>
         </state>
       </provider>
     </entry>

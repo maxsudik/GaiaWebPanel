@@ -1,34 +1,28 @@
 import Helper.GaiaHelper;
 import PageObjects.LoginPage;
-import dataProvider.AdminDataProvider;
+import dataProvider.LoginDataProvider;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 public class ID1Login {
 
-    @Test (dataProvider = "LoginAdmin", dataProviderClass = AdminDataProvider.class)
+    @Test (dataProvider = "LoginAdmin", dataProviderClass = LoginDataProvider.class)
 
-    public void LoginAsAdmin (WebDriver driver, String LoginAdminName, String PasswordAdminName){
+    public void login (WebDriver driver, String LoginAdminName, String PasswordAdminName){
 
-        //Create Objects required for this test
         LoginPage loginPage = new LoginPage();
         GaiaHelper gaiHelper = new GaiaHelper();
 
-        //Navigate to the website
         driver.get("https://customerdev3.gaialandscape.com/login");
 
-        //Enter username
-        loginPage.setAdminName(driver,LoginAdminName);
+        loginPage.setName(driver,LoginAdminName);
 
-        //Enter password
-        loginPage.setAdminPassword(driver, PasswordAdminName);
+        loginPage.setPassword(driver, PasswordAdminName);
 
-        //Click Login button
-        loginPage.clickLoginButton(driver);
+        loginPage.clickLogin(driver);
 
         gaiHelper.Wait3();
 
-        //Click Continue button
         loginPage.clickContinueButton(driver);
 
     }

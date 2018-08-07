@@ -1,9 +1,9 @@
 import Helper.GaiaHelper;
-import PageObjects.AddANewCompanyPage;
+import PageObjects.AddNewCompanyPage;
 import PageObjects.CompanyPage;
 import PageObjects.EditCompanyPage;
-import dataProvider.AdminDataProvider;
 import dataProvider.CompanyDataProvider;
+import dataProvider.LoginDataProvider;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -47,401 +47,156 @@ public class ID2Company {
 }
 
     //SHOULD BE STARTED BEFORE EACH METHOD
-    @Test(dataProvider = "LoginAdmin", dataProviderClass = AdminDataProvider.class)
+    @Test(dataProvider = "LoginAdmin", dataProviderClass = LoginDataProvider.class)
     public void loginAsAdmin (WebDriver driver, String LoginAdminName, String PasswordAdminName) {
 
-        //Create Objects required for this test
         ID1Login login = new ID1Login();
         GaiaHelper gaiHelper = new GaiaHelper();
 
-        //Run the method
-        login.LoginAsAdmin(driver, LoginAdminName, PasswordAdminName);
+        login.login(driver, LoginAdminName, PasswordAdminName);
 
-        //Add delay 3 sec
         gaiHelper.Wait3();
     }
 
     @Test(dataProvider = "CreateLandscapeCompany", dataProviderClass = CompanyDataProvider.class)
-    public void CreateLandscapeCompany (WebDriver driver, String CompanyName, String CompanyEmail, String CompanyTaxNumber, String ProductSpread, String CompanyDescription) {
+    public void createLandscapeCompany (WebDriver driver, String CompanyName, String CompanyEmail, String CompanyTaxNumber, String ProductSpread, String CompanyDescription) {
 
-        //Create Objects required for this test
         CompanyPage companyPage = new CompanyPage();
         GaiaHelper gaiHelper = new GaiaHelper();
-        AddANewCompanyPage addANewCompanyPage = new AddANewCompanyPage();
+        AddNewCompanyPage addNewCompanyPage = new AddNewCompanyPage();
 
-        //Click Company button
         companyPage.clickCompanyDDL(driver);
 
-        //Click Company DDL menu item
         companyPage.clickCompanyDDMI(driver);
 
-        //Add delay 3 sec
         gaiHelper.Wait3();
 
-        //Click Add a new company
         companyPage.clickAddANewCompanyButton(driver);
 
-        //Add delay 3 sec
         gaiHelper.Wait3();
 
-        //Enter valid name
-        addANewCompanyPage.enterCompanyName(driver, CompanyName);
+        addNewCompanyPage.enterCompanyName(driver, CompanyName);
 
-        //Enter valid email
-        addANewCompanyPage.enterCompanyEmail(driver, CompanyEmail);
+        addNewCompanyPage.enterCompanyEmail(driver, CompanyEmail);
 
-        //Enter Tax number
-        addANewCompanyPage.enterCompanyTaxNumber(driver, CompanyTaxNumber);
+        addNewCompanyPage.enterCompanyTaxNumber(driver, CompanyTaxNumber);
 
-        //Click Company type DDL
-        addANewCompanyPage.clickCompanyTypeLandscape(driver);
+        addNewCompanyPage.clickCompanyTypeLandscape(driver);
 
-        //Click Currency DDL
-        addANewCompanyPage.clickCompanyCurrencyCAD(driver);
+        addNewCompanyPage.clickCompanyCurrencyCAD(driver);
 
-        //Enter Company Product Spread Reduction Percentage
-        addANewCompanyPage.enterCompanyProductSpread(driver, ProductSpread);
+        addNewCompanyPage.enterCompanyProductSpread(driver, ProductSpread);
 
-        //Enter Company description
-        addANewCompanyPage.enterCompanyDescription(driver, CompanyDescription);
+        addNewCompanyPage.enterCompanyDescription(driver, CompanyDescription);
 
-        //Click button Add
-        addANewCompanyPage.clickButtonAdd(driver);
+        addNewCompanyPage.clickButtonAdd(driver);
 
-        //Click Log Out button
         companyPage.clickLogoutButton(driver);
 
-        //Kill the driver
         driver.quit();
 
     }
 
     @Test(dataProvider = "CreateSupplierCompany", dataProviderClass = CompanyDataProvider.class)
-    public void CreateSupplierCompany (WebDriver driver, String CompanyName, String CompanyEmail, String CompanyTaxNumber, String ProductSpread, String CompanyDescription) {
+    public void createSupplierCompany (WebDriver driver, String CompanyName, String CompanyEmail, String CompanyTaxNumber, String ProductSpread, String CompanyDescription) {
 
-        //Create Objects required for this test
         CompanyPage companyPage = new CompanyPage();
         GaiaHelper gaiHelper = new GaiaHelper();
-        AddANewCompanyPage addANewCompanyPage = new AddANewCompanyPage();
+        AddNewCompanyPage addNewCompanyPage = new AddNewCompanyPage();
 
-        //Click Company button
         companyPage.clickCompanyDDL(driver);
 
-        //Click Company DDL menu item
         companyPage.clickCompanyDDMI(driver);
 
-        //Add delay 3 sec
         gaiHelper.Wait3();
 
-        //Click Add a new company
         companyPage.clickAddANewCompanyButton(driver);
 
-        //Add delay 3 sec
         gaiHelper.Wait3();
 
-        //Enter valid name
-        addANewCompanyPage.enterCompanyName(driver, CompanyName);
+        addNewCompanyPage.enterCompanyName(driver, CompanyName);
 
-        //Enter valid email
-        addANewCompanyPage.enterCompanyEmail(driver, CompanyEmail);
+        addNewCompanyPage.enterCompanyEmail(driver, CompanyEmail);
 
-        //Enter Tax number
-        addANewCompanyPage.enterCompanyTaxNumber(driver, CompanyTaxNumber);
+        addNewCompanyPage.enterCompanyTaxNumber(driver, CompanyTaxNumber);
 
-        //Click Company type DDL
-        addANewCompanyPage.clickCompanyTypeSupplier(driver);
+        addNewCompanyPage.clickCompanyTypeSupplier(driver);
 
-        //Click Currency DDL
-        addANewCompanyPage.clickCompanyCurrencyCAD(driver);
+        addNewCompanyPage.clickCompanyCurrencyCAD(driver);
 
-        //Enter Company Product Spread Reduction Percentage
-        addANewCompanyPage.enterCompanyProductSpread(driver, ProductSpread);
+        addNewCompanyPage.enterCompanyProductSpread(driver, ProductSpread);
 
-        //Enter Company description
-        addANewCompanyPage.enterCompanyDescription(driver, CompanyDescription);
+        addNewCompanyPage.enterCompanyDescription(driver, CompanyDescription);
 
-        //Click button Add
-        addANewCompanyPage.clickButtonAdd(driver);
+        addNewCompanyPage.clickButtonAdd(driver);
 
-        //Click Log Out button
         companyPage.clickLogoutButton(driver);
 
-        //Kill the driver
         driver.quit();
     }
 
     @Test(dataProvider = "EditCompany", dataProviderClass = CompanyDataProvider.class)
-    public void EditCompany (WebDriver driver, String CreatedCompanyName, String EditedCompanyName, String EditedCompanyEmail, String EditedCompanyWebSite, String EditedCompanyTaxNumber,   ) {
+    public void editCompany (WebDriver driver, String CreatedCompanyName, String EditedCompanyName, String EditedCompanyEmail,
+                             String EditedCompanyWebSite, String EditedCompanyTaxNumber, String EditedLicenseLimit,
+                             String EditedProductSpreadProductionPercentage, String EditedAddressLine1, String EditedAddressLine2,
+                             String EditedCity, String EditedZipPostalCode, String EditedCompanyDescription) {
 
-        //Create Objects required for this test
         CompanyPage companyPage = new CompanyPage();
         GaiaHelper gaiHelper = new GaiaHelper();
-        AddANewCompanyPage addANewCompanyPage = new AddANewCompanyPage();
         EditCompanyPage editCompanyPage = new EditCompanyPage();
 
-        //Click Company button
         companyPage.clickCompanyDDL(driver);
 
-        //Enter the name of just created company
+        companyPage.clickSitesDDMI(driver);
+
         companyPage.enterSearchField(driver, CreatedCompanyName);
 
-        //Click button Edit
         companyPage.clickButtonEdit(driver);
 
-        //Add delay 5 sec
         gaiHelper.Wait5();
 
-        //Click Edit button
         editCompanyPage.clickEditButton(driver);
 
-        //Click button Cancel
         editCompanyPage.clickCancelButton(driver);
 
-        //Click Edit button
         editCompanyPage.clickEditButton(driver);
 
-        //Upload the new picture
         editCompanyPage.uploadNewLogo(driver);
 
-        //Enter updated Company name
-        editCompanyPage.editComanyName(driver, EditedCompanyName);
+        editCompanyPage.editCompanyName(driver, EditedCompanyName);
 
-        //Enter updated company email
-        editCompanyPage.editComanyEmail(driver,EditedCompanyEmail);
+        editCompanyPage.editCompanyEmail(driver,EditedCompanyEmail);
 
-        //Enter updated website
-        editCompanyPage.editComanyWebSite(driver, EditedCompanyWebSite);
+        editCompanyPage.editCompanyWebSite(driver, EditedCompanyWebSite);
 
-        //Enter updated company tax number
-        editCompanyPage.editComanyTaxNumber(driver, EditedCompanyTaxNumber);
+        editCompanyPage.editCompanyTaxNumber(driver, EditedCompanyTaxNumber);
 
-        //Find Company type
-        element = ((ChromeDriver) driver).findElementByXPath("//body/div[@id='app']/div/div/div/div[@class='card']/div[@class='card-content']/div[contains(@class,'columns')]/div[@class='column is-half']/div[@class='field']/p[1]/span[1]/select[1]");
+        editCompanyPage.clickCompanyTypeSupplier(driver);
 
-        //Click Company Type
-        element.click();
+        editCompanyPage.clickCurrencyCAD(driver);
 
-        //Find Supplier
-        element = ((ChromeDriver) driver).findElementByXPath("//option[@value='supplier']");
+        editCompanyPage.editLicenseLimit(driver, EditedLicenseLimit);
 
-        //Click Supplier
-        element.click();
+        editCompanyPage.editProductSpreadProductionPercentage(driver, EditedProductSpreadProductionPercentage);
 
-        //Find Company type
-        element = ((ChromeDriver) driver).findElementByXPath("//body/div[@id='app']/div/div/div/div[@class='card']/div[@class='card-content']/div[contains(@class,'columns')]/div[@class='column is-half']/div[@class='field']/p[1]/span[1]/select[1]");
+        editCompanyPage.editAddressLine1(driver, EditedAddressLine1);
 
-        //Click Company Type
-        element.click();
+        editCompanyPage.editAddressLine2(driver, EditedAddressLine2);
 
-        //Find Type
-        element = ((ChromeDriver) driver).findElementByXPath("//option[contains(text(),'Type')]");
+        editCompanyPage.editCity(driver, EditedCity);
 
-        //Click Type
-        element.click();
+        editCompanyPage.clickCountryCanada(driver);
 
-        //Find Company type
-        element = ((ChromeDriver) driver).findElementByXPath("//body/div[@id='app']/div/div/div/div[@class='card']/div[@class='card-content']/div[contains(@class,'columns')]/div[@class='column is-half']/div[@class='field']/p[1]/span[1]/select[1]");
+        editCompanyPage.clickProvinceBritishColumbia(driver);
 
-        //Click Company Type
-        element.click();
+        editCompanyPage.editZipPostalCode(driver, EditedZipPostalCode);
 
-        //Find Landscape
-        element = ((ChromeDriver) driver).findElementByXPath("//option[@value='landscape']");
+        editCompanyPage.editCompanyDescription(driver, EditedCompanyDescription);
 
-        //Click Landscape
-        element.click();
+        editCompanyPage.clickSave(driver);
 
-        //Find Currency
-        element = ((ChromeDriver) driver).findElementByXPath("//div[@class='field']//p[2]//span[1]//select[1]");
+        companyPage.clickLogoutButton(driver);
 
-        //Click Currency
-        element.click();
-
-        //Find USD
-        element = ((ChromeDriver) driver).findElementByXPath("//option[@value='USD']");
-
-        //Click USD
-        element.click();
-
-        //Find Currency
-        element = ((ChromeDriver) driver).findElementByXPath("//div[@class='field']//p[2]//span[1]//select[1]");
-
-        //Click Currency
-        element.click();
-
-        //Find MXN
-        element = ((ChromeDriver) driver).findElementByXPath("//option[@value='MXN']");
-
-        //Click MXN
-        element.click();
-
-        //Find Currency
-        element = ((ChromeDriver) driver).findElementByXPath("//div[@class='field']//p[2]//span[1]//select[1]");
-
-        //Click Currency
-        element.click();
-
-        //Find Currency
-        element = ((ChromeDriver) driver).findElementByXPath("//option[contains(text(),'Currency')]");
-
-        //Click Currency
-        element.click();
-
-        //Find Currency
-        element = ((ChromeDriver) driver).findElementByXPath("//div[@class='field']//p[2]//span[1]//select[1]");
-
-        //Click Currency
-        element.click();
-
-        //Find CAD
-        element = ((ChromeDriver) driver).findElementByXPath("//option[@value='CAD']");
-
-        //Click CAD
-        element.click();
-
-        //Find License limit
-        element = ((ChromeDriver) driver).findElementByXPath("//input[@id='admin_card_license_limit']");
-
-        //Clear the field
-        element.click();
-        element.clear();
-
-        //Enter update Licence limit
-        element.sendKeys("20");
-
-        //Find Product Spread Reduction Percentage
-        element = ((ChromeDriver) driver).findElementByXPath("//input[@placeholder='20']");
-
-        //Clear the field
-        element.click();
-        element.clear();
-
-        //Enter updated Product Spread Reduction Percentage
-        element.sendKeys("35");
-
-        //Find Address line 1
-        element = ((ChromeDriver) driver).findElementByXPath("//input[@id='address_one']");
-
-        //Clear the field
-        element.click();
-        element.clear();
-
-        //Enter updated Address line 1
-        element.sendKeys("Office 111");
-
-        //Find Address line 2
-        element = ((ChromeDriver) driver).findElementByXPath("//input[@id='address_two']");
-
-        //Clear the field
-        element.click();
-        element.clear();
-
-        //Enter updated Address line 2
-        element.sendKeys("1st ST");
-
-        //Find City
-        element = ((ChromeDriver) driver).findElementByXPath("//input[@id='address_city']");
-
-        //Clear the field
-        element.click();
-        element.clear();
-
-        //Enter updated City
-        element.sendKeys("Vancouver");
-
-        //Find Country
-        element = ((ChromeDriver) driver).findElementByXPath("//select[@id='address_country']");
-
-        //Click Country
-        element.click();
-
-        //Find United States
-        element = ((ChromeDriver) driver).findElementByXPath("//option[@value='US']");
-
-        //Click United States
-        element.click();
-
-        //Find Country
-        element = ((ChromeDriver) driver).findElementByXPath("//select[@id='address_country']");
-
-        //Click Country
-        element.click();
-
-        //Find Mexico
-        element = ((ChromeDriver) driver).findElementByXPath("//option[@value='MX']");
-
-        //Click Mexico
-        element.click();
-
-        //Find Country
-        element = ((ChromeDriver) driver).findElementByXPath("//select[@id='address_country']");
-
-        //Click Country
-        element.click();
-
-        //Find a Country
-        element = ((ChromeDriver) driver).findElementByXPath("//option[contains(text(),'Select a country')]");
-
-        //Click a Country
-        element.click();
-
-        //Find Country
-        element = ((ChromeDriver) driver).findElementByXPath("//select[@id='address_country']");
-
-        //Click Country
-        element.click();
-
-        //Find Canada
-        element = ((ChromeDriver) driver).findElementByXPath("//option[contains(text(),'Canada')]");
-
-        //Click Canada
-        element.click();
-
-        //Find State/Province
-        element = ((ChromeDriver) driver).findElementByXPath("//select[@id='address_state']");
-
-        //Click State/Province
-        element.click();
-
-        //Find Yukon
-        element = ((ChromeDriver) driver).findElementByXPath("//option[@value='YT']");
-
-        //Click Yukon
-        element.click();
-
-        //Find Zip/Postal Code
-        element = ((ChromeDriver) driver).findElementByXPath("//input[@id='address_postalcode']");
-
-        //Clear the field
-        element.click();
-        element.clear();
-
-        //Enter Zip/Postal Code
-        element.sendKeys("TTT 111");
-
-        //Find Company description
-        element = ((ChromeDriver) driver).findElementByXPath("//textarea[@id='description']");
-
-        //Clear the field
-        element.click();
-        element.clear();
-
-        //Enter updated company description
-        element.sendKeys("Edited Company description");
-
-        //Find Save
-        element = ((ChromeDriver) driver).findElementByXPath("//button[@id='address_submit']");
-
-        //Click Save
-        element.click();
-
-        //Find Log Out button
-        element = ((ChromeDriver) driver).findElementByXPath("//span[contains(text(),'Log Out')]");
-
-        //Click Log Out button
-        element.click();
-
-        //Kill the driver
         driver.quit();
 
     }

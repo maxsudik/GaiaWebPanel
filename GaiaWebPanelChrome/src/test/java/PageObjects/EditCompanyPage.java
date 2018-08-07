@@ -9,285 +9,210 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickEditButton(WebDriver driver) {
 
-        //Find Edit button
         WebElement element = driver.findElement(By.xpath("//span[@class='tag is-info']"));
-        //Click Edit button
         element.click();
         return this;
     }
 
     public EditCompanyPage clickCancelButton(WebDriver driver) {
 
-        //Find button Cancel
         WebElement element =driver.findElement(By.xpath("//button[@class='button']"));
-        //Click button Cancel
         element.click();
         return this;
     }
 
     public EditCompanyPage uploadNewLogo(WebDriver driver) {
 
-        //Find Company picture button
         WebElement element = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"));
-        //Upload the new picture
-        element.sendKeys("/Users/Maksym/IdeaProjects/GaiaWebPanelChrome/src/Images/Test.png");
+        element.sendKeys("src/Images/Test.png");
         return this;
     }
 
-    public EditCompanyPage editComanyName(WebDriver driver, String EditedCompanyName) {
+    public EditCompanyPage editCompanyName(WebDriver driver, String EditedCompanyName) {
 
-        //Find Company name field
         WebElement element = driver.findElement(By.xpath("//input[@id='company_name']"));
-        //Clear the field
         element.click();
         element.clear();
-        //Enter updated Company name
         element.sendKeys(EditedCompanyName);
         return this;
     }
 
-    public EditCompanyPage editComanyEmail(WebDriver driver, String EditedCompanyEmail) {
+    public EditCompanyPage editCompanyEmail(WebDriver driver, String EditedCompanyEmail) {
 
-        //Find Company email
         WebElement element = driver.findElement(By.xpath("//input[@id='company_email']"));
-        //Clear the field
         element.click();
         element.clear();
-        //Enter updated company email
         element.sendKeys(EditedCompanyEmail);
         return this;
     }
 
-    public EditCompanyPage editComanyWebSite(WebDriver driver, String EditedCompanyWebSite) {
+    public EditCompanyPage editCompanyWebSite(WebDriver driver, String EditedCompanyWebSite) {
 
-        //Find Website field
         WebElement element = driver.findElement(By.xpath("//input[@id='website']"));
-        //Clear the field
         element.click();
         element.clear();
-        //Enter updated website
         element.sendKeys(EditedCompanyWebSite);
         return this;
     }
 
-    public EditCompanyPage editComanyTaxNumber(WebDriver driver, String EditedCompanyTaxNumber) {
+    public EditCompanyPage editCompanyTaxNumber(WebDriver driver, String EditedCompanyTaxNumber) {
 
-        //Find Company tax number
         WebElement element = driver.findElement(By.xpath("//input[@id='tax_number']"));
-        //Clear the field
         element.click();
         element.clear();
-        //Enter updated company tax number
         element.sendKeys(EditedCompanyTaxNumber);
         return this;
     }
 
     public EditCompanyPage clickCompanyTypeSupplier(WebDriver driver) {
 
-        //Find Company type
         WebElement element = driver.findElement(By.xpath("//body/div[@id='app']/div/div/div/div[@class='card']/div[@class='card-content']/div[contains(@class,'columns')]/div[@class='column is-half']/div[@class='field']/p[1]/span[1]/select[1]"));
-        //Click Company Type
         element.click();
-        //Find Supplier
         element = driver.findElement(By.xpath("//option[@value='supplier']"));
-        //Click Supplier
         element.click();
         return this;
     }
+
     public EditCompanyPage clickCompanyTypeLandscape(WebDriver driver) {
 
-        //Find Company type
         WebElement element = driver.findElement(By.xpath("//body/div[@id='app']/div/div/div/div[@class='card']/div[@class='card-content']/div[contains(@class,'columns')]/div[@class='column is-half']/div[@class='field']/p[1]/span[1]/select[1]"));
-        //Click Company Type
         element.click();
-        //Find Landscape
         element = ((ChromeDriver) driver).findElementByXPath("//option[@value='landscape']");
-        //Click Landscape
         element.click();
         return this;
     }
+
     public EditCompanyPage clickCurrencyUSD(WebDriver driver) {
 
-        //Find Currency
         WebElement element = driver.findElement(By.xpath("//div[@class='field']//p[2]//span[1]//select[1]"));
-        //Click Currency
         element.click();
-        //Find USD
-        element = driver.findElement(By.xpath("//option[@value='USD']");
-        //Click USD
+        element = driver.findElement(By.xpath("//option[@value='USD']"));
         element.click();
         return this;
     }
 
-    //Find Currency
-    element = ((ChromeDriver) driver).findElementByXPath("//div[@class='field']//p[2]//span[1]//select[1]");
+    public EditCompanyPage clickCurrencyMXN(WebDriver driver) {
 
-    //Click Currency
+        WebElement element = driver.findElement(By.xpath("//div[@class='field']//p[2]//span[1]//select[1]"));
         element.click();
-
-    //Find MXN
-    element = ((ChromeDriver) driver).findElementByXPath("//option[@value='MXN']");
-
-    //Click MXN
+        element = driver.findElement(By.xpath("//option[@value='MXN']"));
         element.click();
+        return this;
+    }
 
-    //Find Currency
-    element = ((ChromeDriver) driver).findElementByXPath("//div[@class='field']//p[2]//span[1]//select[1]");
+    public EditCompanyPage clickCurrencyCAD(WebDriver driver) {
 
-    //Click Currency
+        WebElement element = driver.findElement(By.xpath("//div[@class='field']//p[2]//span[1]//select[1]"));
         element.click();
-
-    //Find Currency
-    element = ((ChromeDriver) driver).findElementByXPath("//option[contains(text(),'Currency')]");
-
-    //Click Currency
+        element = driver.findElement(By.xpath("//option[@value='CAD']"));
         element.click();
+        return this;
+    }
 
-    //Find Currency
-    element = ((ChromeDriver) driver).findElementByXPath("//div[@class='field']//p[2]//span[1]//select[1]");
+    public EditCompanyPage editLicenseLimit(WebDriver driver, String EditedLicenseLimit) {
 
-    //Click Currency
-        element.click();
-
-    //Find CAD
-    element = ((ChromeDriver) driver).findElementByXPath("//option[@value='CAD']");
-
-    //Click CAD
-        element.click();
-
-    //Find License limit
-    element = ((ChromeDriver) driver).findElementByXPath("//input[@id='admin_card_license_limit']");
-
-    //Clear the field
+        WebElement element = driver.findElement(By.xpath("//input[@id='admin_card_license_limit']"));
         element.click();
         element.clear();
+        element.sendKeys(EditedLicenseLimit);
+        return this;
+    }
 
-    //Enter update Licence limit
-        element.sendKeys("20");
+    public EditCompanyPage editProductSpreadProductionPercentage(WebDriver driver, String EditedProductSpreadProductionPercentage) {
 
-    //Find Product Spread Reduction Percentage
-    element = ((ChromeDriver) driver).findElementByXPath("//input[@placeholder='20']");
-
-    //Clear the field
+        WebElement element = driver.findElement(By.xpath("//input[@placeholder='20']"));
         element.click();
         element.clear();
+        element.sendKeys(EditedProductSpreadProductionPercentage);
+        return this;
+}
 
-    //Enter updated Product Spread Reduction Percentage
-        element.sendKeys("35");
+    public EditCompanyPage editAddressLine1(WebDriver driver, String EditedAddressLine1) {
 
-    //Find Address line 1
-    element = ((ChromeDriver) driver).findElementByXPath("//input[@id='address_one']");
-
-    //Clear the field
+        WebElement element = driver.findElement(By.xpath("//input[@id='address_one']"));
         element.click();
         element.clear();
+        element.sendKeys(EditedAddressLine1);
+        return this;
 
-    //Enter updated Address line 1
-        element.sendKeys("Office 111");
+    }
 
-    //Find Address line 2
-    element = ((ChromeDriver) driver).findElementByXPath("//input[@id='address_two']");
+    public EditCompanyPage editAddressLine2(WebDriver driver, String EditedAddressLine2) {
 
-    //Clear the field
+        WebElement element = driver.findElement(By.xpath("//input[@id='address_two']"));
         element.click();
         element.clear();
+        element.sendKeys(EditedAddressLine2);
+        return this;
+    }
 
-    //Enter updated Address line 2
-        element.sendKeys("1st ST");
+    public EditCompanyPage editCity(WebDriver driver, String EditedCity) {
 
-    //Find City
-    element = ((ChromeDriver) driver).findElementByXPath("//input[@id='address_city']");
-
-    //Clear the field
+        WebElement element = driver.findElement(By.xpath("//input[@id='address_city']"));
         element.click();
         element.clear();
+        element.sendKeys(EditedCity);
+        return this;
+    }
 
-    //Enter updated City
-        element.sendKeys("Vancouver");
+    public EditCompanyPage clickCountryUnitedStates(WebDriver driver) {
 
-    //Find Country
-    element = ((ChromeDriver) driver).findElementByXPath("//select[@id='address_country']");
-
-    //Click Country
+        WebElement element = driver.findElement(By.xpath("//select[@id='address_country']"));
         element.click();
-
-    //Find United States
-    element = ((ChromeDriver) driver).findElementByXPath("//option[@value='US']");
-
-    //Click United States
+        element = driver.findElement(By.xpath("//option[@value='US']"));
         element.click();
+        return this;
+}
 
-    //Find Country
-    element = ((ChromeDriver) driver).findElementByXPath("//select[@id='address_country']");
+    public EditCompanyPage clickCountryMexico(WebDriver driver) {
 
-    //Click Country
+        WebElement element = driver.findElement(By.xpath("//select[@id='address_country']"));
         element.click();
-
-    //Find Mexico
-    element = ((ChromeDriver) driver).findElementByXPath("//option[@value='MX']");
-
-    //Click Mexico
+        element = driver.findElement(By.xpath("//option[@value='MX']"));
         element.click();
+        return this;
+    }
 
-    //Find Country
-    element = ((ChromeDriver) driver).findElementByXPath("//select[@id='address_country']");
+    public EditCompanyPage clickCountryCanada(WebDriver driver) {
 
-    //Click Country
+        WebElement element = driver.findElement(By.xpath("//select[@id='address_country']"));
         element.click();
-
-    //Find a Country
-    element = ((ChromeDriver) driver).findElementByXPath("//option[contains(text(),'Select a country')]");
-
-    //Click a Country
+        element = driver.findElement(By.xpath("//option[contains(text(),'Canada')]"));
         element.click();
+        return this;
+    }
 
-    //Find Country
-    element = ((ChromeDriver) driver).findElementByXPath("//select[@id='address_country']");
+    public EditCompanyPage clickProvinceBritishColumbia(WebDriver driver) {
 
-    //Click Country
+        WebElement element = driver.findElement(By.xpath("//select[@id='address_state']"));
         element.click();
-
-    //Find Canada
-    element = ((ChromeDriver) driver).findElementByXPath("//option[contains(text(),'Canada')]");
-
-    //Click Canada
+        element = driver.findElement(By.xpath("//option[@value='BC']"));
         element.click();
+        return this;
+    }
 
-    //Find State/Province
-    element = ((ChromeDriver) driver).findElementByXPath("//select[@id='address_state']");
+    public EditCompanyPage editZipPostalCode(WebDriver driver, String EditedZipPostalCode) {
 
-    //Click State/Province
-        element.click();
-
-    //Find Yukon
-    element = ((ChromeDriver) driver).findElementByXPath("//option[@value='YT']");
-
-    //Click Yukon
-        element.click();
-
-    //Find Zip/Postal Code
-    element = ((ChromeDriver) driver).findElementByXPath("//input[@id='address_postalcode']");
-
-    //Clear the field
+        WebElement element = driver.findElement(By.xpath("//input[@id='address_postalcode']"));
         element.click();
         element.clear();
+        element.sendKeys(EditedZipPostalCode);
+        return this;
+    }
 
-    //Enter Zip/Postal Code
-        element.sendKeys("TTT 111");
+    public EditCompanyPage editCompanyDescription(WebDriver driver, String EditedCompanyDescription) {
 
-    //Find Company description
-    element = ((ChromeDriver) driver).findElementByXPath("//textarea[@id='description']");
-
-    //Clear the field
+        WebElement element = driver.findElement(By.xpath("//textarea[@id='description']"));
         element.click();
         element.clear();
+        element.sendKeys(EditedCompanyDescription);
+        return this;
+    }
 
-    //Enter updated company description
-        element.sendKeys("Edited Company description");
+    public EditCompanyPage clickSave(WebDriver driver) {
 
-    //Find Save
-    element = ((ChromeDriver) driver).findElementByXPath("//button[@id='address_submit']");
-
-    //Click Save
+        WebElement element = driver.findElement(By.xpath("//button[@id='address_submit']"));
         element.click();
+        return this;
+    }
 }

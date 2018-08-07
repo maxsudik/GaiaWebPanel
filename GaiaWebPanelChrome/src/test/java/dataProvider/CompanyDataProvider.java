@@ -7,8 +7,7 @@ public class CompanyDataProvider {
     public static Object [][] CreateLandscapeCompany()
 {
     return new Object[][]{
-
-            {"July23Landscape", "maksym.sudik+July23.1@fortify.pro", "00000", "30", "Company Description" }
+            {"July23Landscape", "maksym.sudik+July23.1@fortify.pro", "00000", "30", "Company Description"}
     };
     }
 
@@ -16,7 +15,6 @@ public class CompanyDataProvider {
     public static Object [][] CreateSupplierCompany()
     {
         return new Object[][]{
-
                 {"July23Supplier", "maksym.sudik+July23.2@fortify.pro", "00000", "15", "Company Supplier Description" }
         };
     }
@@ -26,7 +24,8 @@ public class CompanyDataProvider {
     {
         return new Object[][]{
 
-                {"July23Landscape", "July23LandscapeEdited", "maksym.sudik+July23.1.Edited@fortify.pro", "http://editedcompanywebsite.com", "11111"}
+                {"July23Landscape", "July23LandscapeEdited", "maksym.sudik+July23.1.Edited@fortify.pro", "http://editedcompanywebsite.com", "11111",
+                        "20", "35", "Office 111", "1st ST", "Vancouver", "TTT 111", "Edited Company description",  }
         };
     }
 }
