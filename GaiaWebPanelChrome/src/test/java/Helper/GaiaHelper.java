@@ -2,6 +2,15 @@ package Helper;
 
 public class GaiaHelper {
 
+    public void Wait1() {
+        //Add delay 1 sec
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
     public void Wait3() {
         //Add delay 3 sec
         try {
@@ -15,6 +24,15 @@ public class GaiaHelper {
         //Add delay 5 sec
         try {
             Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void Wait10() {
+        //Add delay 10 sec
+        try {
+            Thread.sleep(10000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

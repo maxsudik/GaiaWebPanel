@@ -11,7 +11,7 @@ public class AddNewEmployeePage {
 
         WebElement element = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/p[1]/span[1]/select[1]"));
         element.click();
-        element = driver.findElement(By.xpath("//option[contains(text(),'July23LandscapeEdited')]"));
+        element = driver.findElement(By.xpath("//option[contains(text(),'July23Landscape')]"));
         element.click();
         return this;
     }
@@ -55,6 +55,7 @@ public class AddNewEmployeePage {
     public AddNewEmployeePage enterFirstName(WebDriver driver, String FirstName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='First Name']"));
+        element.clear();
         element.sendKeys(FirstName);
         return this;
     }
@@ -62,6 +63,7 @@ public class AddNewEmployeePage {
     public AddNewEmployeePage enterLastName(WebDriver driver, String LastName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Last Name']"));
+        element.clear();
         element.sendKeys(LastName);
         return this;
     }
@@ -69,6 +71,7 @@ public class AddNewEmployeePage {
     public AddNewEmployeePage enterNotes(WebDriver driver, String Notes) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Notes']"));
+        element.clear();
         element.sendKeys(Notes);
         return this;
     }
@@ -76,6 +79,7 @@ public class AddNewEmployeePage {
     public AddNewEmployeePage enterEmail(WebDriver driver, String Email) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Email']"));
+        element.clear();
         element.sendKeys(Email);
         return this;
     }
@@ -83,6 +87,7 @@ public class AddNewEmployeePage {
     public AddNewEmployeePage enterPassword(WebDriver driver, String Password) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Password']"));
+        element.clear();
         element.sendKeys(Password);
         return this;
     }
@@ -90,6 +95,7 @@ public class AddNewEmployeePage {
     public AddNewEmployeePage enterRepeatPassword(WebDriver driver, String RepeatPassword) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Repeat Password']"));
+        element.clear();
         element.sendKeys(RepeatPassword);
         return this;
     }
@@ -125,6 +131,28 @@ public class AddNewEmployeePage {
     public AddNewEmployeePage clickCancel(WebDriver driver) {
 
         WebElement element = driver.findElement(By.xpath("//p[contains(text(),'Cancel')]"));
+        element.click();
+        return this;
+    }
+
+    public AddNewEmployeePage enterLicenseLimit(WebDriver driver) {
+
+        for (int i=0; i<8; i++) {
+            WebElement element = driver.findElement(By.xpath("//img[@class='arrow-top']"));
+            element.click();
+            //Add delay 1 sec
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        return this;
+    }
+
+    public AddNewEmployeePage clickUpdatePopUp(WebDriver driver) {
+
+        WebElement element = driver.findElement(By.xpath("//button[@class='input is-success button']"));
         element.click();
         return this;
     }

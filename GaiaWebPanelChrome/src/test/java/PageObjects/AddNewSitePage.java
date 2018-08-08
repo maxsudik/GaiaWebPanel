@@ -10,6 +10,7 @@ public class AddNewSitePage {
     public AddNewSitePage enterSiteName(WebDriver driver, String SiteName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Name']"));
+        element.clear();
         element.sendKeys(SiteName);
         return this;
     }
@@ -32,6 +33,7 @@ public class AddNewSitePage {
     public AddNewSitePage enterNotes(WebDriver driver, String Notes) {
 
         WebElement element = driver.findElement(By.xpath("//textarea[@placeholder='Add your notes for this site.']"));
+        element.clear();
         element.sendKeys(Notes);
         return this;
     }
@@ -39,6 +41,7 @@ public class AddNewSitePage {
     public AddNewSitePage enterAddress(WebDriver driver, String Address) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Address']"));
+        element.clear();
         element.sendKeys(Address);
         return this;
     }
@@ -46,6 +49,7 @@ public class AddNewSitePage {
     public AddNewSitePage enterCity(WebDriver driver, String City) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='City']"));
+        element.clear();
         element.sendKeys(City);
         return this;
     }
@@ -62,6 +66,7 @@ public class AddNewSitePage {
     public AddNewSitePage enterZipPostalCode(WebDriver driver, String ZipPostalCode) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Zip/Postal']"));
+        element.clear();
         element.sendKeys(ZipPostalCode);
         return this;
     }

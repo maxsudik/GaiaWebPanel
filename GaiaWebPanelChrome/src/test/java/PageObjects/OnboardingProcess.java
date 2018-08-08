@@ -10,12 +10,14 @@ public class OnboardingProcess {
     public OnboardingProcess enterInstitutionNumber (WebDriver driver, String InstitutionNumber) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='bank_institution']"));
+        element.clear();
         element.sendKeys(InstitutionNumber);
         return this;
     }
 
     public OnboardingProcess enterTransitNumber (WebDriver driver, String TransitNumber) {
         WebElement element = driver.findElement(By.xpath("//input[@id='bank_transit']"));
+        element.clear();
         element.sendKeys(TransitNumber);
         return this;
     }
@@ -23,6 +25,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterAccountNumber (WebDriver driver, String AccountNumber) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='bank_account_number']"));
+        element.clear();
         element.sendKeys(AccountNumber);
         return this;
     }
@@ -30,6 +33,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterAccountHolderName (WebDriver driver, String AccountHolderName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='bank_holder_name']"));
+        element.clear();
         element.sendKeys(AccountHolderName);
         return this;
     }
@@ -53,6 +57,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterFirstName (WebDriver driver, String FirstName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_first_name']"));
+        element.clear();
         element.sendKeys(FirstName);
         return this;
     }
@@ -60,6 +65,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterLastName (WebDriver driver, String LastName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_last_name']"));
+        element.clear();
         element.sendKeys(LastName);
         return this;
     }
@@ -76,6 +82,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterAddressLine1 (WebDriver driver, String AddressLine1) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_address_one']"));
+        element.clear();
         element.sendKeys(AddressLine1);
         return this;
     }
@@ -83,6 +90,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterAddressLine2 (WebDriver driver, String AddressLine2) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_address_two']"));
+        element.clear();
         element.sendKeys(AddressLine2);
         return this;
     }
@@ -90,6 +98,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterCity (WebDriver driver, String City) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_city']"));
+        element.clear();
         element.sendKeys(City);
         return this;
     }
@@ -115,6 +124,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterZipPostalCode (WebDriver driver, String ZipPostalCode) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_postal_code']"));
+        element.clear();
         element.sendKeys(ZipPostalCode);
         return this;
     }
@@ -122,7 +132,7 @@ public class OnboardingProcess {
     public OnboardingProcess uploadID (WebDriver driver) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_identity_image']"));
-        element.sendKeys("src/Images/Test.png");
+        element.sendKeys("/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/Images/Test.png");
         return this;
     }
 
@@ -136,6 +146,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterCreditCardNumber (WebDriver driver, String CreditCardNumber) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='card_number']"));
+        element.clear();
         element.sendKeys(CreditCardNumber);
         return this;
     }
@@ -143,6 +154,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterNameOnCard(WebDriver driver, String NameOnCard) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='card_name']"));
+        element.clear();
         element.sendKeys(NameOnCard);
         return this;
     }
@@ -168,6 +180,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterCVV (WebDriver driver, String CVV) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='card_cvv']"));
+        element.clear();
         element.sendKeys(CVV);
         return this;
     }
@@ -175,6 +188,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterCreditCardAddressLine1(WebDriver driver, String CreditCardAddressLine1) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='card_address_one']"));
+        element.clear();
         element.sendKeys(CreditCardAddressLine1);
         return this;
     }
@@ -182,6 +196,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterCreditCardAddressLine2 (WebDriver driver, String CreditCardAddressLine2) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='card_address_two']"));
+        element.clear();
         element.sendKeys(CreditCardAddressLine2);
         return this;
     }
@@ -189,6 +204,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterCreditCardCity (WebDriver driver, String CreditCardCity) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='card_city']"));
+        element.clear();
         element.sendKeys(CreditCardCity);
         return this;
     }
@@ -214,6 +230,7 @@ public class OnboardingProcess {
     public OnboardingProcess enterCreditCardZipPostalCode (WebDriver driver, String CreditCardZipPostalCode) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='card_postal']"));
+        element.clear();
         element.sendKeys(CreditCardZipPostalCode);
         return this;
     }

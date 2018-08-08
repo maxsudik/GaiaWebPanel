@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ChromeSuite" parallel="false" verbose="1">
+
+
+
+    <test name="Create Companies" >
+            <parameter name="browser" value="Chrome"/>
+            <classes>
+                <class name="ID2CreateCompany"> </class>
+            </classes>
+    </test>
+
+    <!--
+    <test name="Edit Companies" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="ID2EditCompany"> </class>
+        </classes>
+    </test>
+
+    <test name="Delete Companies" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="ID2DeleteCompany"> </class>
+        </classes>
+    </test>
+    -->
+
+    <test name="Employees" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="ID3Employee"> </class>
+        </classes>
+    </test>
+
+    </suite>

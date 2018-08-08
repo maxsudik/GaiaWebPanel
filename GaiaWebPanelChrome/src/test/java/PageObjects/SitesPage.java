@@ -9,6 +9,7 @@ public class SitesPage {
     public SitesPage enterSearchField(WebDriver driver, String SiteName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Search']"));
+        element.clear();
         element.sendKeys(SiteName);
         return this;
     }

@@ -11,7 +11,7 @@ public class EditEmployeePage {
 
         WebElement element = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/p[1]/span[1]/select[1]"));
         element.click();
-        element = driver.findElement(By.xpath("//option[contains(text(),'July23LandscapeEdited')]"));
+        element = driver.findElement(By.xpath("//option[contains(text(),'July23Landscape')]"));
         element.click();
         return this;
     }

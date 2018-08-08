@@ -10,6 +10,7 @@ public class AddNewCompanyPage {
     public AddNewCompanyPage enterCompanyName (WebDriver driver, String CompanyName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='company_name']"));
+        element.clear();
         element.sendKeys(CompanyName);
         return this;
     }
@@ -17,6 +18,7 @@ public class AddNewCompanyPage {
     public AddNewCompanyPage enterCompanyEmail (WebDriver driver, String CompanyEmail) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='company_email']"));
+        element.clear();
         element.sendKeys(CompanyEmail);
         return this;
     }
@@ -24,6 +26,7 @@ public class AddNewCompanyPage {
     public AddNewCompanyPage enterCompanyTaxNumber (WebDriver driver, String CompanyTaxNumber) {
 
         WebElement element = driver.findElement(By.xpath("//input[@id='tax_number']"));
+        element.clear();
         element.sendKeys(CompanyTaxNumber);
         return this;
     }
@@ -76,6 +79,7 @@ public class AddNewCompanyPage {
     public AddNewCompanyPage enterCompanyProductSpread (WebDriver driver, String ProductSpread) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='20']"));
+        element.clear();
         element.sendKeys(ProductSpread);
         return this;
 
@@ -84,6 +88,7 @@ public class AddNewCompanyPage {
     public AddNewCompanyPage enterCompanyDescription (WebDriver driver, String CompanyDescription) {
 
         WebElement element = driver.findElement(By.xpath("//textarea[@id='description']"));
+        element.clear();
         element.sendKeys(CompanyDescription);
         return this;
     }

@@ -3,49 +3,21 @@ import PageObjects.AddNewSitePage;
 import PageObjects.CompanyPage;
 import PageObjects.EditSitePage;
 import PageObjects.SitesPage;
-import dataProvider.LoginDataProvider;
+import dataProvider.LoginAdminDataProvider;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class ID4Sites {
-    private WebDriver driver;
-
-    @Parameters({ "browser" })
-    @BeforeTest
-
-    public void openBrowser (String browser) {
-
-        try {
-            if (browser.equalsIgnoreCase("Chrome")) {
-                System.setProperty("webdriver.chrome.driver", "src/chromedriver");
-                driver = new ChromeDriver();
-                driver.manage().window().setSize(new Dimension(1280, 720));
-                driver.manage().window().setPosition(new Point(0, 0));
-
-            } else if (browser.equalsIgnoreCase("Firefox")) {
-                System.setProperty("webdriver.gecko.driver", "src/geckodriver");
-                driver = new FirefoxDriver();
-                driver.manage().window().setSize(new Dimension(1280, 720));
-                driver.manage().window().setPosition(new Point(1280, 0));
-            } else if (browser.equalsIgnoreCase("Safari")) {
-                driver = new SafariDriver();
-                driver.manage().window().setSize(new Dimension(1280, 720));
-                driver.manage().window().setPosition(new Point(0, 1280));
-            }
-
-        } catch (WebDriverException e) {
-            System.out.println(e.getMessage());
-        }
-    }
 
     //SHOULD BE STARTED BEFORE EACH METHOD FOR ADMIN
-    @Test(dataProvider = "LoginAdmin", dataProviderClass = LoginDataProvider.class)
-    public void loginAsAdmin (WebDriver driver, String LoginAdminName, String PasswordAdminName) {
+    @Test(dataProvider = "LoginAdmin", dataProviderClass = LoginAdminDataProvider.class)
+    public void loginAsAdmin (String LoginAdminName, String PasswordAdminName) {
+
+        System.setProperty("webdriver.chrome.driver", "src/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().setSize(new Dimension(1280, 720));
+        driver.manage().window().setPosition(new Point(0, 0));
 
         ID1Login login = new ID1Login();
         GaiaHelper gaiHelper = new GaiaHelper();
@@ -56,8 +28,13 @@ public class ID4Sites {
     }
 
     //SHOULD BE STARTED BEFORE EACH METHOD FOR MANAGER
-    @Test(dataProvider = "LoginManager", dataProviderClass = LoginDataProvider.class)
-    public void loginAsManager (WebDriver driver, String LoginManagerName, String PasswordManagerName) {
+    @Test(dataProvider = "LoginManager", dataProviderClass = LoginAdminDataProvider.class)
+    public void loginAsManager (String LoginManagerName, String PasswordManagerName) {
+
+        System.setProperty("webdriver.chrome.driver", "src/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().setSize(new Dimension(1280, 720));
+        driver.manage().window().setPosition(new Point(0, 0));
 
         ID1Login login = new ID1Login();
         GaiaHelper gaiHelper = new GaiaHelper();
@@ -67,11 +44,14 @@ public class ID4Sites {
         gaiHelper.Wait3();
     }
 
-
-
     @Test
-    public void addSite (WebDriver driver, String SiteName, String Radius, String CompanyName, String Notes,
+    public void addSite (String SiteName, String Radius, String CompanyName, String Notes,
                          String Address, String City, String ZipPostalCode) {
+
+        System.setProperty("webdriver.chrome.driver", "src/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().setSize(new Dimension(1280, 720));
+        driver.manage().window().setPosition(new Point(0, 0));
 
         GaiaHelper gaiaHelper = new GaiaHelper();
         CompanyPage companyPage = new CompanyPage();
@@ -130,13 +110,19 @@ public class ID4Sites {
 
         addNewSitePage.clickBack(driver);
 
-        companyPage.clickLogoutButton(driver);
+        companyPage.clickLogout(driver);
 
         driver.quit();
     }
 
     @Test
-    public void editSite (WebDriver driver) {
+    public void editSite (String EditedSiteName, String EditedRadius, String CompanyName, String EditedNotes,
+                          String EditedAddress, String EditedCity, String EditedZipPostalCode) {
+
+        System.setProperty("webdriver.chrome.driver", "src/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().setSize(new Dimension(1280, 720));
+        driver.manage().window().setPosition(new Point(0, 0));
 
         GaiaHelper gaiaHelper = new GaiaHelper();
         CompanyPage companyPage = new CompanyPage();
@@ -147,13 +133,101 @@ public class ID4Sites {
 
         companyPage.clickSitesDDMI(driver);
 
-        sitesPage.enterSearchField(driver);
+        gaiaHelper.Wait3();
+
+        sitesPage.enterSearchField(driver, CompanyName);
 
         sitesPage.clickEdit(driver);
 
-        editSitePage.
+        gaiaHelper.Wait3();
 
+        editSitePage.enterNotes(driver, EditedNotes);
 
+        editSitePage.clickBack(driver);
+
+        gaiaHelper.Wait3();
+
+        editSitePage.clickStayPopUp(driver);
+
+        editSitePage.clickBack(driver);
+
+        gaiaHelper.Wait3();
+
+        editSitePage.clickLeavePopUp(driver);
+
+        gaiaHelper.Wait3();
+
+        sitesPage.enterSearchField(driver, CompanyName);
+
+        sitesPage.clickEdit(driver);
+
+        gaiaHelper.Wait3();
+
+        editSitePage.enterSiteName(driver, EditedSiteName);
+
+        editSitePage.enterDetectRadius(driver, EditedRadius);
+
+        editSitePage.clickCompany(driver, CompanyName);
+
+        editSitePage.enterNotes(driver, EditedNotes);
+
+        editSitePage.enterAddress(driver, EditedAddress);
+
+        editSitePage.enterCity(driver, EditedCity);
+
+        editSitePage.clickStateProvince(driver);
+
+        editSitePage.enterZipPostalCode(driver, EditedZipPostalCode);
+
+        editSitePage.clickCountry(driver);
+
+        editSitePage.clickFetchGPSCoordinates(driver);
+
+        editSitePage.clickSave(driver);
+
+        gaiaHelper.Wait3();
+
+        companyPage.clickLogout(driver);
+
+        driver.quit();
+    }
+
+    @Test
+    public void deleteSite (String SiteName) {
+
+        System.setProperty("webdriver.chrome.driver", "src/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().setSize(new Dimension(1280, 720));
+        driver.manage().window().setPosition(new Point(0, 0));
+
+        GaiaHelper gaiaHelper = new GaiaHelper();
+        CompanyPage companyPage = new CompanyPage();
+        SitesPage sitesPage = new SitesPage();
+        EditSitePage editSitePage = new EditSitePage();
+
+        companyPage.clickCompanyDDL(driver);
+
+        companyPage.clickSitesDDMI(driver);
+
+        gaiaHelper.Wait3();
+
+        sitesPage.enterSearchField(driver, SiteName);
+
+        sitesPage.clickEdit(driver);
+
+        gaiaHelper.Wait3();
+
+        editSitePage.clickDelete(driver);
+
+        editSitePage.clickCancelPopUp(driver);
+
+        editSitePage.clickDelete(driver);
+
+        editSitePage.clickDeletePopUp(driver);
+
+        companyPage.clickLogout(driver);
+
+        driver.quit();
     }
 }
 

@@ -7,18 +7,19 @@ import org.openqa.selenium.support.ui.Select;
 
 public class EditSitePage {
 
-    public EditSitePage enterSiteName(WebDriver driver, String SiteName) {
+    public EditSitePage enterSiteName(WebDriver driver, String EditedSiteName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Name']"));
-        element.sendKeys(SiteName);
+        element.clear();
+        element.sendKeys(EditedSiteName);
         return this;
     }
 
-    public EditSitePage enterDetectRadius(WebDriver driver, String Radius) {
+    public EditSitePage enterDetectRadius(WebDriver driver, String EditedRadius) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Detect radius']"));
         element.clear();
-        element.sendKeys(Radius);
+        element.sendKeys(EditedRadius);
         return this;
     }
 
@@ -29,24 +30,27 @@ public class EditSitePage {
         return this;
     }
 
-    public EditSitePage enterNotes(WebDriver driver, String Notes) {
+    public EditSitePage enterNotes(WebDriver driver, String EditedNotes) {
 
         WebElement element = driver.findElement(By.xpath("//textarea[@placeholder='Add your notes for this site.']"));
-        element.sendKeys(Notes);
+        element.clear();
+        element.sendKeys(EditedNotes);
         return this;
     }
 
-    public EditSitePage enterAddress(WebDriver driver, String Address) {
+    public EditSitePage enterAddress(WebDriver driver, String EditedAddress) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Address']"));
-        element.sendKeys(Address);
+        element.clear();
+        element.sendKeys(EditedAddress);
         return this;
     }
 
-    public EditSitePage enterCity(WebDriver driver, String City) {
+    public EditSitePage enterCity(WebDriver driver, String EditedCity) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='City']"));
-        element.sendKeys(City);
+        element.clear();
+        element.sendKeys(EditedCity);
         return this;
     }
 
@@ -59,10 +63,11 @@ public class EditSitePage {
         return this;
     }
 
-    public EditSitePage enterZipPostalCode(WebDriver driver, String ZipPostalCode) {
+    public EditSitePage enterZipPostalCode(WebDriver driver, String EditedZipPostalCode) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Zip/Postal']"));
-        element.sendKeys(ZipPostalCode);
+        element.clear();
+        element.sendKeys(EditedZipPostalCode);
         return this;
     }
 
@@ -106,6 +111,27 @@ public class EditSitePage {
     public EditSitePage clickSave(WebDriver driver) {
 
         WebElement element = driver.findElement(By.xpath("//button[contains(text(),'Save')]"));
+        element.click();
+        return this;
+    }
+
+    public EditSitePage clickDelete(WebDriver driver) {
+
+        WebElement element = driver.findElement(By.xpath("//button[@class='button is-danger is-inverted']"));
+        element.click();
+        return this;
+    }
+
+    public EditSitePage clickCancelPopUp(WebDriver driver) {
+
+        WebElement element = driver.findElement(By.xpath("//span[contains(text(),'Cancel')]"));
+        element.click();
+        return this;
+    }
+
+    public EditSitePage clickDeletePopUp(WebDriver driver) {
+
+        WebElement element = driver.findElement(By.xpath("//span[contains(text(),'Delete')]"));
         element.click();
         return this;
     }

@@ -1,6 +1,7 @@
 package PageObjects;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,8 +24,8 @@ public class EditCompanyPage {
 
     public EditCompanyPage uploadNewLogo(WebDriver driver) {
 
-        WebElement element = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"));
-        element.sendKeys("src/Images/Test.png");
+        WebElement element = driver.findElement(By.xpath("//input[@id='company_picture']"));
+        element.sendKeys("/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/Images/Test.png");
         return this;
     }
 

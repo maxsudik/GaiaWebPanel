@@ -8,15 +8,7 @@ public class EmployeeDataProvider {
     public static Object [][] CreateManager()
     {
         return new Object[][]{
-                {"TestManagerFirstName","LastNameJuly23", "SomeNotesJuly23", "maksym.sudik+July23.2@fortify.pro", "Password11", "Password11", }
-        };
-    }
-
-    @DataProvider(name="CreateManager2")
-    public static Object [][] CreateManager2()
-    {
-        return new Object[][]{
-                {"TestManagerFirstName2","LastName2July23", "SomeNotesJuly23", "maksym.sudik+July23.5@fortify.pro", "Password11", "Password11", }
+                {"Admin", "# .Gaia$", "TestManagerFirstName","LastNameJuly23", "SomeNotesJuly23", "maksym.sudik+July23.2@fortify.pro", "Password11", "Password11", }
         };
     }
 
@@ -24,7 +16,7 @@ public class EmployeeDataProvider {
     public static Object [][] CreateSupervisor()
     {
         return new Object[][]{
-                {"TestSupervisorFirstName","LastName2July23", "SomeNotes2July23", "maksym.sudik+July23.3@fortify.pro", "Password11", "Password11", }
+                {"Admin", "# .Gaia$", "TestSupervisorFirstName","LastName2July23", "SomeNotes2July23", "maksym.sudik+July23.3@fortify.pro", "Password11", "Password11", "10"}
         };
     }
 
@@ -32,7 +24,7 @@ public class EmployeeDataProvider {
     public static Object [][] CreateInstaller()
     {
         return new Object[][]{
-                {"TestInstallerFirstName","LastName3July23", "SomeNotes3July23", "maksym.sudik+July23.4@fortify.pro", "Password11", "Password11", }
+                {"Admin", "# .Gaia$", "TestInstallerFirstName","LastName3July23", "SomeNotes3July23", "maksym.sudik+July23.4@fortify.pro", "Password11", "Password11", }
         };
     }
 
@@ -40,7 +32,39 @@ public class EmployeeDataProvider {
     public static Object [][] EditEmployee()
     {
         return new Object[][]{
-                {"TestManagerFirstName2", "EditedFirstName","EditedLastNameJuly23", "EditedNotes", "maksym.sudik+July23Edited@fortify.pro", "Password11", "Password11", }
+                {"Admin", "# .Gaia$", "TestInstallerFirstName", "EditedFirstName","EditedLastNameJuly23", "EditedNotes", "maksym.sudik+July23Edited@fortify.pro", "Password11", "Password11", }
+        };
+    }
+
+    @DataProvider(name="CreateManager2")
+    public static Object [][] CreateManager2()
+    {
+        return new Object[][]{
+                {"test.manager.first.name.last.name.july.23", "Password11", "TestManagerFirstName2","LastName2July23", "SomeNotesJuly23", "maksym.sudik+July23.5@fortify.pro", "Password11", "Password11", }
+        };
+    }
+
+    @DataProvider (name="LoginManager2")
+    public static Object [][] LoginManager2()
+    {
+        return new Object[][]{
+                {"test.manager.first.name.2.last.name.2.july.23", "Password11"}
+        };
+    }
+
+    @DataProvider (name="LoginSupervisor")
+    public static Object [][] LoginSupervisor()
+    {
+        return new Object[][]{
+                {"test.supervisor.first.name.last.name.2.july.23", "Password11"}
+        };
+    }
+
+    @DataProvider (name="LoginInstaller")
+    public static Object [][] LoginInstaller()
+    {
+        return new Object[][]{
+                {"test.installer.first.name.last.name.3.july.23", "Password11"}
         };
     }
 
@@ -48,9 +72,12 @@ public class EmployeeDataProvider {
     public static Object [][] DeleteEmployee()
     {
         return new Object[][]{
-                {"TestManagerFirstName2"},
-                {"TestSupervisorFirstName"},
-                {"TestInstallerFirstName"}
+                {"Admin", "# .Gaia$", "TestManagerFirstName"},
+                {"Admin", "# .Gaia$", "TestManagerFirstName2"},
+                {"Admin", "# .Gaia$", "TestSupervisorFirstName"},
+                {"Admin", "# .Gaia$", "EditedFirstName"}
+
+
         };
     }
 }

@@ -16,6 +16,7 @@ public class EmployeesPage {
     public EmployeesPage enterSearchField(WebDriver driver, String CompanyName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Search']"));
+        element.clear();
         element.sendKeys(CompanyName);
         return this;
     }

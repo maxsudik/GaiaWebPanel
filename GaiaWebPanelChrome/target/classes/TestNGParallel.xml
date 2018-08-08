@@ -7,7 +7,7 @@
         <test name="Chrome Test" >
             <parameter name="browser" value="Chrome"/>
             <classes>
-                <class name="ID2LandscapeCompany"> </class>
+                <class name="ID2Company"> </class>
             </classes>
         </test>
 

@@ -9,6 +9,7 @@ public class LoginPage {
     public LoginPage setName (WebDriver driver, String LoginName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Username']"));
+        element.clear();
         element.sendKeys(LoginName);
         return this;
     }
@@ -16,6 +17,7 @@ public class LoginPage {
     public LoginPage setPassword (WebDriver driver, String PasswordName) {
 
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Password']"));
+        element.clear();
         element.sendKeys(PasswordName);
         return this;
     }
