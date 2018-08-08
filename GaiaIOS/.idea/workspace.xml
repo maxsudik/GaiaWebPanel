@@ -1,19 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf267c9c-e8ab-49d4-a8f4-1c3520542508" name="Default" comment="" />
+    <list default="true" id="cf267c9c-e8ab-49d4-a8f4-1c3520542508" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaiaIOS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOSBrowserLocalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/main/resources/TestNGChrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/main/resources/TestNGChrome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/Helper/scratch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/Helper/scratch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID1Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID1Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID2CreateCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID2CreateLandscapeCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID2DeleteCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID2DeleteCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID2EditCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID2EditCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID3Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID3Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID4Sites.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/ID4Sites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/AddNewCompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/AddNewCompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/AddNewEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/AddNewEmployeePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/AddNewSitePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/AddNewSitePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/CompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/CompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/EditCompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/EditCompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/EditEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/EditEmployeePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/EditSitePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/EditSitePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/EmployeesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/EmployeesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/OnboardingProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/OnboardingProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/SitesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/PageObjects/SitesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/dataProvider/SiteDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/src/test/java/dataProvider/SiteDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID1Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID1Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID2CreateCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID2CreateCompany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID2DeleteCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID2DeleteCompany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID2EditCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID2EditCompany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID3Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID3Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID4Sites.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/ID4Sites.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/AddNewCompanyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/AddNewCompanyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/AddNewEmployeePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/AddNewEmployeePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/AddNewSitePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/AddNewSitePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/CompanyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/CompanyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/EditCompanyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/EditCompanyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/EditEmployeePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/EditEmployeePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/EditSitePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/EditSitePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/EmployeesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/EmployeesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/OnboardingProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/OnboardingProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/SitesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/PageObjects/SitesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/UnusedClasses/LoginAsDeletedManager2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/UnusedClasses/LoginJustCreatedManager2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/UnusedClasses/LoginJustCreatedManagerStep2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/UnusedClasses/LoginJustCreatedSupervisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/UnusedClasses/ManagerAddSites.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/UnusedClasses/ManagerDeleteEmployees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/dataProvider/SiteDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaWebPanelChrome/target/test-classes/dataProvider/SiteDataProvider.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1221356296">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -22,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestNGParallel.xml" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -31,21 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="65" />
-              <folding>
-                <element signature="method#beforeTest#0;class#LoginPage#0" />
-                <element signature="method#afterTest#0;class#LoginPage#0" />
-                <element signature="method#scanID#0;class#LoginPage#0" />
-                <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-                <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-                <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-                <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-                <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-              </folding>
+            <state relative-caret-position="2482">
+              <caret line="165" column="110" selection-start-line="165" selection-start-column="110" selection-end-line="165" selection-end-column="110" />
             </state>
           </provider>
         </entry>
@@ -63,6 +133,9 @@
     <findStrings>
       <find>id</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -94,18 +167,25 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="959" />
+    <option name="x" value="1280" />
     <option name="y" value="23" />
-    <option name="width" value="960" />
-    <option name="height" value="974" />
+    <option name="width" value="1280" />
+    <option name="height" value="1336" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533715969247" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -133,113 +213,56 @@
   <component name="RunManager" selected="TestNG./Users/Maksym/IdeaProjects/GaiaIOS/src/main/resources/TestNGParallel.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="IOSBrowserLocalTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GaiaIOS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IOSBrowserLocalTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LoginPage" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <module name="GaiaIOS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginPage" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="/Users/Maksym/IdeaProjects/GaiaIOS/src/main/resources/TestNGParallel.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GaiaIOS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/TestNGParallel.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="TestNG.LoginPage" />
@@ -299,341 +322,68 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="959" y="23" width="960" height="974" extended-state="0" />
-    <editor active="true" />
+    <frame x="1280" y="23" width="1280" height="1336" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3295838" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6282782" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27124184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27059773" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3265306" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28346458" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603486" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6282782" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3295838" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3265306" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32897604" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603486" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28346458" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32882884" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32897604" />
-      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="68" column="216" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="216" />
-          <folding>
-            <element signature="method#beforeTest#0;class#LoginPage#0" />
-            <element signature="method#afterTest#0;class#LoginPage#0" />
-            <element signature="method#scanID#0;class#LoginPage#0" />
-            <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-            <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-            <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-            <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-            <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="446" column="68" selection-start-line="446" selection-start-column="68" selection-end-line="446" selection-end-column="80" />
-          <folding>
-            <element signature="method#beforeTest#0;class#LoginPage#0" />
-            <element signature="method#afterTest#0;class#LoginPage#0" />
-            <element signature="method#scanID#0;class#LoginPage#0" />
-            <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-            <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-            <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-            <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-            <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="446" column="68" lean-forward="true" selection-start-line="446" selection-start-column="68" selection-end-line="446" selection-end-column="80" />
-          <folding>
-            <element signature="method#beforeTest#0;class#LoginPage#0" />
-            <element signature="method#afterTest#0;class#LoginPage#0" />
-            <element signature="method#scanID#0;class#LoginPage#0" />
-            <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-            <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-            <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-            <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-            <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="368" column="32" selection-start-line="368" selection-start-column="32" selection-end-line="368" selection-end-column="32" />
-          <folding>
-            <element signature="method#beforeTest#0;class#LoginPage#0" />
-            <element signature="method#afterTest#0;class#LoginPage#0" />
-            <element signature="method#scanID#0;class#LoginPage#0" />
-            <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-            <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-            <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-            <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-            <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="34" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="38" selection-end-column="34" />
-          <folding>
-            <element signature="method#beforeTest#0;class#LoginPage#0" />
-            <element signature="method#afterTest#0;class#LoginPage#0" />
-            <element signature="method#scanID#0;class#LoginPage#0" />
-            <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-            <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-            <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-            <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-            <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="method#beforeTest#0;class#LoginPage#0" />
-            <element signature="method#afterTest#0;class#LoginPage#0" />
-            <element signature="method#scanID#0;class#LoginPage#0" />
-            <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-            <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-            <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-            <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-            <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="171" column="26" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="26" />
-          <folding>
-            <element signature="method#beforeTest#0;class#LoginPage#0" />
-            <element signature="method#afterTest#0;class#LoginPage#0" />
-            <element signature="method#scanID#0;class#LoginPage#0" />
-            <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-            <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-            <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-            <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-            <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IOSBrowserLocalTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="method#beforeTest#0;class#LoginPage#0" />
-            <element signature="method#afterTest#0;class#LoginPage#0" />
-            <element signature="method#scanID#0;class#LoginPage#0" />
-            <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-            <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-            <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-            <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-            <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IOSBrowserLocalTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="method#beforeTest#0;class#LoginPage#0" />
-            <element signature="method#afterTest#0;class#LoginPage#0" />
-            <element signature="method#scanID#0;class#LoginPage#0" />
-            <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-            <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-            <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-            <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-            <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -648,27 +398,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="165" column="110" selection-start-line="165" selection-start-column="110" selection-end-line="165" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="65" />
-          <folding>
-            <element signature="method#beforeTest#0;class#LoginPage#0" />
-            <element signature="method#afterTest#0;class#LoginPage#0" />
-            <element signature="method#scanID#0;class#LoginPage#0" />
-            <element signature="method#completeYourCompanyAddress#0;class#LoginPage#0" />
-            <element signature="method#completeCompanysBankInformation#0;class#LoginPage#0" />
-            <element signature="method#legalEntityVerification#0;class#LoginPage#0" />
-            <element signature="method#scanCreditCard#0;class#LoginPage#0" />
-            <element signature="method#gaiaHomePage#0;class#LoginPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>

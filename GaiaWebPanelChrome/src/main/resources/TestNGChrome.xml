@@ -2,16 +2,22 @@
 
 <suite name="ChromeSuite" parallel="false" verbose="1">
 
-
-
     <test name="Create Companies" >
             <parameter name="browser" value="Chrome"/>
             <classes>
-                <class name="ID2CreateCompany"> </class>
+                <class name="ID2CreateLandscapeCompany"> </class>
             </classes>
     </test>
 
     <!--
+    <test name="Create Companies" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="ID2CreateSupplierCompany"> </class>
+        </classes>
+    </test>
+
+
     <test name="Edit Companies" >
         <parameter name="browser" value="Chrome"/>
         <classes>

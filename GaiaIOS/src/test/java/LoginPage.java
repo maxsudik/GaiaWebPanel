@@ -163,7 +163,7 @@ public class LoginPage {
         MobileElement el18 = (MobileElement) mobiledriver.findElementByXPath("(//XCUIElementTypeButton[@name=\"CurrencyDropDown\"])[2]");
         el18.click();
 
-        //!!!!!!!!!!!!!!! can't pick british columbia InSPECT 'id British Columbia' should be used have to foind out how to swipe
+        //!!!!!!!!!!!!!!! can't pick british columbia InSPECT 'id British Columbia' should be used have to find out how to swipe
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Alberta")));
         MobileElement el19 = (MobileElement) mobiledriver.findElementByAccessibilityId("Alberta");
         el19.click();

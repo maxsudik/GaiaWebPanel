@@ -85,4 +85,4 @@
         }
 
         WebDriverWait wait = new WebDriverWait(driver, 20);
-                wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Log Out')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));

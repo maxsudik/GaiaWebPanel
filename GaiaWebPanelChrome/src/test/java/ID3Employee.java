@@ -69,11 +69,9 @@ public class ID3Employee {
 
         company.clickEmployeesDDMI(driver);
 
-        gaiaHelper.Wait3();
+        gaiaHelper.Wait1();
 
         employeesPage.clickAddNewEmployee(driver);
-
-        gaiaHelper.Wait3();
 
         addNewEmployeePage.clickCancel(driver);
 
@@ -124,11 +122,9 @@ public class ID3Employee {
 
         company.clickEmployeesDDMI(driver);
 
-        gaiaHelper.Wait3();
+        gaiaHelper.Wait1();
 
         employeesPage.clickAddNewEmployee(driver);
-
-        gaiaHelper.Wait3();
 
         addNewEmployeePage.clickCancel(driver);
 
@@ -158,13 +154,9 @@ public class ID3Employee {
 
         addNewEmployeePage.clickAdd(driver);
 
-        gaiaHelper.Wait1();
-
         addNewEmployeePage.enterLicenseLimit(driver);
 
         addNewEmployeePage.clickUpdatePopUp(driver);
-
-        gaiaHelper.Wait1();
 
         company.clickLogout(driver);
     }
@@ -187,11 +179,7 @@ public class ID3Employee {
 
         company.clickEmployeesDDMI(driver);
 
-        gaiaHelper.Wait3();
-
         employeesPage.clickAddNewEmployee(driver);
-
-        gaiaHelper.Wait3();
 
         addNewEmployeePage.clickCancel(driver);
 
@@ -243,13 +231,9 @@ public class ID3Employee {
 
         company.clickEmployeesDDMI(driver);
 
-        gaiaHelper.Wait3();
-
         employeesPage.enterSearchField(driver, CreatedEmployeeName);
 
         employeesPage.clickEditButton(driver);
-
-        gaiaHelper.Wait1();
 
         editEmployeePage.enterNotes(driver, EditedNotes);
 
@@ -257,21 +241,15 @@ public class ID3Employee {
 
         editEmployeePage.clickLeavePopUpWarning(driver);
 
-        gaiaHelper.Wait3();
-
         employeesPage.enterSearchField(driver,CreatedEmployeeName);
 
         employeesPage.clickEditButton(driver);
-
-        gaiaHelper.Wait1();
 
         editEmployeePage.enterNotes(driver, EditedNotes);
 
         editEmployeePage.clickBack(driver);
 
         editEmployeePage.clickStayPopUpWarning(driver);
-
-        gaiaHelper.Wait1();
 
         editEmployeePage.clickCompanyName(driver);
 
@@ -287,13 +265,9 @@ public class ID3Employee {
 
         editEmployeePage.clickEditPassword(driver);
 
-        gaiaHelper.Wait1();
-
         editEmployeePage.clickClose(driver);
 
         editEmployeePage.clickEditPassword(driver);
-
-        gaiaHelper.Wait1();
 
         editEmployeePage.enterPassword(driver, EditedPassword);
 
@@ -308,8 +282,6 @@ public class ID3Employee {
         editEmployeePage.clickAbilityLogininMultipleDevices(driver);
 
         editEmployeePage.clickUpdate(driver);
-
-        gaiaHelper.Wait1();
 
         editEmployeePage.clickBack(driver);
 
@@ -348,8 +320,6 @@ public class ID3Employee {
 
         onboardingProcess.clickSave1(driver);
 
-        gaiaHelper.Wait3();
-
         onboardingProcess.enterFirstName(driver, FirstName);
 
         onboardingProcess.enterLastName(driver, LastName);
@@ -370,11 +340,7 @@ public class ID3Employee {
 
         onboardingProcess.uploadID(driver);
 
-        gaiaHelper.Wait3();
-
         onboardingProcess.clickSave2(driver);
-
-        gaiaHelper.Wait3();
 
         onboardingProcess.enterCreditCardNumber(driver, CreditCardNumber);
 
@@ -402,8 +368,6 @@ public class ID3Employee {
 
         onboardingProcess.clickUpdate(driver);
 
-        gaiaHelper.Wait3();
-
         company.clickLogout(driver);
     }
 
@@ -425,11 +389,7 @@ public class ID3Employee {
 
         company.clickEmployeesDDMI(driver);
 
-        gaiaHelper.Wait3();
-
         employeesPage.clickAddNewEmployee(driver);
-
-        gaiaHelper.Wait3();
 
         addNewEmployeePage.clickCancel(driver);
 
@@ -466,33 +426,33 @@ public class ID3Employee {
     public void loginAsManager2 (String LoginManagerName, String PasswordManagerName) {
 
         ID1Login login = new ID1Login();
-        GaiaHelper gaiHelper = new GaiaHelper();
+        GaiaHelper gaiaHelper = new GaiaHelper();
 
         login.login(driver, LoginManagerName, PasswordManagerName);
 
-        gaiHelper.Wait3();
+        gaiaHelper.Wait3();
     }
 
     @Test(priority = 8, dataProvider = "LoginSupervisor", dataProviderClass = EmployeeDataProvider.class)
     public void loginAsSupervisor (String LoginManagerName, String PasswordManagerName) {
 
         ID1Login login = new ID1Login();
-        GaiaHelper gaiHelper = new GaiaHelper();
+        GaiaHelper gaiaHelper = new GaiaHelper();
 
         login.login(driver, LoginManagerName, PasswordManagerName);
 
-        gaiHelper.Wait3();
+        gaiaHelper.Wait3();
     }
 
     @Test(priority = 9,dataProvider = "LoginInstaller", dataProviderClass = EmployeeDataProvider.class)
     public void loginAsInstaller (String LoginManagerName, String PasswordManagerName) {
 
         ID1Login login = new ID1Login();
-        GaiaHelper gaiHelper = new GaiaHelper();
+        GaiaHelper gaiaHelper = new GaiaHelper();
 
         login.login(driver, LoginManagerName, PasswordManagerName);
 
-        gaiHelper.Wait3();
+        gaiaHelper.Wait3();
     }
 
     @Test(priority = 10, dataProvider = "DeleteEmployee", dataProviderClass = EmployeeDataProvider.class)
@@ -512,8 +472,6 @@ public class ID3Employee {
 
         company.clickEmployeesDDMI(driver);
 
-        gaiaHelper.Wait3();
-
         employeesPage.enterSearchField(driver, FirstName);
 
         employeesPage.clickEditButton(driver);
@@ -529,12 +487,12 @@ public class ID3Employee {
     public void loginAsDeletedManager2 (String LoginManagerName, String PasswordManagerName) {
 
         ID1Login login = new ID1Login();
-        GaiaHelper gaiHelper = new GaiaHelper();
+        GaiaHelper gaiaHelper = new GaiaHelper();
         LoginPage loginPage = new LoginPage();
 
         login.login(driver, LoginManagerName, PasswordManagerName);
 
-        gaiHelper.Wait3();
+        gaiaHelper.Wait3();
 
         loginPage.clickOkPopUpErrorInvalidLoginOrPassword(driver);
     }

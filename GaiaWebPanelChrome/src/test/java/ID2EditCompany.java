@@ -67,8 +67,6 @@ public class ID2EditCompany {
 
         login.login(driver, LoginAdminName, PasswordAdminName);
 
-        gaiaHelper.Wait3();
-
         companyPage.clickCompanyDDL(driver);
 
         companyPage.clickCompanyDDL(driver);
@@ -77,21 +75,13 @@ public class ID2EditCompany {
 
         companyPage.clickEdit(driver);
 
-        gaiaHelper.Wait3();
-
         editCompanyPage.clickEditButton(driver);
 
         editCompanyPage.clickCancelButton(driver);
 
-        gaiaHelper.Wait3();
-
         editCompanyPage.clickEditButton(driver);
 
-        gaiaHelper.Wait1();
-
         editCompanyPage.uploadNewLogo(driver);
-
-        gaiaHelper.Wait1();
 
         editCompanyPage.editCompanyName(driver, EditedCompanyName);
 

@@ -11,7 +11,6 @@ public class ID1Login {
     public void login (WebDriver driver, String LoginAdminName, String PasswordAdminName){
 
         LoginPage loginPage = new LoginPage();
-        GaiaHelper gaiHelper = new GaiaHelper();
 
         driver.get("https://customerdev7.gaialandscape.com/login");
 
@@ -20,8 +19,6 @@ public class ID1Login {
         loginPage.setPassword(driver, PasswordAdminName);
 
         loginPage.clickLogin(driver);
-
-        gaiHelper.Wait3();
 
         loginPage.clickContinueButton(driver);
 
