@@ -63,6 +63,8 @@ public class ID2CreateSupplierCompany {
 
         login.login(driver, LoginAdminName, PasswordAdminName);
 
+        gaiaHelper.Wait3();
+
         companyPage.clickCompanyDDL(driver);
 
         companyPage.clickCompanyDDMI(driver);

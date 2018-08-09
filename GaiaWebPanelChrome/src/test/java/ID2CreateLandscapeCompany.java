@@ -55,6 +55,8 @@ public class ID2CreateLandscapeCompany {
         AddNewCompanyPage addNewCompanyPage = new AddNewCompanyPage();
         ID1Login login = new ID1Login();
 
+        gaiaHelper.Wait3();
+
         login.login(driver, LoginAdminName, PasswordAdminName);
 
         gaiaHelper.Wait3();

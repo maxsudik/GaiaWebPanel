@@ -67,6 +67,8 @@ public class ID2EditCompany {
 
         login.login(driver, LoginAdminName, PasswordAdminName);
 
+        gaiaHelper.Wait3();
+
         companyPage.clickCompanyDDL(driver);
 
         companyPage.clickCompanyDDL(driver);

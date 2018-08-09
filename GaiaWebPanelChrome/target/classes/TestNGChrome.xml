@@ -2,16 +2,24 @@
 
 <suite name="ChromeSuite" parallel="false" verbose="1">
 
-
-
+    <!--
     <test name="Create Companies" >
             <parameter name="browser" value="Chrome"/>
             <classes>
-                <class name="ID2CreateCompany"> </class>
+                <class name="ID2CreateLandscapeCompany"> </class>
             </classes>
     </test>
+    -->
 
     <!--
+    <test name="Create Companies" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="ID2CreateSupplierCompany"> </class>
+        </classes>
+    </test>
+
+
     <test name="Edit Companies" >
         <parameter name="browser" value="Chrome"/>
         <classes>
@@ -27,10 +35,28 @@
     </test>
     -->
 
-    <test name="Employees" >
+<!--
+    <test name="Employees1" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="ID3Employee"> </class>
+            <class name="ID3EmployeeCreateEdit"> </class>
+        </classes>
+    </test>
+    -->
+
+<!--
+    <test name="Employees2" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="ID3OnboardingManager"> </class>
+        </classes>
+    </test>
+-->
+
+    <test name="Employees3" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="ID3EmployeeManagerCreates"> </class>
         </classes>
     </test>
 

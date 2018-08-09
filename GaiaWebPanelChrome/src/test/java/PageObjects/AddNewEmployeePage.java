@@ -35,6 +35,19 @@ public class AddNewEmployeePage {
         return this;
     }
 
+    public AddNewEmployeePage clickRoleManager2(WebDriver driver) {
+
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='select']//select")));
+        WebElement element = driver.findElement(By.xpath("//span[@class='select']//select"));
+        element.click();
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='manager']")));
+        element = driver.findElement(By.xpath("//option[@value='manager']"));
+        element.click();
+        return this;
+    }
+
     public AddNewEmployeePage clickRoleSupervisor(WebDriver driver) {
 
         WebDriverWait wait = new WebDriverWait(driver, 20);

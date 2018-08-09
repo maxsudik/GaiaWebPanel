@@ -16,7 +16,7 @@ public class EmployeeDataProvider {
     public static Object [][] CreateSupervisor()
     {
         return new Object[][]{
-                {"Admin", "# .Gaia$", "TestSupervisorFirstName","LastName2July23", "SomeNotes2July23", "maksym.sudik+July23.3@fortify.pro", "Password11", "Password11", "10"}
+                {"Admin", "# .Gaia$", "TestSupervisorFirstName","LastName2July23", "SomeNotes2July23", "maksym.sudik+July23.3@fortify.pro", "Password11", "Password11"}
         };
     }
 
@@ -72,12 +72,9 @@ public class EmployeeDataProvider {
     public static Object [][] DeleteEmployee()
     {
         return new Object[][]{
-                {"Admin", "# .Gaia$", "TestManagerFirstName"},
                 {"Admin", "# .Gaia$", "TestManagerFirstName2"},
                 {"Admin", "# .Gaia$", "TestSupervisorFirstName"},
                 {"Admin", "# .Gaia$", "EditedFirstName"}
-
-
         };
     }
 }
