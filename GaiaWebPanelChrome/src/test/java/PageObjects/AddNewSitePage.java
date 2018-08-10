@@ -11,7 +11,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage enterSiteName(WebDriver driver, String SiteName) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Name']")));
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Name']"));
         element.clear();
@@ -21,7 +21,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage enterDetectRadius(WebDriver driver, String Radius) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Detect radius']")));
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Detect radius']"));
         element.clear();
@@ -31,7 +31,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage clickCompany(WebDriver driver, String CompanyName) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1]/span[1]/select[1]")));
         Select DDLMI = new Select(driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[3]/p[1]/span[1]/select[1]")));
         DDLMI.selectByVisibleText(CompanyName);
@@ -40,7 +40,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage enterNotes(WebDriver driver, String Notes) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//textarea[@placeholder='Add your notes for this site.']")));
         WebElement element = driver.findElement(By.xpath("//textarea[@placeholder='Add your notes for this site.']"));
         element.clear();
@@ -50,7 +50,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage enterAddress(WebDriver driver, String Address) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Address']")));
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Address']"));
         element.clear();
@@ -60,7 +60,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage enterCity(WebDriver driver, String City) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='City']")));
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='City']"));
         element.clear();
@@ -68,23 +68,19 @@ public class AddNewSitePage {
         return this;
     }
 
-    public AddNewSitePage clickStateProvince(WebDriver driver) {
+    public AddNewSitePage clickStateProvince(WebDriver driver, String ProvinceName) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@name='state']")));
-        WebElement element = driver.findElement(By.xpath("//select[@name='state']"));
-        element.click();
-        wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='BC']")));
-        element = driver.findElement(By.xpath("//option[@value='BC']"));
-        element.click();
+        Select DDLMI = new Select(driver.findElement(By.xpath("//select[@name='state']")));
+        DDLMI.selectByVisibleText(ProvinceName);
         return this;
     }
 
     public AddNewSitePage enterZipPostalCode(WebDriver driver, String ZipPostalCode) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Zip/Postal']\"")));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Zip/Postal']")));
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Zip/Postal']"));
         element.clear();
         element.sendKeys(ZipPostalCode);
@@ -93,11 +89,11 @@ public class AddNewSitePage {
 
     public AddNewSitePage clickCountry(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@name='country']")));
         WebElement element = driver.findElement(By.xpath("//select[@name='country']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[contains(text(),'Canada')]")));
         element = driver.findElement(By.xpath("//option[contains(text(),'Canada')]"));
         element.click();
@@ -106,7 +102,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage clickFetchGPSCoordinates(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@name='button']")));
         WebElement element = driver.findElement(By.xpath("//button[@name='button']"));
         element.click();
@@ -115,7 +111,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage clickBack(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='button']")));
         WebElement element = driver.findElement(By.xpath("//button[@class='button']"));
         element.click();
@@ -124,7 +120,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage clickLeavePopUp(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[3]/button[2]")));
         WebElement element = driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[3]/button[2]"));
         element.click();
@@ -133,7 +129,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage clickStayPopUp(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[3]/button[1]")));
         WebElement element = driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[3]/button[1]"));
         element.click();
@@ -142,7 +138,7 @@ public class AddNewSitePage {
 
     public AddNewSitePage clickAdd(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Add')]")));
         WebElement element = driver.findElement(By.xpath("//button[contains(text(),'Add')]"));
         element.click();

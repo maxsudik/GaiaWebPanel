@@ -11,7 +11,7 @@ public class CompanyPage {
 
     public CompanyPage clickCompanyDDL(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='web-style is-tab is-hidden-mobile web-style-active']")));
         WebElement element = driver.findElement(By.xpath("//div[@class='web-style is-tab is-hidden-mobile web-style-active']"));
         element.click();
@@ -20,7 +20,7 @@ public class CompanyPage {
 
     public CompanyPage clickCompanyDDMI(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("navCompany")));
         WebElement element = driver.findElement(By.id("navCompany"));
         element.click();
@@ -29,7 +29,7 @@ public class CompanyPage {
 
     public CompanyPage clickEmployeesDDMI(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("navEmployee")));
         WebElement element = driver.findElement(By.id("navEmployee"));
         element.click();
@@ -38,7 +38,7 @@ public class CompanyPage {
 
     public CompanyPage clickSitesDDMI(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("navSite")));
         WebElement element = driver.findElement(By.id("navSite"));
         element.click();
@@ -47,7 +47,7 @@ public class CompanyPage {
 
     public CompanyPage clickAddANewCompany(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='button is-success is-pulled-right']")));
         WebElement element = driver.findElement(By.xpath("//a[@class='button is-success is-pulled-right']"));
         element.click();
@@ -56,7 +56,7 @@ public class CompanyPage {
 
     public CompanyPage clickLogout(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Log Out')]")));
         WebElement element = driver.findElement(By.xpath("//span[contains(text(),'Log Out')]"));
         element.click();
@@ -65,7 +65,7 @@ public class CompanyPage {
 
     public CompanyPage enterSearchField(WebDriver driver, String CreatedCompanyName) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Search']")));
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Search']"));
         element.clear();
@@ -75,7 +75,7 @@ public class CompanyPage {
 
     public CompanyPage clickEdit (WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Edit')]")));
         WebElement element = driver.findElement(By.xpath("//span[contains(text(),'Edit')]"));
         element.click();
@@ -84,7 +84,7 @@ public class CompanyPage {
 
     public CompanyPage clickDelete (WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//tbody//tr[1]//td[6]//div[1]//button[2]")));
         WebElement element = driver.findElement(By.xpath("//tbody//tr[1]//td[6]//div[1]//button[2]"));
         element.click();
@@ -93,7 +93,7 @@ public class CompanyPage {
 
     public CompanyPage clickCancelPopUp (WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Cancel')]")));
         WebElement element = driver.findElement(By.xpath("//span[contains(text(),'Cancel')]"));
         element.click();
@@ -102,7 +102,7 @@ public class CompanyPage {
 
     public CompanyPage clickDeletePopUp (WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Delete')]")));
         WebElement element = driver.findElement(By.xpath("//span[contains(text(),'Delete')]"));
         element.click();

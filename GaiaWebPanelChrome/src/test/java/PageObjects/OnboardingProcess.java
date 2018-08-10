@@ -12,7 +12,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCompanyAddressLine1(WebDriver driver, String CompanyAddressLine1) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='address_one']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='address_one']"));
         element.clear();
@@ -22,7 +22,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCompanyAddressLine2(WebDriver driver, String CompanyAddressLine2) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='address_two address-line2']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='address_two address-line2']"));
         element.clear();
@@ -32,7 +32,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCompanyCity(WebDriver driver, String CompanyCity) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='address_city']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='address_city']"));
         element.clear();
@@ -42,11 +42,11 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickCompanyCountry(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='address_country']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='address_country']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[contains(text(),'Canada')]")));
         element = driver.findElement(By.xpath("//option[contains(text(),'Canada')]"));
         element.click();
@@ -55,11 +55,11 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickCompanyStateProvince(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='address_state']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='address_state']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='BC']")));
         element = driver.findElement(By.xpath("//option[@value='BC']"));
         element.click();
@@ -68,7 +68,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCompanyZipPostalCode(WebDriver driver, String CompanyZipPostalCode) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='address_postalcode']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='address_postalcode']"));
         element.clear();
@@ -78,7 +78,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickSave1(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='button is-success']")));
         WebElement element = driver.findElement(By.xpath("//a[@class='button is-success']"));
         element.click();
@@ -87,7 +87,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterInstitutionNumber(WebDriver driver, String InstitutionNumber) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='bank_institution']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='bank_institution']"));
         element.clear();
@@ -97,7 +97,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterTransitNumber(WebDriver driver, String TransitNumber) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='bank_transit']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='bank_transit']"));
         element.clear();
@@ -107,7 +107,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterAccountNumber(WebDriver driver, String AccountNumber) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='bank_account_number']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='bank_account_number']"));
         element.clear();
@@ -117,7 +117,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterAccountHolderName(WebDriver driver, String AccountHolderName) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='bank_holder_name']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='bank_holder_name']"));
         element.clear();
@@ -127,11 +127,11 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickAccountTypeCompany(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='bank_account_type']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='bank_account_type']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='company']")));
         element = driver.findElement(By.xpath("//option[@value='company']"));
         element.click();
@@ -140,7 +140,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickSave2(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='button is-success']")));
         WebElement element = driver.findElement(By.xpath("//a[@class='button is-success']"));
         element.click();
@@ -149,7 +149,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterFirstName(WebDriver driver, String FirstName) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='legal_first_name']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_first_name']"));
         element.clear();
@@ -159,7 +159,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterLastName(WebDriver driver, String LastName) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='legal_last_name']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_last_name']"));
         element.clear();
@@ -169,7 +169,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterDateOfBirth(WebDriver driver, String DateOfBirth) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='yyyy-mmm-dd']")));
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='yyyy-mmm-dd']"));
         element.click();
@@ -180,7 +180,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterAddressLine1(WebDriver driver, String AddressLine1) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='legal_address_one']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_address_one']"));
         element.clear();
@@ -190,7 +190,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterAddressLine2(WebDriver driver, String AddressLine2) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='legal_address_two']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_address_two']"));
         element.clear();
@@ -200,7 +200,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCity(WebDriver driver, String City) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='legal_city']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_city']"));
         element.clear();
@@ -210,11 +210,11 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickCountry(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='legal_country']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='legal_country']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[contains(text(),'Canada')]")));
         element = driver.findElement(By.xpath("//option[contains(text(),'Canada')]"));
         element.click();
@@ -223,11 +223,11 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickStateProvinceDDL(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='legal_state']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='legal_state']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='BC']")));
         element = driver.findElement(By.xpath("//option[@value='BC']"));
         element.click();
@@ -236,7 +236,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterZipPostalCode(WebDriver driver, String ZipPostalCode) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='legal_postal_code']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_postal_code']"));
         element.clear();
@@ -246,16 +246,16 @@ public class OnboardingProcess {
 
     public OnboardingProcess uploadID(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='legal_identity_image']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='legal_identity_image']"));
-        element.sendKeys("/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/Images/Test.png");
+        element.sendKeys("/Users/maxsudik/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/Images/Test.png");
         return this;
     }
 
     public OnboardingProcess clickSave3(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@id='legal_submit']")));
         WebElement element = driver.findElement(By.xpath("//button[@id='legal_submit']"));
         element.click();
@@ -264,7 +264,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCreditCardNumber(WebDriver driver, String CreditCardNumber) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='card_number']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='card_number']"));
         element.clear();
@@ -274,7 +274,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterNameOnCard(WebDriver driver, String NameOnCard) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='card_name']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='card_name']"));
         element.clear();
@@ -284,11 +284,11 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickExpirationMM(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='card_expiration_month']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='card_expiration_month']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='01']")));
         element = driver.findElement(By.xpath("//option[@value='01']"));
         element.click();
@@ -297,11 +297,11 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickExpirationYY(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='card_expiration_year']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='card_expiration_year']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='29']")));
         element = driver.findElement(By.xpath("//option[@value='29']"));
         element.click();
@@ -310,7 +310,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCVV(WebDriver driver, String CVV) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='card_cvv']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='card_cvv']"));
         element.clear();
@@ -320,7 +320,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCreditCardAddressLine1(WebDriver driver, String CreditCardAddressLine1) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='card_address_one']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='card_address_one']"));
         element.clear();
@@ -330,7 +330,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCreditCardAddressLine2(WebDriver driver, String CreditCardAddressLine2) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='card_address_two']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='card_address_two']"));
         element.clear();
@@ -340,7 +340,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCreditCardCity(WebDriver driver, String CreditCardCity) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='card_city']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='card_city']"));
         element.clear();
@@ -350,11 +350,11 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickCreditCardCountry(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='card_country']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='card_country']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[contains(text(),'Canada')]")));
         element = driver.findElement(By.xpath("//option[contains(text(),'Canada')]"));
         element.click();
@@ -363,11 +363,11 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickCreditCardStateProvince(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='card_state']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='card_state']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='BC']")));
         element = driver.findElement(By.xpath("//option[@value='BC']"));
         element.click();
@@ -376,7 +376,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterCreditCardZipPostalCode(WebDriver driver, String CreditCardZipPostalCode) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='card_postal']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='card_postal']"));
         element.clear();
@@ -386,7 +386,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess enterLicenseNumber(WebDriver driver, String LicenseNumber) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='card_license_limit']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='card_license_limit']"));
         element.click();
@@ -397,7 +397,7 @@ public class OnboardingProcess {
 
     public OnboardingProcess clickUpdate(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='button is-success']")));
         WebElement element = driver.findElement(By.xpath("//a[@class='button is-success']"));
         element.click();

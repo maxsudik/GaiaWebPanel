@@ -25,7 +25,7 @@ public class CompanyDataProvider {
     {
         return new Object[][]{
 
-                {"Admin", "# .Gaia$", "July23Landscape", "July23LandscapeEdited", "maksym.sudik+July23.1.Edited@fortify.pro", "http://editedcompanywebsite.com", "11111",
+                {"Admin", "# .Gaia$", "July23Supplier", "July23SupplierEdited", "maksym.sudik+July23.1.Edited@fortify.pro", "http://editedcompanywebsite.com", "11111",
                         "20", "35", "Office 111", "1st ST", "Vancouver", "TTT 111", "Edited Company description",  }
         };
     }
@@ -35,8 +35,8 @@ public class CompanyDataProvider {
     {
         return new Object[][]{
 
-                {"Admin", "# .Gaia$", "July23LandscapeEdited"},
-                {"Admin", "# .Gaia$", "July23Supplier"}
+                {"Admin", "# .Gaia$", "July23Landscape"},
+                {"Admin", "# .Gaia$", "July23SupplierEdited"},
         };
     }
 }

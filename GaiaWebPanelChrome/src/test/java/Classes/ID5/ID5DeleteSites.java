@@ -1,20 +1,21 @@
+package Classes.ID5;
+
+import Classes.ID1.ID1AdminLogin;
 import Helper.GaiaHelper;
 import PageObjects.*;
-import dataProvider.CompanyDataProvider;
+import dataProvider.SiteDataProvider;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class ID2CreateLandscapeCompany {
+public class ID5DeleteSites {
 
     private WebDriver driver;
 
     @AfterTest
+
     public void closeBrowser(){
         driver.quit();
     }
@@ -47,46 +48,43 @@ public class ID2CreateLandscapeCompany {
         }
     }
 
-    @Test(dataProvider = "CreateLandscapeCompany", dataProviderClass = CompanyDataProvider.class)
-    public void createLandscapeCompany(String LoginAdminName, String PasswordAdminName, String CompanyName, String CompanyEmail, String CompanyTaxNumber, String ProductSpread, String CompanyDescription) {
+    @Test(dataProvider = "DeleteSite", dataProviderClass = SiteDataProvider.class)
+    public void deleteSite (String LoginManagerName, String PasswordManagerName, String SiteName) {
 
-        CompanyPage companyPage = new CompanyPage();
         GaiaHelper gaiaHelper = new GaiaHelper();
-        AddNewCompanyPage addNewCompanyPage = new AddNewCompanyPage();
-        ID1Login login = new ID1Login();
+        CompanyPage companyPage = new CompanyPage();
+        SitesPage sitesPage = new SitesPage();
+        EditSitePage editSitePage = new EditSitePage();
+        ID1AdminLogin login = new ID1AdminLogin();
+        ManagerHomePage managerHomePage = new ManagerHomePage();
+
+        login.login(driver, LoginManagerName, PasswordManagerName);
 
         gaiaHelper.Wait3();
 
-        login.login(driver, LoginAdminName, PasswordAdminName);
+        managerHomePage.clickCompanyDDL(driver);
 
-        gaiaHelper.Wait3();
+        managerHomePage.clickSitesDDMI(driver);
 
-        companyPage.clickCompanyDDL(driver);
+        sitesPage.enterSearchField(driver, SiteName);
 
-        companyPage.clickCompanyDDMI(driver);
+        sitesPage.clickEdit(driver);
 
-        companyPage.clickAddANewCompany(driver);
+        editSitePage.clickDelete(driver);
 
-        addNewCompanyPage.enterCompanyName(driver, CompanyName);
+        editSitePage.clickCancelPopUp(driver);
 
-        addNewCompanyPage.enterCompanyEmail(driver, CompanyEmail);
+        gaiaHelper.Wait1();
 
-        addNewCompanyPage.enterCompanyTaxNumber(driver, CompanyTaxNumber);
+        editSitePage.clickDelete(driver);
 
-        addNewCompanyPage.clickCompanyTypeLandscape(driver);
+        editSitePage.clickDeletePopUp(driver);
 
-        addNewCompanyPage.clickCompanyCurrencyCAD(driver);
+        gaiaHelper.Wait1();
 
-        addNewCompanyPage.enterCompanyProductSpread(driver, ProductSpread);
+        managerHomePage.clickLogout(driver);
 
-        addNewCompanyPage.enterCompanyDescription(driver, CompanyDescription);
-
-        addNewCompanyPage.clickButtonAdd(driver);
-
-        companyPage.clickLogout(driver);
-
+        driver.quit();
     }
 }
-
-
 

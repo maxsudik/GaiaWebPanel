@@ -1,10 +1,11 @@
-import Helper.GaiaHelper;
+package Classes.ID1;
+
 import PageObjects.LoginPage;
 import dataProvider.LoginAdminDataProvider;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-public class ID1Login {
+public class ID1AdminLogin {
 
     @Test (dataProvider = "LoginAdmin", dataProviderClass = LoginAdminDataProvider.class)
 

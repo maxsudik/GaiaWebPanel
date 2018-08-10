@@ -1,3 +1,6 @@
+package Classes.ID4;
+
+import Classes.ID1.ID1AdminLogin;
 import Helper.GaiaHelper;
 import PageObjects.CompanyPage;
 import PageObjects.OnboardingProcess;
@@ -9,12 +12,9 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class ID3OnboardingManager {
+public class ID3OnboardingProcess {
 
     private WebDriver driver;
 
@@ -52,18 +52,17 @@ public class ID3OnboardingManager {
         }
     }
 
-    @Test(dataProvider = "Onboarding", dataProviderClass = OnboardingDataProvider.class)
-    public void onboardingProcess (String LoginManagerName, String PasswordManagerName, String CompanyAddressLine1, String CompanyAddressLine2,
-                                   String CompanyCity, String CompanyZipPostalCode, String InstitutionNumber, String TransitNumber,
-                                   String AccountNumber, String AccountHolderName, String FirstName, String LastName, String DateOfBirth,
-                                   String AddressLine1, String AddressLine2, String City, String ZipPostalCode, String CreditCardNumber,
-                                   String NameOnCard, String CVV, String CreditCardAddressLine1, String CreditCardAddressLine2,
-                                   String CreditCardCity, String CreditCardZipPostalCode, String LicenseNumber){
+    @Test(dataProvider = "onboardingEnterCompanyAddress", dataProviderClass = OnboardingDataProvider.class)
+    public void onboardingEnterCompanyAddress (String LoginManagerName, String PasswordManagerName, String CompanyAddressLine1, String CompanyAddressLine2,
+                                   String CompanyCity, String CompanyZipPostalCode, String InstitutionNumber, String TransitNumber, String AccountNumber, String AccountHolderName, String FirstName, String LastName, String DateOfBirth,
+                                               String AddressLine1, String AddressLine2, String City, String ZipPostalCode, String CreditCardNumber, String NameOnCard, String CVV,
+                                               String CreditCardAddressLine1, String CreditCardAddressLine2,
+                                               String CreditCardCity, String CreditCardZipPostalCode, String LicenseNumber) {
 
-        ID1Login login = new ID1Login();
+        ID1AdminLogin login = new ID1AdminLogin();
         GaiaHelper gaiaHelper = new GaiaHelper();
-        CompanyPage company = new CompanyPage();
         OnboardingProcess onboardingProcess = new OnboardingProcess();
+        CompanyPage companyPage = new CompanyPage();
 
         gaiaHelper.Wait3();
 
@@ -145,6 +144,6 @@ public class ID3OnboardingManager {
 
         onboardingProcess.clickUpdate(driver);
 
-        company.clickLogout(driver);
+        companyPage.clickLogout(driver);
     }
 }

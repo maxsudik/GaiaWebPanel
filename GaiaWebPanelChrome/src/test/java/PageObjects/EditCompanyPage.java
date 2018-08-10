@@ -12,8 +12,8 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickEditButton(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='tag is-info']")));
         WebElement element = driver.findElement(By.xpath("//span[@class='tag is-info']"));
         element.click();
         return this;
@@ -21,7 +21,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickCancelButton(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='button']")));
         WebElement element =driver.findElement(By.xpath("//button[@class='button']"));
         element.click();
@@ -30,16 +30,16 @@ public class EditCompanyPage {
 
     public EditCompanyPage uploadNewLogo(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='company_picture']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='company_picture']"));
-        element.sendKeys("/src/Images/Test.png");
+        element.sendKeys("/Users/maxsudik/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/Images/Test.png");
         return this;
     }
 
     public EditCompanyPage editCompanyName(WebDriver driver, String EditedCompanyName) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='company_name']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='company_name']"));
         element.click();
@@ -50,7 +50,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage editCompanyEmail(WebDriver driver, String EditedCompanyEmail) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='company_email']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='company_email']"));
         element.click();
@@ -61,7 +61,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage editCompanyWebSite(WebDriver driver, String EditedCompanyWebSite) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='website']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='website']"));
         element.click();
@@ -72,7 +72,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage editCompanyTaxNumber(WebDriver driver, String EditedCompanyTaxNumber) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='tax_number']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='tax_number']"));
         element.click();
@@ -83,11 +83,11 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickCompanyTypeSupplier(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//body/div[@id='app']/div/div/div/div[@class='card']/div[@class='card-content']/div[contains(@class,'columns')]/div[@class='column is-half']/div[@class='field']/p[1]/span[1]/select[1]")));
         WebElement element = driver.findElement(By.xpath("//body/div[@id='app']/div/div/div/div[@class='card']/div[@class='card-content']/div[contains(@class,'columns')]/div[@class='column is-half']/div[@class='field']/p[1]/span[1]/select[1]"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='supplier']")));
         element = driver.findElement(By.xpath("//option[@value='supplier']"));
         element.click();
@@ -96,11 +96,11 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickCompanyTypeLandscape(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//body/div[@id='app']/div/div/div/div[@class='card']/div[@class='card-content']/div[contains(@class,'columns')]/div[@class='column is-half']/div[@class='field']/p[1]/span[1]/select[1]")));
         WebElement element = driver.findElement(By.xpath("//body/div[@id='app']/div/div/div/div[@class='card']/div[@class='card-content']/div[contains(@class,'columns')]/div[@class='column is-half']/div[@class='field']/p[1]/span[1]/select[1]"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='landscape']")));
         element = ((ChromeDriver) driver).findElementByXPath("//option[@value='landscape']");
         element.click();
@@ -109,11 +109,11 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickCurrencyUSD(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='field']//p[2]//span[1]//select[1]")));
         WebElement element = driver.findElement(By.xpath("//div[@class='field']//p[2]//span[1]//select[1]"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='USD']")));
         element = driver.findElement(By.xpath("//option[@value='USD']"));
         element.click();
@@ -122,11 +122,11 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickCurrencyMXN(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='field']//p[2]//span[1]//select[1]")));
         WebElement element = driver.findElement(By.xpath("//div[@class='field']//p[2]//span[1]//select[1]"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='MXN']")));
         element = driver.findElement(By.xpath("//option[@value='MXN']"));
         element.click();
@@ -135,11 +135,11 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickCurrencyCAD(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='field']//p[2]//span[1]//select[1]")));
         WebElement element = driver.findElement(By.xpath("//div[@class='field']//p[2]//span[1]//select[1]"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='CAD']")));
         element = driver.findElement(By.xpath("//option[@value='CAD']"));
         element.click();
@@ -148,7 +148,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage editLicenseLimit(WebDriver driver, String EditedLicenseLimit) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='admin_card_license_limit']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='admin_card_license_limit']"));
         element.click();
@@ -159,7 +159,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage editProductSpreadProductionPercentage(WebDriver driver, String EditedProductSpreadProductionPercentage) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='20']")));
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='20']"));
         element.click();
@@ -170,7 +170,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage editAddressLine1(WebDriver driver, String EditedAddressLine1) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='address_one']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='address_one']"));
         element.click();
@@ -182,7 +182,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage editAddressLine2(WebDriver driver, String EditedAddressLine2) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='address_two']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='address_two']"));
         element.click();
@@ -193,7 +193,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage editCity(WebDriver driver, String EditedCity) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='address_city']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='address_city']"));
         element.click();
@@ -204,11 +204,11 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickCountryUnitedStates(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='address_country']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='address_country']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='US']")));
         element = driver.findElement(By.xpath("//option[@value='US']"));
         element.click();
@@ -217,11 +217,11 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickCountryMexico(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='address_country']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='address_country']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='MX']")));
         element = driver.findElement(By.xpath("//option[@value='MX']"));
         element.click();
@@ -230,11 +230,11 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickCountryCanada(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='address_country']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='address_country']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[contains(text(),'Canada')]")));
         element = driver.findElement(By.xpath("//option[contains(text(),'Canada')]"));
         element.click();
@@ -243,11 +243,11 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickProvinceBritishColumbia(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='address_state']")));
         WebElement element = driver.findElement(By.xpath("//select[@id='address_state']"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='BC']")));
         element = driver.findElement(By.xpath("//option[@value='BC']"));
         element.click();
@@ -256,7 +256,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage editZipPostalCode(WebDriver driver, String EditedZipPostalCode) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='address_postalcode']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='address_postalcode']"));
         element.click();
@@ -267,7 +267,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage editCompanyDescription(WebDriver driver, String EditedCompanyDescription) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//textarea[@id='description']")));
         WebElement element = driver.findElement(By.xpath("//textarea[@id='description']"));
         element.click();
@@ -278,7 +278,7 @@ public class EditCompanyPage {
 
     public EditCompanyPage clickSave(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@id='address_submit']")));
         WebElement element = driver.findElement(By.xpath("//button[@id='address_submit']"));
         element.click();

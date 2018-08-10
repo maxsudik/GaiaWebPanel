@@ -1,5 +1,7 @@
+package Classes.ID2;
+
+import Classes.ID1.ID1AdminLogin;
 import Helper.GaiaHelper;
-import PageObjects.AddNewCompanyPage;
 import PageObjects.CompanyPage;
 import PageObjects.EditCompanyPage;
 import dataProvider.CompanyDataProvider;
@@ -10,10 +12,7 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class ID2EditCompany {
 
@@ -58,7 +57,7 @@ public class ID2EditCompany {
                             String EditedProductSpreadProductionPercentage, String EditedAddressLine1, String EditedAddressLine2,
                             String EditedCity, String EditedZipPostalCode, String EditedCompanyDescription) {
 
-        ID1Login login = new ID1Login();
+        ID1AdminLogin login = new ID1AdminLogin();
         CompanyPage companyPage = new CompanyPage();
         GaiaHelper gaiaHelper = new GaiaHelper();
         EditCompanyPage editCompanyPage = new EditCompanyPage();

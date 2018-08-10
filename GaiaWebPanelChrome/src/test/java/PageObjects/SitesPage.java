@@ -10,7 +10,7 @@ public class SitesPage {
 
     public SitesPage enterSearchField(WebDriver driver, String SiteName) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Search']")));
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='Search']"));
         element.clear();
@@ -20,7 +20,7 @@ public class SitesPage {
 
     public SitesPage clickAddNewSite(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='button is-success is-pulled-right']")));
         WebElement element = driver.findElement(By.xpath("//a[@class='button is-success is-pulled-right']"));
         element.click();
@@ -29,7 +29,7 @@ public class SitesPage {
 
     public SitesPage clickEdit(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[7]/div[1]/button[2]/span[1]")));
         WebElement element = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/table[1]/tbody[1]/tr[1]/td[7]/div[1]/button[2]/span[1]"));
         element.click();

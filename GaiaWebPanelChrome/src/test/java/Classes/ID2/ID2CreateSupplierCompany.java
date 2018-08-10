@@ -1,7 +1,9 @@
+package Classes.ID2;
+
+import Classes.ID1.ID1AdminLogin;
 import Helper.GaiaHelper;
 import PageObjects.AddNewCompanyPage;
 import PageObjects.CompanyPage;
-import PageObjects.EditCompanyPage;
 import dataProvider.CompanyDataProvider;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
@@ -10,12 +12,9 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class ID2DeleteCompany {
+public class ID2CreateSupplierCompany {
 
     private WebDriver driver;
 
@@ -52,12 +51,13 @@ public class ID2DeleteCompany {
         }
     }
 
-    @Test (dataProvider = "DeleteCompany", dataProviderClass = CompanyDataProvider.class)
-    public void deleteCompany(String LoginAdminName, String PasswordAdminName, String CreatedCompanyName) {
+    @Test(dataProvider = "CreateSupplierCompany", dataProviderClass = CompanyDataProvider.class)
+    public void createSupplierCompany(String LoginAdminName, String PasswordAdminName, String CompanyName, String CompanyEmail, String CompanyTaxNumber, String ProductSpread, String CompanyDescription) {
 
-        ID1Login login = new ID1Login();
+        ID1AdminLogin login = new ID1AdminLogin();
         CompanyPage companyPage = new CompanyPage();
         GaiaHelper gaiaHelper = new GaiaHelper();
+        AddNewCompanyPage addNewCompanyPage = new AddNewCompanyPage();
 
         gaiaHelper.Wait3();
 
@@ -69,18 +69,25 @@ public class ID2DeleteCompany {
 
         companyPage.clickCompanyDDMI(driver);
 
-        companyPage.enterSearchField(driver, CreatedCompanyName);
+        companyPage.clickAddANewCompany(driver);
 
-        companyPage.clickDelete(driver);
+        addNewCompanyPage.enterCompanyName(driver, CompanyName);
 
-        companyPage.clickCancelPopUp(driver);
+        addNewCompanyPage.enterCompanyEmail(driver, CompanyEmail);
 
-        companyPage.clickDelete(driver);
+        addNewCompanyPage.enterCompanyTaxNumber(driver, CompanyTaxNumber);
 
-        companyPage.clickDeletePopUp(driver);
+        addNewCompanyPage.clickCompanyTypeSupplier(driver);
+
+        addNewCompanyPage.clickCompanyCurrencyCAD(driver);
+
+        addNewCompanyPage.enterCompanyProductSpread(driver, ProductSpread);
+
+        addNewCompanyPage.enterCompanyDescription(driver, CompanyDescription);
+
+        addNewCompanyPage.clickButtonAdd(driver);
 
         companyPage.clickLogout(driver);
-
     }
 }
 

@@ -1,63 +1,103 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="ChromeSuite" parallel="false" verbose="1">
-
-    <!--
-    <test name="Create Companies" >
+    
+    <test name="CreateLandscapeCompany" >
             <parameter name="browser" value="Chrome"/>
             <classes>
-                <class name="ID2CreateLandscapeCompany"> </class>
+                <class name="Classes.ID2.ID2CreateLandscapeCompany"> </class>
             </classes>
     </test>
-    -->
 
-    <!--
-    <test name="Create Companies" >
+    <test name="CreateSupplierCompany" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="ID2CreateSupplierCompany"> </class>
+            <class name="Classes.ID2.ID2CreateSupplierCompany"> </class>
         </classes>
     </test>
 
-
-    <test name="Edit Companies" >
+    <test name="EditCompany" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="ID2EditCompany"> </class>
+            <class name="Classes.ID2.ID2EditCompany"> </class>
         </classes>
     </test>
 
-    <test name="Delete Companies" >
+    <test name="CreateManager" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="ID2DeleteCompany"> </class>
-        </classes>
-    </test>
-    -->
-
-<!--
-    <test name="Employees1" >
-        <parameter name="browser" value="Chrome"/>
-        <classes>
-            <class name="ID3EmployeeCreateEdit"> </class>
-        </classes>
-    </test>
-    -->
-
-<!--
-    <test name="Employees2" >
-        <parameter name="browser" value="Chrome"/>
-        <classes>
-            <class name="ID3OnboardingManager"> </class>
-        </classes>
-    </test>
--->
-
-    <test name="Employees3" >
-        <parameter name="browser" value="Chrome"/>
-        <classes>
-            <class name="ID3EmployeeManagerCreates"> </class>
+            <class name="Classes.ID3.Admin.ID3CreateManagerEmployee"> </class>
         </classes>
     </test>
 
-    </suite>
+    <test name="CreateSupervisor" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Classes.ID3.Admin.ID3CreateSupervisorEmployee"> </class>
+        </classes>
+    </test>
+
+    <test name="CreateInstaller" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Classes.ID3.Admin.ID3CreateInstallerEmployee"> </class>
+        </classes>
+    </test>
+
+    <test name="EditEmployee" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Classes.ID3.Admin.ID3EditEmployee"> </class>
+        </classes>
+    </test>
+
+    <test name="CompanyAddressOnboarding" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Classes.ID4.ID3OnboardingProcess"> </class>
+        </classes>
+    </test>
+
+    <test name="ManagerCreateManager2" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Classes.ID3.Manager.ID3CreateManagerEmployee"> </class>
+        </classes>
+    </test>
+
+    <test name="CreateSite" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Classes.ID5.ID5CreateSite"> </class>
+        </classes>
+    </test>
+
+    <test name="EditSite" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Classes.ID5.ID5EditSite"> </class>
+        </classes>
+    </test>
+
+    <test name="DeleteSites" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Classes.ID5.ID5DeleteSites"> </class>
+        </classes>
+    </test>
+
+    <test name="DeleteEmployee" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Classes.ID3.Admin.ID3DeleteEmployee"> </class>
+        </classes>
+    </test>
+
+    <test name="DeleteCompany" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="Classes.ID2.ID2DeleteCompany"> </class>
+        </classes>
+    </test>
+
+</suite>

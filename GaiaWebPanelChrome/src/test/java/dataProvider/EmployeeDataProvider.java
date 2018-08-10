@@ -44,26 +44,12 @@ public class EmployeeDataProvider {
         };
     }
 
-    @DataProvider (name="LoginManager2")
-    public static Object [][] LoginManager2()
+    @DataProvider (name="LoginEmployee")
+    public static Object [][] LoginEmployee()
     {
         return new Object[][]{
-                {"test.manager.first.name.2.last.name.2.july.23", "Password11"}
-        };
-    }
-
-    @DataProvider (name="LoginSupervisor")
-    public static Object [][] LoginSupervisor()
-    {
-        return new Object[][]{
-                {"test.supervisor.first.name.last.name.2.july.23", "Password11"}
-        };
-    }
-
-    @DataProvider (name="LoginInstaller")
-    public static Object [][] LoginInstaller()
-    {
-        return new Object[][]{
+                {"test.manager.first.name.2.last.name.2.july.23", "Password11"},
+                {"test.supervisor.first.name.last.name.2.july.23", "Password11"},
                 {"test.installer.first.name.last.name.3.july.23", "Password11"}
         };
     }
@@ -72,6 +58,8 @@ public class EmployeeDataProvider {
     public static Object [][] DeleteEmployee()
     {
         return new Object[][]{
+
+                {"Admin", "# .Gaia$", "TestManagerFirstName"},
                 {"Admin", "# .Gaia$", "TestManagerFirstName2"},
                 {"Admin", "# .Gaia$", "TestSupervisorFirstName"},
                 {"Admin", "# .Gaia$", "EditedFirstName"}

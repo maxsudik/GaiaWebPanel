@@ -1,7 +1,11 @@
+package Classes.ID1;
+
+import Classes.ID1.ID1AdminLogin;
 import Helper.GaiaHelper;
-import PageObjects.AddNewCompanyPage;
-import PageObjects.CompanyPage;
-import dataProvider.CompanyDataProvider;
+import PageObjects.AddNewEmployeePage;
+import PageObjects.EmployeesPage;
+import PageObjects.ManagerHomePage;
+import dataProvider.EmployeeDataProvider;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -9,16 +13,14 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class ID2CreateSupplierCompany {
+public class ID1EmployeeLogin {
 
     private WebDriver driver;
 
     @AfterTest
+
     public void closeBrowser(){
         driver.quit();
     }
@@ -51,45 +53,19 @@ public class ID2CreateSupplierCompany {
         }
     }
 
-    @Test(dataProvider = "CreateSupplierCompany", dataProviderClass = CompanyDataProvider.class)
-    public void createSupplierCompany(String LoginAdminName, String PasswordAdminName, String CompanyName, String CompanyEmail, String CompanyTaxNumber, String ProductSpread, String CompanyDescription) {
+    @Test(priority = 2, dataProvider = "LoginEmployee", dataProviderClass = EmployeeDataProvider.class)
+    public void loginAsManager2 (String LoginManagerName, String PasswordManagerName) {
 
-        ID1Login login = new ID1Login();
-        CompanyPage companyPage = new CompanyPage();
+        ID1AdminLogin login = new ID1AdminLogin();
         GaiaHelper gaiaHelper = new GaiaHelper();
-        AddNewCompanyPage addNewCompanyPage = new AddNewCompanyPage();
+        ManagerHomePage managerHomePage = new ManagerHomePage();
 
         gaiaHelper.Wait3();
 
-        login.login(driver, LoginAdminName, PasswordAdminName);
+        login.login(driver, LoginManagerName, PasswordManagerName);
 
         gaiaHelper.Wait3();
 
-        companyPage.clickCompanyDDL(driver);
-
-        companyPage.clickCompanyDDMI(driver);
-
-        companyPage.clickAddANewCompany(driver);
-
-        addNewCompanyPage.enterCompanyName(driver, CompanyName);
-
-        addNewCompanyPage.enterCompanyEmail(driver, CompanyEmail);
-
-        addNewCompanyPage.enterCompanyTaxNumber(driver, CompanyTaxNumber);
-
-        addNewCompanyPage.clickCompanyTypeSupplier(driver);
-
-        addNewCompanyPage.clickCompanyCurrencyCAD(driver);
-
-        addNewCompanyPage.enterCompanyProductSpread(driver, ProductSpread);
-
-        addNewCompanyPage.enterCompanyDescription(driver, CompanyDescription);
-
-        addNewCompanyPage.clickButtonAdd(driver);
-
-        companyPage.clickLogout(driver);
+        managerHomePage.clickLogout(driver);
     }
 }
-
-
-

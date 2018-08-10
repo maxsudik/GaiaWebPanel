@@ -11,7 +11,7 @@ public class AddNewCompanyPage {
 
     public AddNewCompanyPage enterCompanyName (WebDriver driver, String CompanyName) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='company_name']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='company_name']"));
         element.clear();
@@ -22,7 +22,7 @@ public class AddNewCompanyPage {
     public AddNewCompanyPage enterCompanyEmail (WebDriver driver, String CompanyEmail) {
 
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='company_email']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='company_email']"));
         element.clear();
@@ -32,7 +32,7 @@ public class AddNewCompanyPage {
 
     public AddNewCompanyPage enterCompanyTaxNumber (WebDriver driver, String CompanyTaxNumber) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='tax_number']")));
         WebElement element = driver.findElement(By.xpath("//input[@id='tax_number']"));
         element.clear();
@@ -42,11 +42,11 @@ public class AddNewCompanyPage {
 
     public AddNewCompanyPage clickCompanyTypeLandscape (WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='card-content']//div[4]//p[1]//span[1]//select[1]")));
         WebElement element = driver.findElement(By.xpath("//div[@class='card-content']//div[4]//p[1]//span[1]//select[1]"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='landscape']")));
         element = driver.findElement(By.xpath("//option[@value='landscape']"));
         element.click();
@@ -55,11 +55,11 @@ public class AddNewCompanyPage {
 
     public AddNewCompanyPage clickCompanyTypeSupplier (WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='card-content']//div[4]//p[1]//span[1]//select[1]")));
         WebElement element = driver.findElement(By.xpath("//div[@class='card-content']//div[4]//p[1]//span[1]//select[1]"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='supplier']")));
         element = driver.findElement(By.xpath("//option[@value='supplier']"));
         element.click();
@@ -68,11 +68,11 @@ public class AddNewCompanyPage {
 
     public AddNewCompanyPage clickCompanyCurrencyCAD (WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='card-content']//div[5]//p[1]//span[1]//select[1]")));
         WebElement element = driver.findElement(By.xpath("//div[@class='card-content']//div[5]//p[1]//span[1]//select[1]"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='CAD']")));
         element = driver.findElement(By.xpath("//option[@value='CAD']"));
         element.click();
@@ -81,11 +81,11 @@ public class AddNewCompanyPage {
 
     public AddNewCompanyPage clickCompanyCurrencyUSD (WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='card-content']//div[5]//p[1]//span[1]//select[1]")));
         WebElement element = driver.findElement(By.xpath("//div[@class='card-content']//div[5]//p[1]//span[1]//select[1]"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='USD']")));
         element = driver.findElement(By.xpath("//option[@value='USD']"));
         element.click();
@@ -94,11 +94,11 @@ public class AddNewCompanyPage {
 
     public AddNewCompanyPage clickCompanyCurrencyMXN (WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='card-content']//div[5]//p[1]//span[1]//select[1]")));
         WebElement element = driver.findElement(By.xpath("//div[@class='card-content']//div[5]//p[1]//span[1]//select[1]"));
         element.click();
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//option[@value='MXN']")));
         element = driver.findElement(By.xpath("//option[@value='MXN']"));
         element.click();
@@ -107,7 +107,7 @@ public class AddNewCompanyPage {
 
     public AddNewCompanyPage enterCompanyProductSpread (WebDriver driver, String ProductSpread) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='20']")));
         WebElement element = driver.findElement(By.xpath("//input[@placeholder='20']"));
         element.clear();
@@ -118,7 +118,7 @@ public class AddNewCompanyPage {
 
     public AddNewCompanyPage enterCompanyDescription (WebDriver driver, String CompanyDescription) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//textarea[@id='description']")));
         WebElement element = driver.findElement(By.xpath("//textarea[@id='description']"));
         element.clear();
@@ -128,7 +128,7 @@ public class AddNewCompanyPage {
 
     public AddNewCompanyPage clickButtonAdd (WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@class='button is-success']")));
         WebElement element = driver.findElement(By.xpath("//button[@class='button is-success']"));
         element.click();
