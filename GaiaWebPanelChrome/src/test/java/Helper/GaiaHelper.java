@@ -1,5 +1,10 @@
 package Helper;
 
+import io.appium.java_client.ios.IOSDriver;
+import org.openqa.selenium.WebDriver;
+
+import java.util.NoSuchElementException;
+
 public class GaiaHelper {
 
     public void Wait1() {
@@ -35,6 +40,15 @@ public class GaiaHelper {
             Thread.sleep(10000);
         } catch (InterruptedException e) {
             e.printStackTrace();
+        }
+    }
+
+    public void AcceptAlerts(IOSDriver mobiledriver) {
+        try {
+            mobiledriver.switchTo().alert().accept();
+        } catch (Exception e) {
+            e.printStackTrace();
+
         }
     }
 }

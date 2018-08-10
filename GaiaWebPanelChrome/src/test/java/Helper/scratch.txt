@@ -84,5 +84,8 @@
             }
         }
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));
+    WebDriverWait wait = new WebDriverWait(driver, 20);
+    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));
+
+    getDriver().switchTo().alert().accept();
+    getDriver().switchTo().alert().dismiss();
