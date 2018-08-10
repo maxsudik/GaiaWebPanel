@@ -2,27 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe0a98bb-4be7-4788-9f4c-49dd814dcf49" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../GaiaIOS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaIOS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaIOS/src/main/resources/TestNGParallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaIOS/src/main/resources/TestNGIOS.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaIOS/src/test/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaIOS/src/test/java/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaIOS/target/test-classes/IOSBrowserLocalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaiaIOS/target/test-classes/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GaiaIOS/target/test-classes/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TestNGChrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestNGChrome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ID2CreateLandscapeCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ID2CreateLandscapeCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ID2CreateSupplierCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ID2CreateSupplierCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ID2DeleteCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ID2DeleteCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ID2EditCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ID2EditCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ID3Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ID3EmployeeCreateEdit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AddNewEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/AddNewEmployeePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/EditEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/EditEmployeePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/OnboardingProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/OnboardingProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/EmployeeDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider/EmployeeDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/OnboardingProcessDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider/OnboardingDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestNGChrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNGChrome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ID2CreateCompany.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ID2DeleteCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ID2DeleteCompany.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ID2EditCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ID2EditCompany.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ID3Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/EditEmployeePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/EditEmployeePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/OnboardingProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PageObjects/OnboardingProcess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dataProvider/EmployeeDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dataProvider/EmployeeDataProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dataProvider/OnboardingProcessDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/scratch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helper/scratch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ID3EmployeeCreateEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ID3EmployeeCreateEdit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Helper/GaiaHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Helper/GaiaHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ID3EmployeeCreateEdit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ID3EmployeeCreateEdit.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,91 +107,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestNGChrome.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGChrome.xml">
+      <file leaf-file-name="TestNGIOS.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGIOS.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
+            <state relative-caret-position="360">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TCiOS1_0B2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
               <folding>
-                <element signature="n#test#0;n#suite#0;n#!!top" />
-                <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" />
-                <element signature="e#337#923#0" />
-                <element signature="n#test#1;n#suite#0;n#!!top" />
-                <element signature="n#test#0;n#suite#0;n#!!top" />
+                <element signature="e#804#828#0" />
+                <element signature="method#openBrowser#0;class#TCiOS1_0B2#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ID3EmployeeManagerCreates.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ID3EmployeeManagerCreates.java">
+      <file leaf-file-name="ID3EmployeeCreateEdit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ID3EmployeeCreateEdit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="181" column="47" lean-forward="true" selection-start-line="181" selection-start-column="47" selection-end-line="181" selection-end-column="47" />
+            <state relative-caret-position="288">
+              <caret line="307" column="5" lean-forward="true" selection-start-line="307" selection-start-column="5" selection-end-line="307" selection-end-column="5" />
               <folding>
-                <element signature="e#710#734#0" />
-                <element signature="method#openBrowser#0;class#ID3EmployeeManagerCreates#0" />
-                <element signature="method#loginAsManager2#0;class#ID3EmployeeManagerCreates#0" />
-                <element signature="method#loginAsSupervisor#0;class#ID3EmployeeManagerCreates#0" />
-                <element signature="method#loginAsInstaller#0;class#ID3EmployeeManagerCreates#0" />
-                <element signature="method#deleteEmployee#0;class#ID3EmployeeManagerCreates#0" />
+                <element signature="e#582#606#0" />
+                <element signature="method#openBrowser#0;class#ID3EmployeeCreateEdit#0" />
+                <element signature="method#createManager#0;class#ID3EmployeeCreateEdit#0" />
+                <element signature="method#createSupervisor#0;class#ID3EmployeeCreateEdit#0" />
+                <element signature="method#createInstaller#0;class#ID3EmployeeCreateEdit#0" />
+                <element signature="method#editEmployee#0;class#ID3EmployeeCreateEdit#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ID1Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ID1Login.java">
+      <file leaf-file-name="GaiaHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeDataProvider.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/EmployeeDataProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
               <folding>
-                <element signature="method#CreateManager#0;class#EmployeeDataProvider#0" />
-                <element signature="method#CreateSupervisor#0;class#EmployeeDataProvider#0" />
-                <element signature="method#CreateInstaller#0;class#EmployeeDataProvider#0" />
-                <element signature="method#EditEmployee#0;class#EmployeeDataProvider#0" />
-                <element signature="method#LoginSupervisor#0;class#EmployeeDataProvider#0" />
-                <element signature="method#LoginInstaller#0;class#EmployeeDataProvider#0" />
-                <element signature="method#DeleteEmployee#0;class#EmployeeDataProvider#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddNewEmployeePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddNewEmployeePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="method#clickCompanyName#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickRoleManager#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickRoleManager2#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickRoleSupervisor#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickRoleInstaller#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickRoleSalesPerson#0;class#AddNewEmployeePage#0" />
-                <element signature="method#enterFirstName#0;class#AddNewEmployeePage#0" />
-                <element signature="method#enterLastName#0;class#AddNewEmployeePage#0" />
-                <element signature="method#enterNotes#0;class#AddNewEmployeePage#0" />
-                <element signature="method#enterEmail#0;class#AddNewEmployeePage#0" />
-                <element signature="method#enterPassword#0;class#AddNewEmployeePage#0" />
-                <element signature="method#enterRepeatPassword#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickRestrictedAccess#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickLicensedUser#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickAbilityLogininMultipleDevices#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickAdd#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickCancel#0;class#AddNewEmployeePage#0" />
-                <element signature="method#enterLicenseLimit#0;class#AddNewEmployeePage#0" />
-                <element signature="method#clickUpdatePopUp#0;class#AddNewEmployeePage#0" />
+                <element signature="method#Wait1#0;class#GaiaHelper#0" />
+                <element signature="method#Wait3#0;class#GaiaHelper#0" />
+                <element signature="method#Wait5#0;class#GaiaHelper#0" />
+                <element signature="method#Wait10#0;class#GaiaHelper#0" />
+                <element signature="method#AcceptAlerts#0;class#GaiaHelper#0" />
               </folding>
             </state>
           </provider>
@@ -218,10 +174,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>//clear</find>
-      <find>enter</find>
-      <find>first</find>
-      <find>save</find>
       <find>calend</find>
       <find>zi</find>
       <find>de</find>
@@ -248,6 +200,10 @@
       <find>gaiHelper</find>
       <find>gaiaHelper</find>
       <find>clickCompanyName</find>
+      <find>el</find>
+      <find>enterZipPostalCode</find>
+      <find>clickAuthenticate2</find>
+      <find>String</find>
     </findStrings>
     <replaceStrings>
       <replace>ChromeDriver</replace>
@@ -261,32 +217,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ID2LandscapeCompany.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/TestNGParallel.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/CreateManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/EmployeePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/AddANewCompanyPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSupervisor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataProvider/AdminDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSites.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditSite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UnusedClasses/ClearDataAfterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ID20ClearDataAfterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataProvider/LoginDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/dataProvider/LoginAdminDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ID5DeleteCompany.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ID10DeleteCompany.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ID1DeleteCompany.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ID2Company.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Helper/scratch.txt" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/AddNewCompanyPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/AddNewSitePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/EditSitePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/SitesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ID1Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/ID4Sites.java" />
@@ -308,10 +242,32 @@
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/ManagerHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/EmployeesPage.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/TestNGChrome.xml" />
         <option value="$PROJECT_DIR$/src/test/java/dataProvider/EmployeeDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/AddNewEmployeePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ID3EmployeeManagerCreates.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/ID1Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/DataProvider/LoginAdminDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/TestNGChrome.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/PageObjects/ID2OnboardingManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/DataProvider/OnboardingManagerDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/PageObjects/ManagerHomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/DataProvider/OnboardingDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/PageObjects/OnboardingManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Helper/scratch.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/Classes/ID1Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/DataProvider/EmailDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/DataProvider/LoginManagerDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/PageObjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/PageObjects/EmailPage.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/TestNGIOS.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/Classes/ID2OnboardingManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0A.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ID3EmployeeCreateEdit.java" />
       </list>
     </option>
   </component>
@@ -337,7 +293,7 @@
     <option name="x" value="960" />
     <option name="y" value="23" />
     <option name="width" value="960" />
-    <option name="height" value="979" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -348,6 +304,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -406,14 +364,64 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="IOS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="IOS" type="462c0819:PsiDirectoryNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="IOS" type="462c0819:PsiDirectoryNode" />
+              <item name="DataProvider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="IOS" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="IOS" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,28 +436,31 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/Helper" />
-      <recent name="$PROJECT_DIR$/src/test/java/UnusedClasses" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/test/java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/Results" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/test/java/Chrome" />
       <recent name="$PROJECT_DIR$/src/test/java/ChromeTest" />
       <recent name="$PROJECT_DIR$/src/test/ChromeTest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="IOS.DataProvider" />
+      <recent name="IOS.PageObjects" />
+      <recent name="IOS.TestCases" />
+      <recent name="IOS.Classes" />
       <recent name="PageObjects" />
-      <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/Helper" />
+      <recent name="$PROJECT_DIR$/src/test/java/UnusedClasses" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -464,7 +475,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Chrome Terst 07.08.2018">
+  <component name="RunManager" selected="TestNG./Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method>
@@ -513,13 +524,19 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ID3Employee" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ID2OnboardingManager" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GaiaWebPannel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IOS.Classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ID3Employee" />
+      <option name="PACKAGE_NAME" value="IOS.Classes" />
+      <option name="MAIN_CLASS_NAME" value="IOS.Classes.ID2OnboardingManager" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -546,6 +563,87 @@
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TCiOS1_0A" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GaiaWebPannel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IOS.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="IOS.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="IOS.TestCases.TCiOS1_0A" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TCiOS1_0B" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GaiaWebPannel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IOS.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="IOS.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="IOS.TestCases.TCiOS1_0B" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GaiaWebPannel" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/TestNGIOS.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
@@ -586,13 +684,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Chrome Terst 07.08.2018" />
-      <item itemvalue="TestNG.ID3Employee" />
       <item itemvalue="TestNG.ID3OnboardingManager" />
+      <item itemvalue="TestNG./Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" />
+      <item itemvalue="TestNG.ID2OnboardingManager" />
+      <item itemvalue="TestNG.TCiOS1_0A" />
+      <item itemvalue="TestNG.TCiOS1_0B" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" />
+        <item itemvalue="TestNG.TCiOS1_0B" />
+        <item itemvalue="TestNG.TCiOS1_0A" />
+        <item itemvalue="TestNG.ID2OnboardingManager" />
         <item itemvalue="TestNG.ID3OnboardingManager" />
-        <item itemvalue="TestNG.ID3Employee" />
       </list>
     </recent_temporary>
   </component>
@@ -611,35 +715,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chrome_Terst_07_08_2018 - 2018.08.08 at 13h 09m 38s.xml">
-      <configuration name="Chrome Terst 07.08.2018" configurationId="TestNG" />
+    <history-entry file="_Users_Maksym_IdeaProjects_GaiaWebPanel_GaiaWebPanelChrome_src_main_resources_TestNGIOS_xml - 2018.08.09 at 19h 27m 21s.xml">
+      <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Chrome_Terst_07_08_2018 - 2018.08.08 at 13h 12m 38s.xml">
-      <configuration name="Chrome Terst 07.08.2018" configurationId="TestNG" />
+    <history-entry file="_Users_Maksym_IdeaProjects_GaiaWebPanel_GaiaWebPanelChrome_src_main_resources_TestNGIOS_xml - 2018.08.09 at 19h 30m 21s.xml">
+      <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Chrome_Terst_07_08_2018 - 2018.08.08 at 13h 14m 58s.xml">
-      <configuration name="Chrome Terst 07.08.2018" configurationId="TestNG" />
+    <history-entry file="_Users_Maksym_IdeaProjects_GaiaWebPanel_GaiaWebPanelChrome_src_main_resources_TestNGIOS_xml - 2018.08.09 at 19h 31m 11s.xml">
+      <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Chrome_Terst_07_08_2018 - 2018.08.08 at 13h 19m 21s.xml">
-      <configuration name="Chrome Terst 07.08.2018" configurationId="TestNG" />
+    <history-entry file="_Users_Maksym_IdeaProjects_GaiaWebPanel_GaiaWebPanelChrome_src_main_resources_TestNGIOS_xml - 2018.08.09 at 19h 32m 21s.xml">
+      <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Chrome_Terst_07_08_2018 - 2018.08.08 at 13h 25m 12s.xml">
-      <configuration name="Chrome Terst 07.08.2018" configurationId="TestNG" />
+    <history-entry file="_Users_Maksym_IdeaProjects_GaiaWebPanel_GaiaWebPanelChrome_src_main_resources_TestNGIOS_xml - 2018.08.09 at 19h 33m 06s.xml">
+      <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Chrome_Terst_07_08_2018 - 2018.08.08 at 13h 30m 04s.xml">
-      <configuration name="Chrome Terst 07.08.2018" configurationId="TestNG" />
+    <history-entry file="_Users_Maksym_IdeaProjects_GaiaWebPanel_GaiaWebPanelChrome_src_main_resources_TestNGIOS_xml - 2018.08.09 at 19h 34m 05s.xml">
+      <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Chrome_Terst_07_08_2018 - 2018.08.08 at 13h 49m 24s.xml">
-      <configuration name="Chrome Terst 07.08.2018" configurationId="TestNG" />
+    <history-entry file="_Users_Maksym_IdeaProjects_GaiaWebPanel_GaiaWebPanelChrome_src_main_resources_TestNGIOS_xml - 2018.08.09 at 19h 34m 52s.xml">
+      <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Chrome_Terst_07_08_2018 - 2018.08.08 at 13h 50m 30s.xml">
-      <configuration name="Chrome Terst 07.08.2018" configurationId="TestNG" />
+    <history-entry file="_Users_Maksym_IdeaProjects_GaiaWebPanel_GaiaWebPanelChrome_src_main_resources_TestNGIOS_xml - 2018.08.09 at 19h 35m 36s.xml">
+      <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Chrome_Terst_07_08_2018 - 2018.08.08 at 13h 55m 02s.xml">
-      <configuration name="Chrome Terst 07.08.2018" configurationId="TestNG" />
+    <history-entry file="_Users_Maksym_IdeaProjects_GaiaWebPanel_GaiaWebPanelChrome_src_main_resources_TestNGIOS_xml - 2018.08.09 at 19h 36m 31s.xml">
+      <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Chrome_Terst_07_08_2018 - 2018.08.08 at 13h 57m 01s.xml">
-      <configuration name="Chrome Terst 07.08.2018" configurationId="TestNG" />
+    <history-entry file="_Users_Maksym_IdeaProjects_GaiaWebPanel_GaiaWebPanelChrome_src_main_resources_TestNGIOS_xml - 2018.08.09 at 19h 55m 55s.xml">
+      <configuration name="/Users/Maksym/IdeaProjects/GaiaWebPanel/GaiaWebPanelChrome/src/main/resources/TestNGIOS.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
@@ -652,23 +756,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="23" width="960" height="979" extended-state="0" />
+    <frame x="960" y="23" width="960" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.37078652" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.35147393" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.35113636" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32636815" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32875606" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25510204" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.48295453" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49950248" weight="0.30392158" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.24836601" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3181818" />
       <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.17755991" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24945533" />
       <window_info id="UI Designer" order="4" />
@@ -681,33 +786,32 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31898454" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24945533" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32949877" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32013574" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49950248" weight="0.39542484" />
       <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.17755991" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24945533" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.37078652" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32013574" />
-      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32949877" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31898454" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39839357" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32636815" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31898454" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.3529412" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32875606" />
       <window_info id="Favorites" order="6" sideWeight="0.50074077" side_tool="true" weight="0.17838125" />
@@ -723,10 +827,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/OnboardingManager.java</url>
+          <line>343</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -743,20 +855,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreateSupplierCompany.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/EditLandscapeCompany.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddSupervisor.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddInstaller.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerAddManager2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerEditEmployees.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerOnboarding.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManager2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedInstaller.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedSupervisor.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginJustCreatedManagerStep2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/ManagerDeleteEmployees.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnusedClasses/LoginAsDeletedManager2.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0-sources.jar!/org/openqa/selenium/WebDriverException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
@@ -773,16 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="method#Wait5#0;class#GaiaHelper#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,46 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
           <caret line="278" column="55" selection-start-line="278" selection-start-column="55" selection-end-line="278" selection-end-column="55" />
-          <folding>
-            <element signature="method#clickEditButton#0;class#EditCompanyPage#0" />
-            <element signature="method#clickCancelButton#0;class#EditCompanyPage#0" />
-            <element signature="method#uploadNewLogo#0;class#EditCompanyPage#0" />
-            <element signature="method#editCompanyName#0;class#EditCompanyPage#0" />
-            <element signature="method#editCompanyEmail#0;class#EditCompanyPage#0" />
-            <element signature="method#editCompanyWebSite#0;class#EditCompanyPage#0" />
-            <element signature="method#editCompanyTaxNumber#0;class#EditCompanyPage#0" />
-            <element signature="method#clickCompanyTypeSupplier#0;class#EditCompanyPage#0" />
-            <element signature="method#clickCompanyTypeLandscape#0;class#EditCompanyPage#0" />
-            <element signature="method#clickCurrencyUSD#0;class#EditCompanyPage#0" />
-            <element signature="method#clickCurrencyMXN#0;class#EditCompanyPage#0" />
-            <element signature="method#clickCurrencyCAD#0;class#EditCompanyPage#0" />
-            <element signature="method#editLicenseLimit#0;class#EditCompanyPage#0" />
-            <element signature="method#editProductSpreadProductionPercentage#0;class#EditCompanyPage#0" />
-            <element signature="method#editAddressLine1#0;class#EditCompanyPage#0" />
-            <element signature="method#editAddressLine2#0;class#EditCompanyPage#0" />
-            <element signature="method#editCity#0;class#EditCompanyPage#0" />
-            <element signature="method#clickCountryUnitedStates#0;class#EditCompanyPage#0" />
-            <element signature="method#clickCountryMexico#0;class#EditCompanyPage#0" />
-            <element signature="method#clickCountryCanada#0;class#EditCompanyPage#0" />
-            <element signature="method#clickProvinceBritishColumbia#0;class#EditCompanyPage#0" />
-            <element signature="method#editZipPostalCode#0;class#EditCompanyPage#0" />
-            <element signature="method#editCompanyDescription#0;class#EditCompanyPage#0" />
-            <element signature="method#clickSave#0;class#EditCompanyPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/scratch.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="86" column="8" lean-forward="true" selection-start-line="86" selection-start-column="8" selection-end-line="87" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -893,11 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <element signature="method#enterSearchField#0;class#SitesPage#0" />
-            <element signature="method#clickAddNewSite#0;class#SitesPage#0" />
-            <element signature="method#clickEdit#0;class#SitesPage#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,13 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ID2DeleteCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ID2EditCompany.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -966,26 +1002,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ID2CreateLandscapeCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#605#0" />
-            <element signature="method#openBrowser#0;class#ID2CreateLandscapeCompany#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="method#EditCompany#0;class#CompanyDataProvider#0" />
-            <element signature="method#DeleteCompany#0;class#CompanyDataProvider#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1003,6 +1023,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/OnboardingDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="77" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/ManagerHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="method#clickCompanyDDL#0;class#ManagerHomePage#0" />
+            <element signature="method#clickCompanyDDMI#0;class#ManagerHomePage#0" />
+            <element signature="method#clickEmployeesDDMI#0;class#ManagerHomePage#0" />
+            <element signature="method#clickSitesDDMI#0;class#ManagerHomePage#0" />
+            <element signature="method#clickLogout#0;class#ManagerHomePage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EmployeesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddNewEmployeePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="method#clickCompanyName#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRoleManager#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRoleManager2#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRoleSupervisor#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRoleInstaller#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRoleSalesPerson#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterFirstName#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterLastName#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterNotes#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterEmail#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterPassword#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterRepeatPassword#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickRestrictedAccess#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickLicensedUser#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickAbilityLogininMultipleDevices#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickAdd#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickCancel#0;class#AddNewEmployeePage#0" />
+            <element signature="method#enterLicenseLimit#0;class#AddNewEmployeePage#0" />
+            <element signature="method#clickUpdatePopUp#0;class#AddNewEmployeePage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ID2DeleteCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/OnboardingProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
@@ -1010,8 +1107,8 @@
           <folding>
             <element signature="method#enterCompanyAddressLine1#0;class#OnboardingProcess#0" />
             <element signature="method#enterCompanyAddressLine2#0;class#OnboardingProcess#0" />
-            <element signature="method#enterCompanyACity#0;class#OnboardingProcess#0" />
-            <element signature="method#clickCountry#0;class#OnboardingProcess#0" />
+            <element signature="method#enterCompanyCity#0;class#OnboardingProcess#0" />
+            <element signature="method#clickCompanyCountry#0;class#OnboardingProcess#0" />
             <element signature="method#clickCompanyStateProvince#0;class#OnboardingProcess#0" />
             <element signature="method#enterCompanyZipPostalCode#0;class#OnboardingProcess#0" />
             <element signature="method#clickSave1#0;class#OnboardingProcess#0" />
@@ -1051,148 +1148,315 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ID3OnboardingManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="125" column="31" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
+        <state relative-caret-position="300">
+          <caret line="60" column="111" selection-start-line="60" selection-start-column="111" selection-end-line="60" selection-end-column="111" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ID3EmployeeCreateEdit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="method#createManager#0;class#ID3EmployeeCreateEdit#0" />
-            <element signature="method#createInstaller#0;class#ID3EmployeeCreateEdit#0" />
-            <element signature="method#editEmployee#0;class#ID3EmployeeCreateEdit#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/OnboardingDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="77" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="method#clickDeletePopUp#0;class#CompanyPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/ManagerHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="method#clickCompanyDDL#0;class#ManagerHomePage#0" />
-            <element signature="method#clickCompanyDDMI#0;class#ManagerHomePage#0" />
-            <element signature="method#clickEmployeesDDMI#0;class#ManagerHomePage#0" />
-            <element signature="method#clickSitesDDMI#0;class#ManagerHomePage#0" />
-            <element signature="method#clickLogout#0;class#ManagerHomePage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EmployeesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="method#clickAddNewEmployee#0;class#EmployeesPage#0" />
-            <element signature="method#enterSearchField#0;class#EmployeesPage#0" />
-            <element signature="method#clickEditButton#0;class#EmployeesPage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ID1Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddNewEmployeePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="method#clickCompanyName#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickRoleManager#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickRoleManager2#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickRoleSupervisor#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickRoleInstaller#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickRoleSalesPerson#0;class#AddNewEmployeePage#0" />
-            <element signature="method#enterFirstName#0;class#AddNewEmployeePage#0" />
-            <element signature="method#enterLastName#0;class#AddNewEmployeePage#0" />
-            <element signature="method#enterNotes#0;class#AddNewEmployeePage#0" />
-            <element signature="method#enterEmail#0;class#AddNewEmployeePage#0" />
-            <element signature="method#enterPassword#0;class#AddNewEmployeePage#0" />
-            <element signature="method#enterRepeatPassword#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickRestrictedAccess#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickLicensedUser#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickAbilityLogininMultipleDevices#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickAdd#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickCancel#0;class#AddNewEmployeePage#0" />
-            <element signature="method#enterLicenseLimit#0;class#AddNewEmployeePage#0" />
-            <element signature="method#clickUpdatePopUp#0;class#AddNewEmployeePage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGChrome.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
-          <folding>
-            <element signature="n#test#0;n#suite#0;n#!!top" />
-            <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" />
-            <element signature="e#337#923#0" />
-            <element signature="n#test#1;n#suite#0;n#!!top" />
-            <element signature="n#test#0;n#suite#0;n#!!top" />
+            <element signature="e#755#779#0" />
+            <element signature="method#openBrowser#0;class#ID3OnboardingManager#0" />
+            <element signature="method#onboardingProcess#0;class#ID3OnboardingManager#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ID3EmployeeManagerCreates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="181" column="47" lean-forward="true" selection-start-line="181" selection-start-column="47" selection-end-line="181" selection-end-column="47" />
+        <state relative-caret-position="240">
+          <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
           <folding>
             <element signature="e#710#734#0" />
             <element signature="method#openBrowser#0;class#ID3EmployeeManagerCreates#0" />
+            <element signature="method#createManager2#0;class#ID3EmployeeManagerCreates#0" />
             <element signature="method#loginAsManager2#0;class#ID3EmployeeManagerCreates#0" />
             <element signature="method#loginAsSupervisor#0;class#ID3EmployeeManagerCreates#0" />
             <element signature="method#loginAsInstaller#0;class#ID3EmployeeManagerCreates#0" />
             <element signature="method#deleteEmployee#0;class#ID3EmployeeManagerCreates#0" />
+            <element signature="method#loginAsDeletedManager2#0;class#ID3EmployeeManagerCreates#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGChrome.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="56" column="8" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/EmployeeDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" column="99" lean-forward="true" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="133" />
           <folding>
-            <element signature="method#CreateManager#0;class#EmployeeDataProvider#0" />
             <element signature="method#CreateSupervisor#0;class#EmployeeDataProvider#0" />
             <element signature="method#CreateInstaller#0;class#EmployeeDataProvider#0" />
             <element signature="method#EditEmployee#0;class#EmployeeDataProvider#0" />
             <element signature="method#LoginSupervisor#0;class#EmployeeDataProvider#0" />
             <element signature="method#LoginInstaller#0;class#EmployeeDataProvider#0" />
             <element signature="method#DeleteEmployee#0;class#EmployeeDataProvider#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="method#setName#0;class#LoginPage#0" />
+            <element signature="method#setPassword#0;class#LoginPage#0" />
+            <element signature="method#clickLogin#0;class#LoginPage#0" />
+            <element signature="method#clickMainSite#0;class#LoginPage#0" />
+            <element signature="method#clickLanguage#0;class#LoginPage#0" />
+            <element signature="method#clickForgotPassword#0;class#LoginPage#0" />
+            <element signature="method#clickOkPopUpErrorInvalidLoginOrPassword#0;class#LoginPage#0" />
+            <element signature="method#clickContinueButton#0;class#LoginPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ID1Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ID2CreateLandscapeCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/Classes/ID1Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+          <folding>
+            <element signature="method#loginPage#0;class#ID1Login#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/DataProvider/EmailDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="method#LoginManager#0;class#EmailDataProvider#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/DataProvider/LoginManagerDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="method#LoginManager#0;class#LoginManagerDataProvider#0" />
+            <element signature="method#ResetPassword#0;class#LoginManagerDataProvider#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/DataProvider/OnboardingDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="method#OnboardingProcess#0;class#OnboardingDataProvider#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/EmailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+          <folding>
+            <element signature="method#setName#0;class#EmailPage#0" />
+            <element signature="method#setPassword#0;class#EmailPage#0" />
+            <element signature="method#clickLogin#0;class#EmailPage#0" />
+            <element signature="method#clickEmail#0;class#EmailPage#0" />
+            <element signature="method#clickResetPassword#0;class#EmailPage#0" />
+            <element signature="method#setNewPassword#0;class#EmailPage#0" />
+            <element signature="method#confirmNewPassword#0;class#EmailPage#0" />
+            <element signature="method#clickReset#0;class#EmailPage#0" />
+            <element signature="method#clickHereToLogin#0;class#EmailPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="88" column="76" selection-start-line="88" selection-start-column="76" selection-end-line="88" selection-end-column="76" />
+          <folding>
+            <element signature="method#waitForSystemPopUp#0;class#LoginPage#0" />
+            <element signature="method#waitForSystemPopUp2#0;class#LoginPage#0" />
+            <element signature="method#clickAllowLocation#0;class#LoginPage#0" />
+            <element signature="method#clickAllowNotifications#0;class#LoginPage#0" />
+            <element signature="method#setName#0;class#LoginPage#0" />
+            <element signature="method#setPassword#0;class#LoginPage#0" />
+            <element signature="method#clickRememberMe#0;class#LoginPage#0" />
+            <element signature="method#clickForgotPassword#0;class#LoginPage#0" />
+            <element signature="method#enterEmailPopUp#0;class#LoginPage#0" />
+            <element signature="method#clickResetPopUp#0;class#LoginPage#0" />
+            <element signature="method#clickClosePopUp#0;class#LoginPage#0" />
+            <element signature="method#clickAuthenticate#0;class#LoginPage#0" />
+            <element signature="method#clickGo#0;class#LoginPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/ManagerHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="method#clickLogout#0;class#ManagerHomePage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="method#beforeTest#0;class#TCiOS1_0B#0" />
+            <element signature="method#afterTest#0;class#TCiOS1_0B#0" />
+            <element signature="method#TCiOS1_0B#0;class#TCiOS1_0B#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding>
+            <element signature="method#beforeTest#0;class#TCiOS1_0A#0" />
+            <element signature="method#afterTest#0;class#TCiOS1_0A#0" />
+            <element signature="method#TCiOS1_0A#0;class#TCiOS1_0A#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="921">
+          <caret line="75" column="64" lean-forward="true" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/Classes/ID2OnboardingManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+          <folding>
+            <element signature="method#beforeTest#0;class#ID2OnboardingManager#0" />
+            <element signature="method#afterTest#0;class#ID2OnboardingManager#0" />
+            <element signature="method#OnboardingProcess#0;class#ID2OnboardingManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/OnboardingManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+          <folding>
+            <element signature="method#clickScanId#0;class#OnboardingManager#0" />
+            <element signature="method#clickSelectFromLibrary#0;class#OnboardingManager#0" />
+            <element signature="method#clickMoments#0;class#OnboardingManager#0" />
+            <element signature="method#clickPhoto#0;class#OnboardingManager#0" />
+            <element signature="method#clickSkip#0;class#OnboardingManager#0" />
+            <element signature="method#enterCompanyAddressLine1#0;class#OnboardingManager#0" />
+            <element signature="method#enterCompanyAddressLine2#0;class#OnboardingManager#0" />
+            <element signature="method#enterCompanyCity#0;class#OnboardingManager#0" />
+            <element signature="method#clickCompanyCountry#0;class#OnboardingManager#0" />
+            <element signature="method#clickCompanyStateProvince#0;class#OnboardingManager#0" />
+            <element signature="method#enterCompanyZipPostalCode#0;class#OnboardingManager#0" />
+            <element signature="method#clickConfirm#0;class#OnboardingManager#0" />
+            <element signature="method#enterInstitutionNumber#0;class#OnboardingManager#0" />
+            <element signature="method#enterTransitNumber#0;class#OnboardingManager#0" />
+            <element signature="method#enterCompanyCreditCardNumber#0;class#OnboardingManager#0" />
+            <element signature="method#enterAccountHolderName#0;class#OnboardingManager#0" />
+            <element signature="method#clickCompany#0;class#OnboardingManager#0" />
+            <element signature="method#clickAuthenticate#0;class#OnboardingManager#0" />
+            <element signature="method#enterFirstName#0;class#OnboardingManager#0" />
+            <element signature="method#enterLastName#0;class#OnboardingManager#0" />
+            <element signature="method#setDateOfBirth#0;class#OnboardingManager#0" />
+            <element signature="method#enterAddressLine1#0;class#OnboardingManager#0" />
+            <element signature="method#enterAddressLine2#0;class#OnboardingManager#0" />
+            <element signature="method#enterCity#0;class#OnboardingManager#0" />
+            <element signature="method#clickCountry#0;class#OnboardingManager#0" />
+            <element signature="method#clickStateProvince#0;class#OnboardingManager#0" />
+            <element signature="method#enterZipPostalCode#0;class#OnboardingManager#0" />
+            <element signature="method#clickAuthenticate2#0;class#OnboardingManager#0" />
+            <element signature="method#clickScanCreditCard#0;class#OnboardingManager#0" />
+            <element signature="method#enterCreditCardNumber2#0;class#OnboardingManager#0" />
+            <element signature="method#enterExpirationDate#0;class#OnboardingManager#0" />
+            <element signature="method#enterCVV#0;class#OnboardingManager#0" />
+            <element signature="method#enterNameOnCard#0;class#OnboardingManager#0" />
+            <element signature="method#enterCreditCardAddressLine1#0;class#OnboardingManager#0" />
+            <element signature="method#enterCreditCardAddressLine2#0;class#OnboardingManager#0" />
+            <element signature="method#enterCreditCardCity#0;class#OnboardingManager#0" />
+            <element signature="method#clickCreditCardCountry#0;class#OnboardingManager#0" />
+            <element signature="method#clickCreditCardStateProvince#0;class#OnboardingManager#0" />
+            <element signature="method#enterCreditCardZipPostalCode#0;class#OnboardingManager#0" />
+            <element signature="method#clickRegister#0;class#OnboardingManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGIOS.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#804#828#0" />
+            <element signature="method#openBrowser#0;class#TCiOS1_0B2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ID3EmployeeCreateEdit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="307" column="5" lean-forward="true" selection-start-line="307" selection-start-column="5" selection-end-line="307" selection-end-column="5" />
+          <folding>
+            <element signature="e#582#606#0" />
+            <element signature="method#openBrowser#0;class#ID3EmployeeCreateEdit#0" />
+            <element signature="method#createManager#0;class#ID3EmployeeCreateEdit#0" />
+            <element signature="method#createSupervisor#0;class#ID3EmployeeCreateEdit#0" />
+            <element signature="method#createInstaller#0;class#ID3EmployeeCreateEdit#0" />
+            <element signature="method#editEmployee#0;class#ID3EmployeeCreateEdit#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+          <folding>
+            <element signature="method#Wait1#0;class#GaiaHelper#0" />
+            <element signature="method#Wait3#0;class#GaiaHelper#0" />
+            <element signature="method#Wait5#0;class#GaiaHelper#0" />
+            <element signature="method#Wait10#0;class#GaiaHelper#0" />
+            <element signature="method#AcceptAlerts#0;class#GaiaHelper#0" />
           </folding>
         </state>
       </provider>
