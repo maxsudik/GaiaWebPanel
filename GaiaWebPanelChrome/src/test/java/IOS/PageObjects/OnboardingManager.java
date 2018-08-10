@@ -1,6 +1,6 @@
 package IOS.PageObjects;
 
-import Helper.GaiaHelper;
+import WEB.Helper.GaiaHelper;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.ios.IOSDriver;

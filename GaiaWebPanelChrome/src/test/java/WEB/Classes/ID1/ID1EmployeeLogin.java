@@ -1,8 +1,8 @@
-package IOS.TestCases;
+package WEB.Classes.ID1;
 
 import WEB.Helper.GaiaHelper;
-import IOS.DataProvider.EmailDataProvider;
-import IOS.PageObjects.EmailPage;
+import WEB.PageObjects.ManagerHomePage;
+import WEB.DataProvider.EmployeeDataProvider;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -10,15 +10,14 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class TCiOS1_0B2 {
+public class ID1EmployeeLogin {
+
     private WebDriver driver;
 
     @AfterTest
+
     public void closeBrowser(){
         driver.quit();
     }
@@ -51,40 +50,19 @@ public class TCiOS1_0B2 {
         }
     }
 
-    @Test (dataProvider = "LoginEmail", dataProviderClass = EmailDataProvider.class)
+    @Test(priority = 2, dataProvider = "LoginEmployee", dataProviderClass = EmployeeDataProvider.class)
+    public void loginAsManager2 (String LoginManagerName, String PasswordManagerName) {
 
-    public void login (String LoginName, String PasswordName, String NewPassword, String ConfirmNewPassword){
-
-        EmailPage emailPage = new EmailPage();
+        ID1AdminLogin login = new ID1AdminLogin();
         GaiaHelper gaiaHelper = new GaiaHelper();
-
-        driver.get("https://box.kiextended.com/mail/?_task=logout&_token=MC6UyqFUXuHrRfUDD6xieQO2zImwTQdU");
-
-        emailPage.setName(driver, LoginName);
-
-        emailPage.setPassword(driver, PasswordName);
-
-        emailPage.clickLogin(driver);
+        ManagerHomePage managerHomePage = new ManagerHomePage();
 
         gaiaHelper.Wait3();
 
-        emailPage.clickEmail(driver);
+        login.login(driver, LoginManagerName, PasswordManagerName);
 
         gaiaHelper.Wait3();
 
-        emailPage.clickResetPassword(driver);
-
-        gaiaHelper.Wait3();
-
-        emailPage.setNewPassword(driver, NewPassword);
-
-        emailPage.confirmNewPassword(driver, ConfirmNewPassword);
-
-        emailPage.clickReset(driver);
-
-        gaiaHelper.Wait3();
-
-        emailPage.clickHereToLogin(driver);
-
+        managerHomePage.clickLogout(driver);
     }
 }

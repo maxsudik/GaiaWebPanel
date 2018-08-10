@@ -1,8 +1,9 @@
-package IOS.TestCases;
+package WEB.Classes.ID3.Admin;
 
+import WEB.Classes.ID1.ID1AdminLogin;
 import WEB.Helper.GaiaHelper;
-import IOS.DataProvider.EmailDataProvider;
-import IOS.PageObjects.EmailPage;
+import WEB.PageObjects.*;
+import WEB.DataProvider.EmployeeDataProvider;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -10,15 +11,14 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class TCiOS1_0B2 {
+public class ID3DeleteEmployee {
+
     private WebDriver driver;
 
     @AfterTest
+
     public void closeBrowser(){
         driver.quit();
     }
@@ -51,40 +51,35 @@ public class TCiOS1_0B2 {
         }
     }
 
-    @Test (dataProvider = "LoginEmail", dataProviderClass = EmailDataProvider.class)
+    @Test(dataProvider = "DeleteEmployee", dataProviderClass = EmployeeDataProvider.class)
+    public void deleteEmployee (String LoginAdminName, String PasswordAdminName, String FirstName){
 
-    public void login (String LoginName, String PasswordName, String NewPassword, String ConfirmNewPassword){
-
-        EmailPage emailPage = new EmailPage();
+        ID1AdminLogin login = new ID1AdminLogin();
         GaiaHelper gaiaHelper = new GaiaHelper();
-
-        driver.get("https://box.kiextended.com/mail/?_task=logout&_token=MC6UyqFUXuHrRfUDD6xieQO2zImwTQdU");
-
-        emailPage.setName(driver, LoginName);
-
-        emailPage.setPassword(driver, PasswordName);
-
-        emailPage.clickLogin(driver);
+        CompanyPage companypage = new CompanyPage();
+        EmployeesPage employeesPage = new EmployeesPage();
+        EditEmployeePage editEmployeePage = new EditEmployeePage();
 
         gaiaHelper.Wait3();
 
-        emailPage.clickEmail(driver);
+        login.login(driver, LoginAdminName, PasswordAdminName);
 
         gaiaHelper.Wait3();
 
-        emailPage.clickResetPassword(driver);
+        companypage.clickCompanyDDL(driver);
 
-        gaiaHelper.Wait3();
+        companypage.clickEmployeesDDMI(driver);
 
-        emailPage.setNewPassword(driver, NewPassword);
+        employeesPage.enterSearchField(driver, FirstName);
 
-        emailPage.confirmNewPassword(driver, ConfirmNewPassword);
+        employeesPage.clickEditButton(driver);
 
-        emailPage.clickReset(driver);
+        editEmployeePage.clickDeleteEmployee(driver);
 
-        gaiaHelper.Wait3();
+        editEmployeePage.clickDeletePopUp(driver);
 
-        emailPage.clickHereToLogin(driver);
-
+        companypage.clickLogout(driver);
     }
+
+
 }

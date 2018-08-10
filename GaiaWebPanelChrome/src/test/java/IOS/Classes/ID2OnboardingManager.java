@@ -1,26 +1,18 @@
 package IOS.Classes;
 
-import Helper.GaiaHelper;
+import WEB.Helper.GaiaHelper;
 import IOS.DataProvider.OnboardingDataProvider;
 import IOS.PageObjects.ManagerHomePage;
 import IOS.PageObjects.OnboardingManager;
-import io.appium.java_client.MobileElement;
-import io.appium.java_client.TouchAction;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
-import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-
-import static io.appium.java_client.touch.offset.PointOption.point;
 
 public class ID2OnboardingManager {
 

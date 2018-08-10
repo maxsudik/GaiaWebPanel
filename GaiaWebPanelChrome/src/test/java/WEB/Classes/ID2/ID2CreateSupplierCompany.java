@@ -1,8 +1,10 @@
-package IOS.TestCases;
+package WEB.Classes.ID2;
 
+import WEB.Classes.ID1.ID1AdminLogin;
 import WEB.Helper.GaiaHelper;
-import IOS.DataProvider.EmailDataProvider;
-import IOS.PageObjects.EmailPage;
+import WEB.PageObjects.AddNewCompanyPage;
+import WEB.PageObjects.CompanyPage;
+import WEB.DataProvider.CompanyDataProvider;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -10,12 +12,10 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class TCiOS1_0B2 {
+public class ID2CreateSupplierCompany {
+
     private WebDriver driver;
 
     @AfterTest
@@ -51,40 +51,45 @@ public class TCiOS1_0B2 {
         }
     }
 
-    @Test (dataProvider = "LoginEmail", dataProviderClass = EmailDataProvider.class)
+    @Test(dataProvider = "CreateSupplierCompany", dataProviderClass = CompanyDataProvider.class)
+    public void createSupplierCompany(String LoginAdminName, String PasswordAdminName, String CompanyName, String CompanyEmail, String CompanyTaxNumber, String ProductSpread, String CompanyDescription) {
 
-    public void login (String LoginName, String PasswordName, String NewPassword, String ConfirmNewPassword){
-
-        EmailPage emailPage = new EmailPage();
+        ID1AdminLogin login = new ID1AdminLogin();
+        CompanyPage companyPage = new CompanyPage();
         GaiaHelper gaiaHelper = new GaiaHelper();
-
-        driver.get("https://box.kiextended.com/mail/?_task=logout&_token=MC6UyqFUXuHrRfUDD6xieQO2zImwTQdU");
-
-        emailPage.setName(driver, LoginName);
-
-        emailPage.setPassword(driver, PasswordName);
-
-        emailPage.clickLogin(driver);
+        AddNewCompanyPage addNewCompanyPage = new AddNewCompanyPage();
 
         gaiaHelper.Wait3();
 
-        emailPage.clickEmail(driver);
+        login.login(driver, LoginAdminName, PasswordAdminName);
 
         gaiaHelper.Wait3();
 
-        emailPage.clickResetPassword(driver);
+        companyPage.clickCompanyDDL(driver);
 
-        gaiaHelper.Wait3();
+        companyPage.clickCompanyDDMI(driver);
 
-        emailPage.setNewPassword(driver, NewPassword);
+        companyPage.clickAddANewCompany(driver);
 
-        emailPage.confirmNewPassword(driver, ConfirmNewPassword);
+        addNewCompanyPage.enterCompanyName(driver, CompanyName);
 
-        emailPage.clickReset(driver);
+        addNewCompanyPage.enterCompanyEmail(driver, CompanyEmail);
 
-        gaiaHelper.Wait3();
+        addNewCompanyPage.enterCompanyTaxNumber(driver, CompanyTaxNumber);
 
-        emailPage.clickHereToLogin(driver);
+        addNewCompanyPage.clickCompanyTypeSupplier(driver);
 
+        addNewCompanyPage.clickCompanyCurrencyCAD(driver);
+
+        addNewCompanyPage.enterCompanyProductSpread(driver, ProductSpread);
+
+        addNewCompanyPage.enterCompanyDescription(driver, CompanyDescription);
+
+        addNewCompanyPage.clickButtonAdd(driver);
+
+        companyPage.clickLogout(driver);
     }
 }
+
+
+

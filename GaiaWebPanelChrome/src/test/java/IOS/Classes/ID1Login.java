@@ -1,14 +1,12 @@
 package IOS.Classes;
 
-import Helper.GaiaHelper;
+import WEB.Helper.GaiaHelper;
 import IOS.DataProvider.LoginManagerDataProvider;
 import IOS.PageObjects.LoginPage;
 
 import org.testng.annotations.Test;
 
 import io.appium.java_client.ios.IOSDriver;
-
-import java.util.NoSuchElementException;
 
 public class ID1Login {
 

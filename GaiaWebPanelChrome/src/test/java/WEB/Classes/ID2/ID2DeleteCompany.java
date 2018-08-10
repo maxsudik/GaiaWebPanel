@@ -1,8 +1,9 @@
-package IOS.TestCases;
+package WEB.Classes.ID2;
 
+import WEB.Classes.ID1.ID1AdminLogin;
 import WEB.Helper.GaiaHelper;
-import IOS.DataProvider.EmailDataProvider;
-import IOS.PageObjects.EmailPage;
+import WEB.PageObjects.CompanyPage;
+import WEB.DataProvider.CompanyDataProvider;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -10,12 +11,10 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class TCiOS1_0B2 {
+public class ID2DeleteCompany {
+
     private WebDriver driver;
 
     @AfterTest
@@ -51,40 +50,39 @@ public class TCiOS1_0B2 {
         }
     }
 
-    @Test (dataProvider = "LoginEmail", dataProviderClass = EmailDataProvider.class)
+    @Test (dataProvider = "DeleteCompany", dataProviderClass = CompanyDataProvider.class)
+    public void deleteCompany(String LoginAdminName, String PasswordAdminName, String CreatedCompanyName) {
 
-    public void login (String LoginName, String PasswordName, String NewPassword, String ConfirmNewPassword){
-
-        EmailPage emailPage = new EmailPage();
+        ID1AdminLogin login = new ID1AdminLogin();
+        CompanyPage companyPage = new CompanyPage();
         GaiaHelper gaiaHelper = new GaiaHelper();
 
-        driver.get("https://box.kiextended.com/mail/?_task=logout&_token=MC6UyqFUXuHrRfUDD6xieQO2zImwTQdU");
+        gaiaHelper.Wait3();
 
-        emailPage.setName(driver, LoginName);
-
-        emailPage.setPassword(driver, PasswordName);
-
-        emailPage.clickLogin(driver);
+        login.login(driver, LoginAdminName, PasswordAdminName);
 
         gaiaHelper.Wait3();
 
-        emailPage.clickEmail(driver);
+        companyPage.clickCompanyDDL(driver);
 
-        gaiaHelper.Wait3();
+        companyPage.clickCompanyDDMI(driver);
 
-        emailPage.clickResetPassword(driver);
+        companyPage.enterSearchField(driver, CreatedCompanyName);
 
-        gaiaHelper.Wait3();
+        companyPage.clickDelete(driver);
 
-        emailPage.setNewPassword(driver, NewPassword);
+        companyPage.clickCancelPopUp(driver);
 
-        emailPage.confirmNewPassword(driver, ConfirmNewPassword);
+        gaiaHelper.Wait1();
 
-        emailPage.clickReset(driver);
+        companyPage.clickDelete(driver);
 
-        gaiaHelper.Wait3();
+        companyPage.clickDeletePopUp(driver);
 
-        emailPage.clickHereToLogin(driver);
+        companyPage.clickLogout(driver);
 
     }
 }
+
+
+

@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe0a98bb-4be7-4788-9f4c-49dd814dcf49" name="Default" comment="qqq">
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Helper/GaiaHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Helper/GaiaHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/TestNGChrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestNGChrome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID1/ID1AdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID1/ID1AdminLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID1/ID1DeletedEmployeeLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID1/ID1DeletedEmployeeLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID1/ID1EmployeeLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID1/ID1EmployeeLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID2/ID2CreateLandscapeCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID2/ID2CreateLandscapeCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID2/ID2CreateSupplierCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID2/ID2CreateSupplierCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID2/ID2DeleteCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID2/ID2DeleteCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID2/ID2EditCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID2/ID2EditCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3CreateInstallerEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Admin/ID3CreateInstallerEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3CreateManagerEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Admin/ID3CreateManagerEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3CreateSupervisorEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Admin/ID3CreateSupervisorEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3DeleteEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Admin/ID3DeleteEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3EditEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Admin/ID3EditEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID3/Manager/ID3CreateManagerEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Manager/ID3CreateManagerEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID4/ID3OnboardingProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID4/ID3OnboardingProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID5/ID5CreateSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID5/ID5CreateSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID5/ID5DeleteSites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID5/ID5DeleteSites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/ID5/ID5EditSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Classes/ID5/ID5EditSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Helper/GaiaHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helper/scratch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/Helper/scratch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOS/Classes/ID1Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/Classes/ID1Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOS/Classes/ID2OnboardingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/Classes/ID2OnboardingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOS/PageObjects/ManagerHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/PageObjects/ManagerHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOS/PageObjects/OnboardingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/PageObjects/OnboardingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AddNewCompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/AddNewCompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AddNewEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/AddNewEmployeePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/AddNewSitePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/AddNewSitePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/CompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/EditCompanyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/EditEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/EditEmployeePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/EditSitePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/EditSitePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/EmployeesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/EmployeesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ManagerHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/ManagerHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/OnboardingProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/OnboardingProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/SitesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/PageObjects/SitesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/DataProvider/CompanyDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/EmployeeDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/DataProvider/EmployeeDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/LoginAdminDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/DataProvider/LoginAdminDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/OnboardingDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/DataProvider/OnboardingDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/SiteDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WEB/DataProvider/SiteDataProvider.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,16 +108,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="479" />
+          <entry key="java" value="484" />
           <entry key="txt" value="5" />
-          <entry key="xml" value="25" />
+          <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="479" />
+          <entry key="JAVA" value="484" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="XML" value="25" />
+          <entry key="XML" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -97,56 +140,63 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../GaiaIOS/src/main/resources/TestNGIOS.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/test-classes/Helper/GaiaHelper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#877#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGIOS.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/IOS/Classes/ID1Login.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGChrome.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+              <folding>
+                <element signature="n#suite#0;n#!!top" />
+                <element signature="n#test#0;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" />
+                <element signature="n#test#1;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#1;n#suite#0;n#!!top" />
+                <element signature="n#test#2;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#2;n#suite#0;n#!!top" />
+                <element signature="n#test#3;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#3;n#suite#0;n#!!top" />
+                <element signature="n#test#4;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#4;n#suite#0;n#!!top" />
+                <element signature="n#test#5;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#5;n#suite#0;n#!!top" />
+                <element signature="n#test#6;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#6;n#suite#0;n#!!top" />
+                <element signature="n#test#7;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#7;n#suite#0;n#!!top" />
+                <element signature="n#test#8;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#8;n#suite#0;n#!!top" />
+                <element signature="n#test#9;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#9;n#suite#0;n#!!top" />
+                <element signature="n#test#10;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#10;n#suite#0;n#!!top" />
+                <element signature="n#test#11;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#11;n#suite#0;n#!!top" />
+                <element signature="n#test#12;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#12;n#suite#0;n#!!top" />
+                <element signature="n#test#13;n#suite#0;n#!!top" />
+                <element signature="n#classes#0;n#test#13;n#suite#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/ManagerHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="method#clickLogout#0;class#ManagerHomePage#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,34 +204,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/EmailPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/OnboardingManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="-5838">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/SiteDataProvider.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0A.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3EditEmployee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-783">
+            <state relative-caret-position="60">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
@@ -292,10 +333,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Classes/ID5/ID5DeleteSites.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataProvider/EmployeeDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/TestNGChrome.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3CreateSupervisorEmployee.java" />
         <option value="$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3DeleteEmployee.java" />
         <option value="$PROJECT_DIR$/src/test/java/Classes/ID2/ID2DeleteCompany.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/TestNGChrome.xml" />
       </list>
     </option>
   </component>
@@ -339,11 +380,6 @@
             <path>
               <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
               <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -372,158 +408,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="ID1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="ID2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="ID3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="ID3" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="ID3" type="462c0819:PsiDirectoryNode" />
-              <item name="Manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="ID4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-              <item name="ID5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataProvider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="IOS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="IOS" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="IOS" type="462c0819:PsiDirectoryNode" />
-              <item name="DataProvider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="IOS" type="462c0819:PsiDirectoryNode" />
-              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="IOS" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GaiaWebPannel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GaiaWebPanelChrome" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -534,7 +418,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533889120978" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533890364989" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;XML" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -740,8 +624,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="1336" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.3546042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49950248" visible="true" weight="0.3546042" />
       <window_info id="Structure" order="1" sideWeight="0.5004975" side_tool="true" weight="0.17755991" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -848,105 +733,63 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/annotations/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/LoginAdminDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/IRetryAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/IAnnotationTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddNewCompanyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="130" column="57" selection-start-line="130" selection-start-column="57" selection-end-line="130" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddNewEmployeePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2747">
-          <caret line="213" column="57" selection-start-line="213" selection-start-column="57" selection-end-line="213" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditEmployeePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/PageObjects/EditEmployeePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3295">
           <caret line="243" column="57" selection-start-line="243" selection-start-column="57" selection-end-line="243" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/OnboardingProcess.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/PageObjects/OnboardingProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="251" column="106" selection-start-line="251" selection-start-column="106" selection-end-line="251" selection-end-column="106" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/PageObjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditCompanyPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/PageObjects/EditCompanyPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="235" selection-start-line="235" selection-end-line="235" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID1/ID1AdminLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID1/ID1AdminLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID1/ID1DeletedEmployeeLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID1/ID1DeletedEmployeeLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID1/ID1EmployeeLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID1/ID1EmployeeLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID2/ID2CreateSupplierCompany.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID2/ID2CreateSupplierCompany.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3CreateInstallerEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Admin/ID3CreateInstallerEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
@@ -957,14 +800,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3CreateManagerEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Admin/ID3CreateManagerEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3EditEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Admin/ID3EditEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-783">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
@@ -974,14 +817,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Helper/RetryAnalyzer.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Helper/RetryCountIfFailed.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Helper/AnnotationTransformer.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID2/ID2CreateLandscapeCompany.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID2/ID2CreateLandscapeCompany.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="49" column="97" selection-start-line="49" selection-start-column="97" selection-end-line="49" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID2/ID2EditCompany.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID2/ID2EditCompany.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
@@ -991,95 +834,210 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID4/ID3SetupBankAccountOnboarding.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID4/ID3LegalIdentityOnboarding.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID4/ID3CreditCardInformationOnboarding.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/OnboardingDataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/DataProvider/OnboardingDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID4/ID3OnboardingProcess.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID4/ID3OnboardingProcess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="59" column="124" selection-start-line="59" selection-start-column="124" selection-end-line="59" selection-end-column="124" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID3/Manager/ID3CreateManagerEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Manager/ID3CreateManagerEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/AddNewSitePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/PageObjects/AddNewSitePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="76" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/SitesPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/PageObjects/SitesPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="10" column="71" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/ManagerHomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/PageObjects/ManagerHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EditSitePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/PageObjects/EditSitePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="116" selection-start-line="116" selection-end-line="116" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID5/ID5CreateSite.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID5/ID5CreateSite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID5/ID5EditSite.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID5/ID5EditSite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
           <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID5/ID5DeleteSites.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID5/ID5DeleteSites.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/EmployeeDataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/DataProvider/EmployeeDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/CompanyDataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/DataProvider/CompanyDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Admin/ID3CreateSupervisorEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/PageObjects/EmployeesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID3/Admin/ID3DeleteEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Classes/ID2/ID2DeleteCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/PageObjects/CompanyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/Classes/ID1Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/EmailPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/DataProvider/SiteDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Helper/GaiaHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB/Helper/GaiaHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GaiaIOS/src/main/resources/TestNGIOS.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGParallel.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WEB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/OnboardingManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5838">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGChrome.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
           <folding>
+            <element signature="n#suite#0;n#!!top" />
             <element signature="n#test#0;n#suite#0;n#!!top" />
             <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" />
             <element signature="n#test#1;n#suite#0;n#!!top" />
@@ -1098,111 +1056,39 @@
             <element signature="n#classes#0;n#test#7;n#suite#0;n#!!top" />
             <element signature="n#test#8;n#suite#0;n#!!top" />
             <element signature="n#classes#0;n#test#8;n#suite#0;n#!!top" />
-            <element signature="n#test#0;n#suite#0;n#!!top" />
-            <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" />
-            <element signature="n#test#1;n#suite#0;n#!!top" />
-            <element signature="n#classes#0;n#test#1;n#suite#0;n#!!top" />
-            <element signature="n#test#2;n#suite#0;n#!!top" />
-            <element signature="n#classes#0;n#test#2;n#suite#0;n#!!top" />
-            <element signature="n#test#3;n#suite#0;n#!!top" />
-            <element signature="n#classes#0;n#test#3;n#suite#0;n#!!top" />
-            <element signature="n#test#4;n#suite#0;n#!!top" />
-            <element signature="n#classes#0;n#test#4;n#suite#0;n#!!top" />
+            <element signature="n#test#9;n#suite#0;n#!!top" />
+            <element signature="n#classes#0;n#test#9;n#suite#0;n#!!top" />
+            <element signature="n#test#10;n#suite#0;n#!!top" />
+            <element signature="n#classes#0;n#test#10;n#suite#0;n#!!top" />
+            <element signature="n#test#11;n#suite#0;n#!!top" />
+            <element signature="n#classes#0;n#test#11;n#suite#0;n#!!top" />
+            <element signature="n#test#12;n#suite#0;n#!!top" />
+            <element signature="n#classes#0;n#test#12;n#suite#0;n#!!top" />
+            <element signature="n#test#13;n#suite#0;n#!!top" />
+            <element signature="n#classes#0;n#test#13;n#suite#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3CreateSupervisorEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/EmployeesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID3/Admin/ID3DeleteEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Classes/ID2/ID2DeleteCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/CompanyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGIOS.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/Classes/ID1Login.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/ManagerHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="method#clickLogout#0;class#ManagerHomePage#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/IOS/TestCases/TCiOS1_0B2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IOS/PageObjects/EmailPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/SiteDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Helper/GaiaHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/Helper/GaiaHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TestNGIOS.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

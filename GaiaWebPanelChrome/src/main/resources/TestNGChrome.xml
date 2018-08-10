@@ -5,98 +5,98 @@
     <test name="CreateLandscapeCompany" >
             <parameter name="browser" value="Chrome"/>
             <classes>
-                <class name="Classes.ID2.ID2CreateLandscapeCompany"> </class>
+                <class name="WEB.Classes.ID2.ID2CreateLandscapeCompany"> </class>
             </classes>
     </test>
 
     <test name="CreateSupplierCompany" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID2.ID2CreateSupplierCompany"> </class>
+            <class name="WEB.Classes.ID2.ID2CreateSupplierCompany"> </class>
         </classes>
     </test>
 
     <test name="EditCompany" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID2.ID2EditCompany"> </class>
+            <class name="WEB.Classes.ID2.ID2EditCompany"> </class>
         </classes>
     </test>
 
     <test name="CreateManager" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID3.Admin.ID3CreateManagerEmployee"> </class>
+            <class name="WEB.Classes.ID3.Admin.ID3CreateManagerEmployee"> </class>
         </classes>
     </test>
 
     <test name="CreateSupervisor" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID3.Admin.ID3CreateSupervisorEmployee"> </class>
+            <class name="WEB.Classes.ID3.Admin.ID3CreateSupervisorEmployee"> </class>
         </classes>
     </test>
 
     <test name="CreateInstaller" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID3.Admin.ID3CreateInstallerEmployee"> </class>
+            <class name="WEB.Classes.ID3.Admin.ID3CreateInstallerEmployee"> </class>
         </classes>
     </test>
 
     <test name="EditEmployee" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID3.Admin.ID3EditEmployee"> </class>
+            <class name="WEB.Classes.ID3.Admin.ID3EditEmployee"> </class>
         </classes>
     </test>
 
     <test name="CompanyAddressOnboarding" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID4.ID3OnboardingProcess"> </class>
+            <class name="WEB.Classes.ID4.ID3OnboardingProcess"> </class>
         </classes>
     </test>
 
     <test name="ManagerCreateManager2" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID3.Manager.ID3CreateManagerEmployee"> </class>
+            <class name="WEB.Classes.ID3.Manager.ID3CreateManagerEmployee"> </class>
         </classes>
     </test>
 
     <test name="CreateSite" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID5.ID5CreateSite"> </class>
+            <class name="WEB.Classes.ID5.ID5CreateSite"> </class>
         </classes>
     </test>
 
     <test name="EditSite" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID5.ID5EditSite"> </class>
+            <class name="WEB.Classes.ID5.ID5EditSite"> </class>
         </classes>
     </test>
 
     <test name="DeleteSites" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID5.ID5DeleteSites"> </class>
+            <class name="WEB.Classes.ID5.ID5DeleteSites"> </class>
         </classes>
     </test>
 
     <test name="DeleteEmployee" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID3.Admin.ID3DeleteEmployee"> </class>
+            <class name="WEB.Classes.ID3.Admin.ID3DeleteEmployee"> </class>
         </classes>
     </test>
 
     <test name="DeleteCompany" >
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name="Classes.ID2.ID2DeleteCompany"> </class>
+            <class name="WEB.Classes.ID2.ID2DeleteCompany"> </class>
         </classes>
     </test>
 

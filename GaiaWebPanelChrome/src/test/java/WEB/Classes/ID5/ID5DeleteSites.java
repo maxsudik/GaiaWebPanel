@@ -1,24 +1,21 @@
-package IOS.TestCases;
+package WEB.Classes.ID5;
 
+import WEB.Classes.ID1.ID1AdminLogin;
 import WEB.Helper.GaiaHelper;
-import IOS.DataProvider.EmailDataProvider;
-import IOS.PageObjects.EmailPage;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
+import WEB.PageObjects.*;
+import WEB.DataProvider.SiteDataProvider;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
-public class TCiOS1_0B2 {
+public class ID5DeleteSites {
+
     private WebDriver driver;
 
     @AfterTest
+
     public void closeBrowser(){
         driver.quit();
     }
@@ -51,40 +48,43 @@ public class TCiOS1_0B2 {
         }
     }
 
-    @Test (dataProvider = "LoginEmail", dataProviderClass = EmailDataProvider.class)
+    @Test(dataProvider = "DeleteSite", dataProviderClass = SiteDataProvider.class)
+    public void deleteSite (String LoginManagerName, String PasswordManagerName, String SiteName) {
 
-    public void login (String LoginName, String PasswordName, String NewPassword, String ConfirmNewPassword){
-
-        EmailPage emailPage = new EmailPage();
         GaiaHelper gaiaHelper = new GaiaHelper();
+        CompanyPage companyPage = new CompanyPage();
+        SitesPage sitesPage = new SitesPage();
+        EditSitePage editSitePage = new EditSitePage();
+        ID1AdminLogin login = new ID1AdminLogin();
+        ManagerHomePage managerHomePage = new ManagerHomePage();
 
-        driver.get("https://box.kiextended.com/mail/?_task=logout&_token=MC6UyqFUXuHrRfUDD6xieQO2zImwTQdU");
-
-        emailPage.setName(driver, LoginName);
-
-        emailPage.setPassword(driver, PasswordName);
-
-        emailPage.clickLogin(driver);
-
-        gaiaHelper.Wait3();
-
-        emailPage.clickEmail(driver);
+        login.login(driver, LoginManagerName, PasswordManagerName);
 
         gaiaHelper.Wait3();
 
-        emailPage.clickResetPassword(driver);
+        managerHomePage.clickCompanyDDL(driver);
 
-        gaiaHelper.Wait3();
+        managerHomePage.clickSitesDDMI(driver);
 
-        emailPage.setNewPassword(driver, NewPassword);
+        sitesPage.enterSearchField(driver, SiteName);
 
-        emailPage.confirmNewPassword(driver, ConfirmNewPassword);
+        sitesPage.clickEdit(driver);
 
-        emailPage.clickReset(driver);
+        editSitePage.clickDelete(driver);
 
-        gaiaHelper.Wait3();
+        editSitePage.clickCancelPopUp(driver);
 
-        emailPage.clickHereToLogin(driver);
+        gaiaHelper.Wait1();
 
+        editSitePage.clickDelete(driver);
+
+        editSitePage.clickDeletePopUp(driver);
+
+        gaiaHelper.Wait1();
+
+        managerHomePage.clickLogout(driver);
+
+        driver.quit();
     }
 }
+

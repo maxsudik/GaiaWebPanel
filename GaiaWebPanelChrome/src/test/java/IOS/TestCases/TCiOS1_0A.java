@@ -1,12 +1,11 @@
 package IOS.TestCases;
 
-import Helper.GaiaHelper;
+import WEB.Helper.GaiaHelper;
 import IOS.Classes.ID2OnboardingManager;
 import IOS.DataProvider.OnboardingDataProvider;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
