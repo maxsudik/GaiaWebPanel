@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstIOSTest" verbose="1">
+
+
+    <test name="Test1" >
+            <parameter name="browser" value="Chrome"/>
+
+            <classes>
+                <class name="ID2CreateLandscapeCompany"> </class>
+            </classes>
+    </test>
+
+    <test name="Test2" >
+        <parameter name="browser" value="Chrome"/>
+
+        <classes>
+            <class name="ID3EmployeeCreateEdit"> </class>
+        </classes>
+    </test>
+
+    <test name="Test3" >
+
+        <classes>
+            <class name="IOS.TestCases.TCiOS1_0A"> </class>
+        </classes>
+    </test>
+
+    <test name="Test4" >
+
+        <classes>
+            <class name="IOS.TestCases.TCiOS1_0B"> </class>
+        </classes>
+    </test>
+
+    <test name="Test5" >
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="IOS.TestCases.TCiOS1_0B2"> </class>
+        </classes>
+    </test>
+
+</suite>
